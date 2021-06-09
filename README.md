@@ -6,10 +6,22 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The **ped suite** package is a collection of packages for pedigree
-analysis in R.
+The **ped suite** is a collection of R packages for pedigree analysis,
+covering a variety of applications across several fields. The packages
+are designed to work harmoniously together, often allowing complex tasks
+to be solved in a few lines of code.
 
-The core packages are:
+The following picture gives an overview of how the **ped suite** is
+organised. At the center we find the **pedtools** package, on which all
+the others depend.
+
+![](man/figures/logos-pedsuite-wheel.png)
+
+#### Core packages
+
+The following packages are the most common, and frequently used by other
+**ped suite** packages. They are all automatically attached by the
+command `library(pedsuite)`.
 
 -   [pedtools](https://github.com/magnusdv/pedtools): Creating and
     working with pedigrees and marker data
@@ -22,18 +34,31 @@ The core packages are:
 -   [forrel](https://github.com/magnusdv/forrel): Forensic pedigree
     analysis and relatedness analysis
 
-In addition, the following packages are devoted to special applications:
+#### Specialised packages
+
+The following packages are devoted to special applications:
 
 -   [ibdsim2](https://github.com/magnusdv/ibdsim2): Simulation of
     identity-by-descent sharing by family members
+-   [dvir](https://github.com/thoree/dvir): Disaster victim
+    identification
 -   [pedbuildr](https://github.com/magnusdv/pedbuildr): Pedigree
     reconstruction
 -   [paramlink2](https://github.com/magnusdv/paramlink2): Parametric
     linkage analysis
 -   [segregatr](https://github.com/magnusdv/segregatr): Segregation
     analysis for clinical variant interpretation
--   [dvir](https://github.com/thoree/dvir): Disaster victim
-    identification
+
+# Book
+
+The book *Pedigree Analysis in R* (Academic Press, 2021) is based on the
+**ped suite** and contains detailed explanations and examples of how to
+use the different packages.
+
+<img src="man/figures/pedinr-cover.jpg" width="35%" style="display: block; margin: auto;" />
+
+<br/> Check it out at
+<https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-824430-2>.
 
 ## Installation
 
@@ -44,61 +69,3 @@ You can install **pedsuite** from
 # install.packages("devtools")
 devtools::install_github("magnusdv/pedsuite")
 ```
-
-## Example
-
-``` r
-library(pedsuite)
-#> Loading required package: forrel
-#> Loading required package: pedtools
-#> Loading required package: pedmut
-#> Loading required package: pedprobr
-#> Loading required package: ribd
-```
-
-We now have access to all the functions of **pedtools** and the other
-`ped suite` packages.
-
-``` r
-# Create pedigree
-x = halfSibPed(sex1 = 1, sex2 = 2)
-x = addChildren(x, father = 4, mother = 5)
-
-# Plot it
-plot(x, hatched = 6, margins = c(1,1,1,1))
-```
-
-<img src="man/figures/README-ex-ped-1.png" width="40%" style="display: block; margin: auto;" />
-
-Calculate the inbreeding coefficient of the child (with
-`ribd::inbreeding()`):
-
-``` r
-inbreeding(x, ids = 6)
-#> [1] 0.125
-```
-
-Simulate genotypes for a single marker with alleles `a`, `b`, `c`, `d`
-(with `forrel::markerSim()`):
-
-``` r
-y = markerSim(x, N = 1, alleles = c("a", "b", "c", "d"), seed = 1729)
-#> Unconditional simulation of 1 autosomal marker.
-#> Individuals: 1, 2, 3, 4, 5, 6
-#> Allele frequencies:
-#>     a    b    c    d
-#>  0.25 0.25 0.25 0.25
-#> Mutation model: No 
-#> 
-#> Simulation finished.
-#> Calls to `likelihood()`: 0.
-#> Total time used: 0.06 seconds.
-```
-
-And plot the result:
-
-``` r
-plot(y, marker = 1, margins = c(1,1,1,1))
-```
-
-<img src="man/figures/README-ex-ped-2-1.png" width="40%" style="display: block; margin: auto;" />
