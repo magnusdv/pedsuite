@@ -2,7 +2,7 @@ pandoc: 2.7.3
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles: {}
-last_built: 2021-06-09T10:44Z
+last_built: 2021-06-09T10:51Z
 urls:
   reference: https://magnusdv.github.io/pedsuite//reference
   article: https://magnusdv.github.io/pedsuite//articles
