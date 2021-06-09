@@ -9,9 +9,36 @@
 The **ped suite** package is a collection of packages for pedigree
 analysis in R.
 
+The core packages are:
+
+-   [pedtools](https://github.com/magnusdv/pedtools): Creating and
+    working with pedigrees and marker data
+-   [ribd](https://github.com/magnusdv/ribd): Computation of
+    pedigree-based relatedness coefficients
+-   [pedprobr](https://github.com/magnusdv/pedprobr): Marker
+    probabilities and pedigree likelihoods
+-   [pedmut](https://github.com/magnusdv/pedmut): Mutation models for
+    pedigree likelihood computations
+-   [forrel](https://github.com/magnusdv/forrel): Forensic pedigree
+    analysis and relatedness analysis
+
+In addition, the following packages are devoted to special applications:
+
+-   [ibdsim2](https://github.com/magnusdv/ibdsim2): Simulation of
+    identity-by-descent sharing by family members
+-   [pedbuildr](https://github.com/magnusdv/pedbuildr): Pedigree
+    reconstruction
+-   [paramlink2](https://github.com/magnusdv/paramlink2): Parametric
+    linkage analysis
+-   [segregatr](https://github.com/magnusdv/segregatr): Segregation
+    analysis for clinical variant interpretation
+-   [dvir](https://github.com/thoree/dvir): Disaster victim
+    identification
+
 ## Installation
 
-You can install **pedsuite** from [GitHub](https://github.com/) with:
+You can install **pedsuite** from
+[GitHub](https://github.com/magnusdv/pedsuite) with:
 
 ``` r
 # install.packages("devtools")
@@ -65,7 +92,7 @@ y = markerSim(x, N = 1, alleles = c("a", "b", "c", "d"), seed = 1729)
 #> 
 #> Simulation finished.
 #> Calls to `likelihood()`: 0.
-#> Total time used: 0.11 seconds.
+#> Total time used: 0.06 seconds.
 ```
 
 And plot the result:
