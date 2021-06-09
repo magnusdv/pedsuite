@@ -1,0 +1,63 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# pedsuite
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The **pedsuite** package is a meta-package simplifying the installation and use of the `ped suite`, a collection of packages for pedigree analysis.
+
+## Installation
+
+You can install **pedsuite** from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("magnusdv/pedsuite")
+```
+## Example
+
+```{r}
+library(pedsuite)
+```
+
+We now have access to all the functions of **pedtools** and the other `ped suite` packages.
+
+```{r ex-ped, fig.height = 3, fig.width = 3.5, out.width = "45%"}
+# Create pedigree
+x = halfSibPed(sex1 = 1, sex2 = 2)
+x = addChildren(x, father = 4, mother = 5)
+
+# Plot it
+plot(x, hatched = 6, margins = c(1,1,1,1))
+```
+
+Calculate the inbreeding coefficient of the child (with `ribd::inbreeding()`):
+
+```{r}
+inbreeding(x, ids = 6)
+```
+
+Simulate genotypes for a single marker with alleles `a`, `b`, `c`, `d` (with `forrel::markerSim()`):
+```{r}
+y = markerSim(x, N = 1, alleles = c("a", "b", "c", "d"), seed = 1729)
+```
+
+And plot the result:
+```{r ex-ped-2, fig.height = 3, fig.width = 3.5, out.width = "45%"}
+plot(y, marker = 1, margins = c(1,1,1,1))
+```
+

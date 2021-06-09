@@ -1,0 +1,36 @@
+Package: pedsuite
+Title: Easy installation of the 'ped suite' packages for pedigree analysis
+Version: 1.0.0
+Authors@R: 
+    c(person(given = "Magnus Dehli",
+             family = "Vigeland",
+             role = c("aut", "cre"),
+             email = "m.d.vigeland@medisin.uio.no",
+             comment = c(ORCID = "0000-0002-9134-4962")),
+      person(given = "Thore",
+             family = "Egeland",
+             role = "ctb",
+             email = "thore.egeland@nmbu.no"))
+Description: The 'ped suite' is a collection of packages for pedigree
+    analysis, covering applications in forensic genetics, medical genetics
+    and others. A detailed presentation of the 'ped suite' is given in the
+    book 'Pedigree Analysis in R' (Vigeland, 2021, ISBN: 9780128244302).
+License: GPL (>= 3)
+URL: https://magnusdv.github.io/pedsuite, https://github.com/magnusdv/pedsuite
+BugReports: https://github.com/magnusdv/pedsuite/issues
+Depends: 
+    forrel,
+    pedmut,
+    pedprobr,
+    pedtools,
+    ribd
+Imports:
+    dvir,
+    ibdsim2,
+    paramlink2,
+    pedbuildr,
+    segregatr
+Encoding: UTF-8
+Language: en-GB
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
