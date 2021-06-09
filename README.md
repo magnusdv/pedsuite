@@ -1,14 +1,13 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# pedsuite
+# ped suite
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The **pedsuite** package is a meta-package simplifying the installation
-and use of the `ped suite`, a collection of packages for pedigree
-analysis.
+The **ped suite** package is a collection of packages for pedigree
+analysis in R.
 
 ## Installation
 
@@ -42,7 +41,7 @@ x = addChildren(x, father = 4, mother = 5)
 plot(x, hatched = 6, margins = c(1,1,1,1))
 ```
 
-<img src="man/figures/README-ex-ped-1.png" width="45%" />
+<img src="man/figures/README-ex-ped-1.png" width="40%" style="display: block; margin: auto;" />
 
 Calculate the inbreeding coefficient of the child (with
 `ribd::inbreeding()`):
@@ -66,7 +65,7 @@ y = markerSim(x, N = 1, alleles = c("a", "b", "c", "d"), seed = 1729)
 #> 
 #> Simulation finished.
 #> Calls to `likelihood()`: 0.
-#> Total time used: 0.14 seconds.
+#> Total time used: 0.11 seconds.
 ```
 
 And plot the result:
@@ -75,4 +74,4 @@ And plot the result:
 plot(y, marker = 1, margins = c(1,1,1,1))
 ```
 
-<img src="man/figures/README-ex-ped-2-1.png" width="45%" />
+<img src="man/figures/README-ex-ped-2-1.png" width="40%" style="display: block; margin: auto;" />
