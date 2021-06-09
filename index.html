@@ -69,13 +69,19 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
+
 <div id="ped-suite" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#ped-suite" class="anchor"></a>ped suite</h1></div>
 <!-- badges: start -->
 <!-- badges: end -->
-<p>The <strong>ped suite</strong> package is a collection of packages for pedigree analysis in R.</p>
-<p>The core packages are:</p>
+<p>The <strong>ped suite</strong> is a collection of R packages for pedigree analysis, covering a variety of applications across several fields. The packages are designed to work harmoniously together, often allowing complex tasks to be solved in a few lines of code.</p>
+<p>The following picture gives an overview of how the <strong>ped suite</strong> is organised. At the center we find the <strong>pedtools</strong> package, on which all the others depend.</p>
+<p><img src="reference/figures/logos-pedsuite-wheel.png"></p>
+<div id="core-packages" class="section level4">
+<h4 class="hasAnchor">
+<a href="#core-packages" class="anchor"></a>Core packages</h4>
+<p>The following packages are the most common, and frequently used by other <strong>ped suite</strong> packages. They are all automatically attached by the command <code><a href="https://magnusdv.github.io/pedsuite">library(pedsuite)</a></code>.</p>
 <ul>
 <li>
 <a href="https://github.com/magnusdv/pedtools">pedtools</a>: Creating and working with pedigrees and marker data</li>
@@ -88,19 +94,31 @@
 <li>
 <a href="https://github.com/magnusdv/forrel">forrel</a>: Forensic pedigree analysis and relatedness analysis</li>
 </ul>
-<p>In addition, the following packages are devoted to special applications:</p>
+</div>
+<div id="specialised-packages" class="section level4">
+<h4 class="hasAnchor">
+<a href="#specialised-packages" class="anchor"></a>Specialised packages</h4>
+<p>The following packages are devoted to special applications:</p>
 <ul>
 <li>
 <a href="https://github.com/magnusdv/ibdsim2">ibdsim2</a>: Simulation of identity-by-descent sharing by family members</li>
+<li>
+<a href="https://github.com/thoree/dvir">dvir</a>: Disaster victim identification</li>
 <li>
 <a href="https://github.com/magnusdv/pedbuildr">pedbuildr</a>: Pedigree reconstruction</li>
 <li>
 <a href="https://github.com/magnusdv/paramlink2">paramlink2</a>: Parametric linkage analysis</li>
 <li>
 <a href="https://github.com/magnusdv/segregatr">segregatr</a>: Segregation analysis for clinical variant interpretation</li>
-<li>
-<a href="https://github.com/thoree/dvir">dvir</a>: Disaster victim identification</li>
 </ul>
+</div>
+</div>
+<div id="book" class="section level1">
+<h1 class="hasAnchor">
+<a href="#book" class="anchor"></a>Book</h1>
+<p>The book <em>Pedigree Analysis in R</em> (Academic Press, 2021) is based on the <strong>ped suite</strong> and contains detailed explanations and examples of how to use the different packages.</p>
+<p><img src="reference/figures/pedinr-cover.jpg" width="35%" style="display: block; margin: auto;"></p>
+<p><br> Check it out at <a href="https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-824430-2" class="uri">https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-824430-2</a>.</p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
@@ -109,48 +127,8 @@
 <code class="sourceCode R"><span class="co"># install.packages("devtools")</span>
 <span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"magnusdv/pedsuite"</span><span class="op">)</span></code></pre></div>
 </div>
-<div id="example" class="section level2">
-<h2 class="hasAnchor">
-<a href="#example" class="anchor"></a>Example</h2>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://magnusdv.github.io/pedsuite">pedsuite</a></span><span class="op">)</span>
-<span class="co">#&gt; Loading required package: forrel</span>
-<span class="co">#&gt; Loading required package: pedtools</span>
-<span class="co">#&gt; Loading required package: pedmut</span>
-<span class="co">#&gt; Loading required package: pedprobr</span>
-<span class="co">#&gt; Loading required package: ribd</span></code></pre></div>
-<p>We now have access to all the functions of <strong>pedtools</strong> and the other <code>ped suite</code> packages.</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># Create pedigree</span>
-<span class="va">x</span> <span class="op">=</span> <span class="fu">halfSibPed</span><span class="op">(</span>sex1 <span class="op">=</span> <span class="fl">1</span>, sex2 <span class="op">=</span> <span class="fl">2</span><span class="op">)</span>
-<span class="va">x</span> <span class="op">=</span> <span class="fu">addChildren</span><span class="op">(</span><span class="va">x</span>, father <span class="op">=</span> <span class="fl">4</span>, mother <span class="op">=</span> <span class="fl">5</span><span class="op">)</span>
+</div>
 
-<span class="co"># Plot it</span>
-<span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span><span class="va">x</span>, hatched <span class="op">=</span> <span class="fl">6</span>, margins <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">1</span>,<span class="fl">1</span>,<span class="fl">1</span>,<span class="fl">1</span><span class="op">)</span><span class="op">)</span></code></pre></div>
-<p><img src="reference/figures/README-ex-ped-1.png" width="40%" style="display: block; margin: auto;"></p>
-<p>Calculate the inbreeding coefficient of the child (with <code><a href="https://rdrr.io/pkg/ribd/man/inbreeding.html">ribd::inbreeding()</a></code>):</p>
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">inbreeding</span><span class="op">(</span><span class="va">x</span>, ids <span class="op">=</span> <span class="fl">6</span><span class="op">)</span>
-<span class="co">#&gt; [1] 0.125</span></code></pre></div>
-<p>Simulate genotypes for a single marker with alleles <code>a</code>, <code>b</code>, <code>c</code>, <code>d</code> (with <code><a href="https://rdrr.io/pkg/forrel/man/markerSim.html">forrel::markerSim()</a></code>):</p>
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="va">y</span> <span class="op">=</span> <span class="fu">markerSim</span><span class="op">(</span><span class="va">x</span>, N <span class="op">=</span> <span class="fl">1</span>, alleles <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>, <span class="st">"d"</span><span class="op">)</span>, seed <span class="op">=</span> <span class="fl">1729</span><span class="op">)</span>
-<span class="co">#&gt; Unconditional simulation of 1 autosomal marker.</span>
-<span class="co">#&gt; Individuals: 1, 2, 3, 4, 5, 6</span>
-<span class="co">#&gt; Allele frequencies:</span>
-<span class="co">#&gt;     a    b    c    d</span>
-<span class="co">#&gt;  0.25 0.25 0.25 0.25</span>
-<span class="co">#&gt; Mutation model: No </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; Simulation finished.</span>
-<span class="co">#&gt; Calls to `likelihood()`: 0.</span>
-<span class="co">#&gt; Total time used: 0.06 seconds.</span></code></pre></div>
-<p>And plot the result:</p>
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span><span class="va">y</span>, marker <span class="op">=</span> <span class="fl">1</span>, margins <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">1</span>,<span class="fl">1</span>,<span class="fl">1</span>,<span class="fl">1</span><span class="op">)</span><span class="op">)</span></code></pre></div>
-<p><img src="reference/figures/README-ex-ped-2-1.png" width="40%" style="display: block; margin: auto;"></p>
-</div>
-</div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
