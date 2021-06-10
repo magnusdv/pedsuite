@@ -15,7 +15,7 @@ The following picture gives an overview of how the **ped suite** is
 organised. At the center we find the **pedtools** package, on which all
 the others depend.
 
-![](man/figures/logos-pedsuite-wheel.png)
+<img src="man/figures/logos-pedsuite-wheel_1.png" width="100%" style="display: block; margin: auto;" />
 
 #### Core packages
 

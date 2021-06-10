@@ -23,7 +23,10 @@ The **ped suite** is a collection of R packages for pedigree analysis, covering 
 
 The following picture gives an overview of how the **ped suite** is organised. At the center we find the **pedtools** package, on which all the others depend. 
 
-![](man/figures/logos-pedsuite-wheel.png)
+```{r logos-pedsuite, echo = F}
+# pdftools::pdf_convert("man/figures/logos-pedsuite-wheel.pdf", format = "png", dpi = 300)
+knitr::include_graphics("man/figures/logos-pedsuite-wheel_1.png")
+```
 
 #### Core packages
 The following packages are the most common, and frequently used by other **ped suite** packages. They are all automatically attached by the command `library(pedsuite)`.
