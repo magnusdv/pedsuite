@@ -1,1 +1,11 @@
 url: https://magnusdv.github.io/pedsuite/
+
+navbar:
+ structure:
+   left:  [intro, packages, publications]
+   right: [github, twitter]
+ components:
+  twitter:
+      icon: "fab fa-twitter fa-lg"
+      href: https://twitter.com/mdvigeland
+      aria-label: "twitter account"
