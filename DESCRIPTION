@@ -9,14 +9,16 @@ Authors@R:
              comment = c(ORCID = "0000-0002-9134-4962")),
       person(given = "Thore",
              family = "Egeland",
-             role = "ctb",
-             email = "thore.egeland@nmbu.no"))
+             role = "aut",
+             email = "thore.egeland@nmbu.no",
+             comment = c(ORCID = "0000-0002-3465-8885")))
 Description: The 'ped suite' is a collection of packages for pedigree
     analysis, covering applications in forensic genetics, medical genetics
     and others. A detailed presentation of the 'ped suite' is given in the
     book 'Pedigree Analysis in R' (Vigeland, 2021, ISBN: 9780128244302).
 License: GPL (>= 3)
-URL: https://magnusdv.github.io/pedsuite, https://github.com/magnusdv/pedsuite
+URL: https://magnusdv.github.io/pedsuite,
+    https://github.com/magnusdv/pedsuite
 BugReports: https://github.com/magnusdv/pedsuite/issues
 Depends: 
     forrel,
