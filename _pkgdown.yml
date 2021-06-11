@@ -11,7 +11,7 @@ navbar:
     news: ~
     book:
       text: Book
-      title: Pedigree analysis in R
+      title: "Pedigree analysis in R"
       href: book.html
     papers:
       text: Papers
