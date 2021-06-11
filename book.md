@@ -5,15 +5,11 @@ output:
     keep_md: yes
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 The book *Pedigree Analysis in R* (Academic Press, 2021) is based on the **ped suite** and contains detailed explanations and examples of how to use the different packages.
 
-```{r book-cover, echo = F, out.width = "30%"}
-knitr::include_graphics("man/figures/pedinr-cover.jpg")
-```
+<img src="man/figures/pedinr-cover.jpg" width="30%" />
   
   
 <br/>

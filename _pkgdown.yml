@@ -2,9 +2,13 @@ url: https://magnusdv.github.io/pedsuite/
 
 navbar:
   structure:
-    left:  [intro, book, papers]
+    left:  [home, intro, intro, book, papers]
     right: [github, twitter]
   components:
+    reference: ~
+    articles: ~
+    tutorials: ~
+    news: ~
     book:
       text: Book
       title: Pedigree analysis in R

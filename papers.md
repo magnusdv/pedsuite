@@ -1,4 +1,6 @@
-# Publications featuring **ped suite** packages
+# Papers
+
+Publications featuring **ped suite** packages:
 
 #### **`dvir`**
 * MD Vigeland, T Egeland. [Joint DNA-based disaster victim identification](https://doi.org/10.21203/rs.3.rs-296414/v1). **2021**. (*In review.*)

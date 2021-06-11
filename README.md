@@ -85,3 +85,14 @@ devtools::install_github("magnusdv/pedsuite")
 
 This will autmatically install all the individual **ped suite**
 packages.
+
+## QuickPed: A free online pedigree creator
+
+[QuickPed](https://magnusdv.shinyapps.io/quickped) is a free interactive
+web app for making pedigrees. In addition to drawing pedigrees, it also
+offers a few unique features, like relatedness coefficients, verbal
+descriptions of relationships, and storing pedigrees as text (‘ped
+format’).
+
+QuickPed is based on the **ped suite** and was built with Shiny. [Try it
+out here!](https://magnusdv.shinyapps.io/quickped)
