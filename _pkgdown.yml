@@ -1,8 +1,10 @@
 url: https://magnusdv.github.io/pedsuite
 
+
 template:
   params:
     google_site_verification: "0EyxedeIXm4ThmZacSrfJ7L0z17Ulx0UKdK2Yo7p3wk"
+
 
 navbar:
   structure:
@@ -20,3 +22,9 @@ navbar:
       icon: "fab fa-twitter fa-lg"
       href: https://twitter.com/mdvigeland
       aria-label: "twitter account"
+
+
+authors:
+  footer:
+    roles: [cre]
+    text: "Created by"
