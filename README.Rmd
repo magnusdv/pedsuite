@@ -55,17 +55,6 @@ These packages have been superseded by other packages and are no longer compatib
 * [kinship2](https://CRAN.R-project.org/package=IBDsim): All pedigree plots in the **ped suite** are internally made with the very nice **kinship2** package ([Sinnwell, Therneau & Schaid](https://doi.org/10.1159/000363105)). Creating nice pedigree plots is a highly non-trivial matter, so if you use the **ped suite** to create pedigree plots for publications, please also credit **kinship2**. 
 
 
-## Installation
-
-You can install the **ped suite** from [GitHub](https://github.com/magnusdv/pedsuite) with:
-
-``` r
-# install.packages("devtools")
-devtools::install_github("magnusdv/pedsuite")
-```
-
-This will autmatically install all the individual **ped suite** packages. 
-
 ## QuickPed: A free online pedigree creator
 [QuickPed](https://magnusdv.shinyapps.io/quickped) is a free interactive web app for making pedigrees. In addition to drawing pedigrees, it also offers a few unique features, like relatedness coefficients, verbal descriptions of relationships, and storing pedigrees as text ('ped format'). 
 

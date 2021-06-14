@@ -1,9 +1,21 @@
+---
+resource_files:
+  - pedinr-cover.png
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
+```
+
+
 # Publications
 
 ## Book
 The book [Pedigree Analysis in R](https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-824430-2) (Academic Press, 2021) is based on the **ped suite** and contains detailed explanations and examples of how to use the different packages.
 
-<img src="man/figures/pedinr-cover.png" width="30%" style="display: block; margin: auto;" />
+```{r out.width = "30%"}
+knitr::include_graphics(path = "pedinr-cover.png")
+```
 
 
 ## Papers

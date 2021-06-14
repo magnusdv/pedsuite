@@ -73,19 +73,6 @@ for legacy purposes and should not be used in new projects.
     suite** to create pedigree plots for publications, please also
     credit **kinship2**.
 
-## Installation
-
-You can install the **ped suite** from
-[GitHub](https://github.com/magnusdv/pedsuite) with:
-
-``` r
-# install.packages("devtools")
-devtools::install_github("magnusdv/pedsuite")
-```
-
-This will autmatically install all the individual **ped suite**
-packages.
-
 ## QuickPed: A free online pedigree creator
 
 [QuickPed](https://magnusdv.shinyapps.io/quickped) is a free interactive

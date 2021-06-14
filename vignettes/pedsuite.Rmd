@@ -1,0 +1,18 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Installation
+
+You can install the **ped suite** from [GitHub](https://github.com/magnusdv/pedsuite) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("magnusdv/pedsuite")
+```
+
+This will automatically install all the individual **ped suite** packages. 

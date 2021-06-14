@@ -6,7 +6,7 @@ template:
 
 navbar:
   structure:
-    left:  [home, intro, intro, publications]
+    left:  [home, intro, publications]
     right: [github, twitter]
   components:
     reference: ~
@@ -15,7 +15,7 @@ navbar:
     news: ~
     publications:
       text: Publications
-      href: publications.html
+      href: articles/publications.html
     twitter:
       icon: "fab fa-twitter fa-lg"
       href: https://twitter.com/mdvigeland
