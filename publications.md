@@ -1,6 +1,13 @@
-# Papers
+# Publications
 
-This following is a list of publications featuring **ped suite** packages. 
+## Book
+The book [Pedigree Analysis in R](https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-824430-2) (Academic Press, 2021) is based on the **ped suite** and contains detailed explanations and examples of how to use the different packages.
+
+<img src="man/figures/pedinr-cover.png" width="30%" style="display: block; margin: auto;" />
+
+
+## Papers
+The following is a list of publications featuring **ped suite** packages. If you know of others, please let me know!
 
 #### **`dvir`**
 * MD Vigeland, T Egeland. [Joint DNA-based disaster victim identification](https://doi.org/10.21203/rs.3.rs-296414/v1). **2021**. (*In review.*)
@@ -37,3 +44,9 @@ This following is a list of publications featuring **ped suite** packages.
 #### **`ribd`**
 * MD Vigeland. [Relatedness coefficients in pedigrees with inbred founders](https://doi.org/10.1007/s00285-020-01505-x). *Journal of Mathematical Biology*, **2020**.
 * PJ Green, J Montera. [Inference about complex relationships using peak height data](https://arxiv.org/abs/2005.09365). *arXiv:2005.09365*, **2020**.
+
+## Posters
+* MD Vigeland, T Egeland. *The ped suite: A collection of R packages for pedigree analysis*; (Abstract 1736). Annual meeting of the American Society of Human Genetics, Houston, 2019.
+* MD Vigeland, T Egeland. *Forensic computations in pedigrees with inbred founders*. Congress of the International Society for Forensic Genetics, Prague, 2019.
+* MD Vigeland, T Egeland. *Genotype probability distributions on complex pedigrees with applications to relationship testing*; (Abstract 1547W). Annual meeting of the American Society of Human Genetics, San Fransisco, 2012.
+* MD Vigeland. *IBDsim: An R package for simulation of chromosomal segments shared by family members*; (Abstract 676W). Annual meeting of the American Society of Human Genetics/International Congress of Human Genetics, Montreal, 2011.

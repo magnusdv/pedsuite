@@ -1,26 +1,21 @@
 url: https://magnusdv.github.io/pedsuite
 
-# template:
-#  params:
-#    google_site_verification: "0EyxedeIXm4ThmZacSrfJ7L0z17Ulx0UKdK2Yo7p3wk"
+template:
+  params:
+    google_site_verification: "0EyxedeIXm4ThmZacSrfJ7L0z17Ulx0UKdK2Yo7p3wk"
 
 navbar:
   structure:
-    left:  [home, intro, intro, book, papers]
+    left:  [home, intro, intro, publications]
     right: [github, twitter]
   components:
     reference: ~
     articles: ~
     tutorials: ~
     news: ~
-    book:
-      text: Book
-      title: "Pedigree analysis in R"
-      href: book.html
-    papers:
-      text: Papers
-      title: Publications
-      href: papers.html
+    publications:
+      text: Publications
+      href: publications.html
     twitter:
       icon: "fab fa-twitter fa-lg"
       href: https://twitter.com/mdvigeland
