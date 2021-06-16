@@ -1,10 +1,18 @@
 ---
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+
 resource_files:
   - pedinr-cover.png
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
+knitr::opts_chunk$set(echo = FALSE, 
+                      fig.align = "center",
+                      collapse = TRUE,
+                      comment = "#>")
 ```
 
 
