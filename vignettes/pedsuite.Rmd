@@ -2,7 +2,7 @@
 title: "Getting started with the ped suite"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEngine{knitr::knitr}
   %\VignetteIndexEntry{Getting started with the ped suite}
   %\VignetteEncoding{UTF-8}
 ---

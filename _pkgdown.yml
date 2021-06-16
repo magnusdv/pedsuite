@@ -1,5 +1,6 @@
 url: https://magnusdv.github.io/pedsuite
 
+title: "ped suite: Pedigree analysis in R"
 
 template:
   params:
