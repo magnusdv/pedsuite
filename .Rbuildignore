@@ -9,3 +9,4 @@
 ^vignettes/articles$
 ^doc$
 ^Meta$
+^cran-comments\.md$
