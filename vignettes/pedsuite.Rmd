@@ -1,18 +1,132 @@
 ---
-output: html_document
+title: "Getting started with the ped suite"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Getting started with the ped suite}
+  %\VignetteEncoding{UTF-8}
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+  echo = TRUE,
+  collapse = TRUE,
+  comment = "#>",
+  fig.align = "center")
 ```
 
 ## Installation
 
-You can install the **ped suite** from [GitHub](https://github.com/magnusdv/pedsuite) with:
+The following command installs the latest version of all the **ped suite** packages:
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("magnusdv/pedsuite")
 ```
 
-This will automatically install all the individual **ped suite** packages. 
+Alternatively, you may of course install any of the packages individually.
+
+---
+
+
+## A quick tour
+The aim of this vignette is to illustrate just a few of the possibilities of the **ped suite** packages. Needless to say, we are barely scratching the surface here, and several packages are not even mentioned. For a more comprehensive overview, I recommend the [book](https://magnusdv.github.io/pedsuite/articles/publications.html#book).
+
+To get started we load the **pedsuite** package, which is a convenient shortcut for loading **pedtools** and the other [core packages](https://magnusdv.github.io/pedsuite/#core-packages), making their methods available in the current R session.
+
+```{r}
+library(pedsuite)
+```
+
+### 1. Create a pedigree (**pedtools**)
+We begin by creating and plotting a pedigree with a child of first cousins:
+```{r, fig.keep  ="none"}
+x = cousinPed(1, child = TRUE)
+plot(x)
+```
+```{r fc-ped1, echo = F, fig.height = 3.5, fig.width = 3.5, out.width = "40%"}
+plot(x, margin = rep(.8,4))
+```
+
+For symmetry let us change the sex of individual 3. We also highlight the child by hatching it's symbol and skipping the labels of the other members.
+```{r, fig.keep  ="none"}
+x = swapSex(x, ids = 3)
+
+plot(x, labs = 9, hatched = 9)
+```
+```{r fc-ped2, echo = F, fig.height = 3.5, fig.width = 3.5, out.width = "40%"}
+plot(x, labs = 9, hatched = 9, margin = rep(.8,4))
+```
+
+### 2. Calculate the inbreeding coefficient (**ribd**)
+The inbreeding coefficient $f$ of a pedigree member is defined as the probability of *autozygosity* in a random autosomal locus. In other words, the probability that the two homologous alleles have the same origin within the pedigree.
+
+For a child of first cousins one can work out by pen and paper that $f = 1/16$. Alternatively, we can calculate it with `ribd::inbreeding()`.
+```{r}
+inbreeding(x, ids = 9)
+```
+The output agrees with $f = 1/16$.
+
+### 3. Realised inbreeding (**ibdsim2**)
+For any particular child of first cousins, the actual fraction of the genome (except X & Y) that is autozygous is called the *realised inbreeding* coefficient, denoted $f_R$. Clearly, the expected value of $f_R$ is the pedigree-based coefficient $f$ calculated above, but there is in fact substantial variance.
+
+We can simulate the distribution of $f_R$ with the **ibdsim2** package. Since this is not a core package we must load it separately.
+```{r}
+library(ibdsim2)
+```
+
+First, we use the `ibdsim()` function to simulate the recombination process in the entire pedigree:
+```{r}
+sims = ibdsim(x, N = 200, seed = 123)
+```
+
+Now extract the autozygous segments of each simulation.
+```{r}
+fr = realisedInbreeding(sims, id = 9)
+```
+
+Here is a summary of the first 6 simulations, including the number of segments and various length statistics:
+```{r}
+head(fr$perSimulation)
+```
+
+And here is a histogram of the realised inbreeding coefficients (given in the right-most column above):
+```{r fr-hist, echo = -1, out.width = "80%", fig.height = 3, fig.width = 7}
+par(mar = c(4.1, 4.1, 1, 1))
+hist(fr$perSimulation$fReal, xlim = c(0, 0.15), breaks = 16, xlab = "f_R", main = NULL)
+
+# Expected value
+abline(v = 1/16, col = 2)
+```
+
+As we see, the distribution centres around the expectation $f = 1/16$ (red vertical line), but has substantial spread. The sample standard deviation can be found in `fr$stDev`, which in our case is `r round(fr$stDev, 3)`.
+
+### 4. Marker simulation (**forrel**)
+Note that everything we have done so far has been purely theoretical, with no markers involved. In medical and forensic applications we usually work with genetic data in the form of marker genotypes, so let us simulate such a dataset for our family.
+
+The `markerSim()` function of the **forrel** package simulates the genotypes of pedigree members for a specific type of markers. For instance, here we produce 500 SNPs with alleles `A` and `B` (equally frequent, by default):
+```{r}
+y = markerSim(x, N = 500, alleles = c("A", "B"))
+```
+
+We can see the genotypes of the first few markers by printing `y` to the console.
+```{r}
+y
+```
+
+### 5. Inference of pairwise relationships (**forrel**)
+If this was a real dataset, a natural quality control step would be to check correctness of the pedigree. One way to do this is to use the data to estimate each pairwise relationship, and compare the result with the pedigree. The function `checkPairwise()` does all of this, and presents the result in a relationship triangle.
+```{r check-pairwise, results="hide", fig.height = 5, fig.width = 5, out.width = "60%"}
+checkPairwise(y, plot = TRUE)
+```
+
+The plot shows that all pairwise estimates are near their expected location in the triangle. (The yellow symbols correspond to pairs involving the inbred child, which don't have a well-defined position in the triangle.)
+
+
+---
+
+
+## Where to go from here
+If you enjoyed this quick tour and would like more details, you should check out the GitHub README files of the packages that interest you. 
+
+There is also the [pedtools vignette](https://cran.r-project.org/web/packages/pedtools/vignettes/pedtools.html), with a lot more details on how to create and plot pedigrees in R.
