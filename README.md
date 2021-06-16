@@ -15,7 +15,7 @@ to be solved in a few lines of code.
 
 #### Core packages
 
-At the center of the **ped suite** we find the **pedtools** package, on
+At the centre of the **ped suite** we find the package **pedtools**, on
 which all the others depend. In addition, several packages contain basic
 features often needed in many types of analysis. These are the *core*
 packages:

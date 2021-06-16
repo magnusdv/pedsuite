@@ -27,7 +27,7 @@ knitr::include_graphics("man/figures/logos-pedsuite-wheel_1.png")
 ```
 
 #### Core packages
-At the center of the **ped suite** we find the **pedtools** package, on which all the others depend. In addition, several packages contain basic features often needed in many types of analysis. These are the *core* packages:
+At the centre of the **ped suite** we find the package **pedtools**, on which all the others depend. In addition, several packages contain basic features often needed in many types of analysis. These are the *core* packages:
 
 * [pedtools](https://github.com/magnusdv/pedtools): Creating and working with pedigrees and marker data
 * [ribd](https://github.com/magnusdv/ribd): Computation of pedigree-based relatedness coefficients

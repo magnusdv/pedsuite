@@ -1,7 +1,9 @@
 ---
+title: Publications
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Publications}
   %\VignetteEncoding{UTF-8}
 
 resource_files:
@@ -16,14 +18,15 @@ knitr::opts_chunk$set(echo = FALSE,
 ```
 
 
-# Publications
-
 ## Book
 The book [Pedigree Analysis in R](https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-824430-2) (Academic Press, 2021) is based on the **ped suite** and contains detailed explanations and examples of how to use the different packages.
 
 ```{r out.width = "30%"}
 knitr::include_graphics(path = "pedinr-cover.png")
 ```
+
+
+---
 
 
 ## Papers
@@ -64,6 +67,10 @@ The following is a list of publications featuring **ped suite** packages. If you
 #### **`ribd`**
 * MD Vigeland. [Relatedness coefficients in pedigrees with inbred founders](https://doi.org/10.1007/s00285-020-01505-x). *Journal of Mathematical Biology*, **2020**.
 * PJ Green, J Montera. [Inference about complex relationships using peak height data](https://arxiv.org/abs/2005.09365). *arXiv:2005.09365*, **2020**.
+
+
+---
+
 
 ## Posters
 * MD Vigeland, T Egeland. *The ped suite: A collection of R packages for pedigree analysis*; (Abstract 1736). Annual meeting of the American Society of Human Genetics, Houston, 2019.

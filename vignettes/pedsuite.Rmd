@@ -32,7 +32,7 @@ Alternatively, you may of course install any of the packages individually.
 ## A quick tour
 The aim of this vignette is to illustrate just a few of the possibilities of the **ped suite** packages. Needless to say, we are barely scratching the surface here, and several packages are not even mentioned. For a more comprehensive overview, I recommend the [book](https://magnusdv.github.io/pedsuite/articles/publications.html#book).
 
-To get started we load the **pedsuite** package, which is a convenient shortcut for loading **pedtools** and the other [core packages](https://magnusdv.github.io/pedsuite/#core-packages), making their methods available in the current R session.
+To get started we load the **pedsuite** package, which is a convenient shortcut for loading all the [core packages](https://magnusdv.github.io/pedsuite/#core-packages), making their methods available in the current R session.
 
 ```{r}
 library(pedsuite)
@@ -48,7 +48,7 @@ plot(x)
 plot(x, margin = rep(.8,4))
 ```
 
-For symmetry let us change the sex of individual 3. We also highlight the child by hatching it's symbol and skipping the labels of the other members.
+For symmetry let us change the sex of individual 3. We also highlight the child by hatching his symbol, and we only include his ID label in the plot.
 ```{r, fig.keep  ="none"}
 x = swapSex(x, ids = 3)
 
@@ -59,9 +59,9 @@ plot(x, labs = 9, hatched = 9, margin = rep(.8,4))
 ```
 
 ### 2. Calculate the inbreeding coefficient (**ribd**)
-The inbreeding coefficient $f$ of a pedigree member is defined as the probability of *autozygosity* in a random autosomal locus. In other words, the probability that the two homologous alleles have the same origin within the pedigree.
+The inbreeding coefficient $f$ of a pedigree member is defined as the probability of *autozygosity* at a random autosomal locus. That is, the probability that the two homologous alleles have the same origin within the pedigree.
 
-For a child of first cousins one can work out by pen and paper that $f = 1/16$. Alternatively, we can calculate it with `ribd::inbreeding()`.
+For a child of first cousins one can work out by pen and paper that $f = 1/16$. Alternatively, we can calculate it with the **ribd** function `inbreeding()`.
 ```{r}
 inbreeding(x, ids = 9)
 ```
@@ -75,7 +75,7 @@ We can simulate the distribution of $f_R$ with the **ibdsim2** package. Since th
 library(ibdsim2)
 ```
 
-First, we use the `ibdsim()` function to simulate the recombination process in the entire pedigree:
+First, we use the function `ibdsim()` to simulate the recombination process in the entire pedigree:
 ```{r}
 sims = ibdsim(x, N = 200, seed = 123)
 ```
@@ -99,7 +99,7 @@ hist(fr$perSimulation$fReal, xlim = c(0, 0.15), breaks = 16, xlab = "f_R", main 
 abline(v = 1/16, col = 2)
 ```
 
-As we see, the distribution centres around the expectation $f = 1/16$ (red vertical line), but has substantial spread. The sample standard deviation can be found in `fr$stDev`, which in our case is `r round(fr$stDev, 3)`.
+As we see, the distribution centres around the expectation $f = 1/16 = 0.0625$ (red vertical line) but has substantial spread. The sample standard deviation can be found in `fr$stDev`, which in our case is `r round(fr$stDev, 3)`.
 
 ### 4. Marker simulation (**forrel**)
 Note that everything we have done so far has been purely theoretical, with no markers involved. In medical and forensic applications we usually work with genetic data in the form of marker genotypes, so let us simulate such a dataset for our family.
