@@ -17,14 +17,19 @@ knitr::opts_chunk$set(
 
 ## Installation
 
-The following command installs the latest version of all the **ped suite** packages:
+The following command installs the latest official versions of the **ped suite** packages:
 
-``` r
+```{r, eval = FALSE}
+install.packages("pedsuite")
+```
+
+Alternatively, you can install the development versions from GitHub:
+```{r, eval = FALSE}
 # install.packages("devtools")
 devtools::install_github("magnusdv/pedsuite")
 ```
 
-Alternatively, you may of course install any of the packages individually.
+If you only need a few of the packages, you may choose to install them individually instead of the entire collection.
 
 ---
 
