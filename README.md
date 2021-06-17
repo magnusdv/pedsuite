@@ -73,10 +73,10 @@ for legacy purposes and should not be used in new projects.
     suite** to create pedigree plots for publications, please also
     credit **kinship2**.
 
-## QuickPed
+## QuickPed - an online pedigree creator
 
-In addition to the R packages, the **ped suite** also includes the
-online pedigree creator
-[QuickPed](https://magnusdv.github.io/pedsuite/articles/web_only/.quickped.html).
-Read more about it by clicking the previous link, or simply try it out
-here: <https://magnusdv.shinyapps.io/quickped>.
+In addition to the R packages, the **ped suite** also includes
+[QuickPed](https://magnusdv.github.io/pedsuite/articles/web_only/quickped.html),
+a free interactive program for drawing pedigrees. Read more about it by
+following the link, or simply try it out here:
+<https://magnusdv.shinyapps.io/quickped>.
