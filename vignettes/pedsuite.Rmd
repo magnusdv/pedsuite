@@ -30,7 +30,7 @@ Alternatively, you may of course install any of the packages individually.
 
 
 ## A quick tour
-The aim of this vignette is to illustrate just a few of the possibilities of the **ped suite** packages. Needless to say, we are barely scratching the surface here, and several packages are not even mentioned. For a more comprehensive overview, I recommend the [book](https://magnusdv.github.io/pedsuite/articles/publications.html#book).
+The aim of this vignette is to illustrate just a few of the possibilities of the **ped suite** packages. Of course, we barely scratch the surface here, and several packages are not even mentioned. For a more comprehensive overview, I recommend the [book](https://magnusdv.github.io/pedsuite/articles/web_only/publications.html#book).
 
 To get started we load the **pedsuite** package, which is a convenient shortcut for loading all the [core packages](https://magnusdv.github.io/pedsuite/#core-packages), making their methods available in the current R session.
 
@@ -129,4 +129,4 @@ The plot shows that all pairwise estimates are near their expected location in t
 ## Where to go from here
 If you enjoyed this quick tour and would like more details, you should check out the GitHub README files of the packages that interest you. 
 
-There is also the [pedtools vignette](https://cran.r-project.org/web/packages/pedtools/vignettes/pedtools.html), with a lot more details on how to create and plot pedigrees in R.
+There is also the [pedtools vignette](https://cran.r-project.org/package=pedtools/vignettes/pedtools.html), with a lot more details on how to create and plot pedigrees in R.

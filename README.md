@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ped suite
+# The **ped suite**: R packages for pedigree analysis
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -73,13 +73,10 @@ for legacy purposes and should not be used in new projects.
     suite** to create pedigree plots for publications, please also
     credit **kinship2**.
 
-## QuickPed: A free online pedigree creator
+## QuickPed
 
-[QuickPed](https://magnusdv.shinyapps.io/quickped) is a free interactive
-web app for making pedigrees. In addition to drawing pedigrees, it also
-offers a few unique features, like relatedness coefficients, verbal
-descriptions of relationships, and storing pedigrees as text (‘ped
-format’).
-
-QuickPed is based on the **ped suite** and was built with Shiny. [Try it
-out here!](https://magnusdv.shinyapps.io/quickped)
+In addition to the R packages, the **ped suite** also includes the
+online pedigree creator
+[QuickPed](https://magnusdv.github.io/pedsuite/articles/web_only/.quickped.html).
+Read more about it by clicking the previous link, or simply try it out
+here: <https://magnusdv.shinyapps.io/quickped>.

@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# ped suite
+# The **ped suite**: R packages for pedigree analysis
 
 <!-- badges: start -->
 <!-- badges: end -->
