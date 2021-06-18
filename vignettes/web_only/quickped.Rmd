@@ -16,12 +16,14 @@ knitr::opts_chunk$set(echo = FALSE,
 
 [QuickPed](https://magnusdv.shinyapps.io/quickped) is an interactive program for making and plotting pedigrees. After creation, the pedigree may be saved as an image, or as a text file in *ped format* (see below). You may also obtain various information about the pedigree, including coefficients of inbreeding, kinship and identity-by-descent.
 
-Try QuickPed here: https://magnusdv.shinyapps.io/quickped.
+::: { .greeting .message style="color: red;"}
+**_Try QuickPed here_**: https://magnusdv.shinyapps.io/quickped.
+:::
 
-QuickPed is powered by the **ped suite** and imports **kinship2** for plotting. The web application was built with Shiny.
+QuickPed is powered by the **ped suite** and imports **kinship2** for plotting. The web app was built with Shiny.
 
 
-## Building pedigrees
+## Using QuickPed
 Creating pedigrees with QuickPed is very intuitive: Just click on a pedigree member and add a child or parents as needed. At any time you may change attributes like sex, affection status, twin status and ID labels. 
 
 ## Relationship information
