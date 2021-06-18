@@ -73,14 +73,14 @@ inbreeding(x, ids = 9)
 The output agrees with $f = 1/16$.
 
 ### 3. Realised inbreeding (**ibdsim2**)
-For any particular child of first cousins, the actual fraction of the genome (except X & Y) that is autozygous is called the *realised inbreeding* coefficient, denoted $f_R$. Clearly, the expected value of $f_R$ is the pedigree-based coefficient $f$ calculated above, but there is in fact substantial variance.
+For any particular child of first cousins, the actual autozygous fraction of the genome (except X & Y) is called the coefficient of *realised inbreeding*, denoted $f_R$. This may deviate substantially from the pedigree-based expectation $f = 1/16$.
 
 We can simulate the distribution of $f_R$ with the **ibdsim2** package. Since this is not a core package we must load it separately.
 ```{r}
 library(ibdsim2)
 ```
 
-First, we use the function `ibdsim()` to simulate the recombination process in the entire pedigree:
+First, we use the function `ibdsim()` to simulate the recombination process in the entire pedigree, 200 times:
 ```{r}
 sims = ibdsim(x, N = 200, seed = 123)
 ```
