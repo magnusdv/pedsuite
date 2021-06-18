@@ -34,7 +34,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">pedsuite</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.0.3</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.0.4</span>
       </span>
     </div>
 
@@ -89,11 +89,14 @@
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor" aria-hidden="true"></a>Installation</h2>
-<p>The following command installs the latest version of all the <strong>ped suite</strong> packages:</p>
+<p>The following command installs the latest official versions of the <strong>ped suite</strong> packages:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"pedsuite"</span><span class="op">)</span></code></pre></div>
+<p>Alternatively, you can install the development versions from GitHub:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># install.packages("devtools")</span>
 <span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"magnusdv/pedsuite"</span><span class="op">)</span></code></pre></div>
-<p>Alternatively, you may of course install any of the packages individually.</p>
+<p>If you only need a few of the packages, you may choose to install them individually instead of the entire collection.</p>
 <hr>
 </div>
 <div id="a-quick-tour" class="section level2">
@@ -101,7 +104,7 @@
 <a href="#a-quick-tour" class="anchor" aria-hidden="true"></a>A quick tour</h2>
 <p>The aim of this vignette is to illustrate just a few of the possibilities of the <strong>ped suite</strong> packages. Of course, we barely scratch the surface here, and several packages are not even mentioned. For a more comprehensive overview, I recommend the <a href="https://magnusdv.github.io/pedsuite/articles/web_only/publications.html#book">book</a>.</p>
 <p>To get started we load the <strong>pedsuite</strong> package, which is a convenient shortcut for loading all the <a href="https://magnusdv.github.io/pedsuite/#core-packages">core packages</a>, making their methods available in the current R session.</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://magnusdv.github.io/pedsuite/">pedsuite</a></span><span class="op">)</span>
 <span class="co">#&gt; Loading required package: forrel</span>
 <span class="co">#&gt; Loading required package: pedtools</span>
@@ -112,12 +115,12 @@
 <h3 class="hasAnchor">
 <a href="#create-a-pedigree-pedtools" class="anchor" aria-hidden="true"></a>1. Create a pedigree (<strong>pedtools</strong>)</h3>
 <p>We begin by creating and plotting a pedigree with a child of first cousins:</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">x</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/pedtools/man/ped_basic.html" class="external-link">cousinPed</a></span><span class="op">(</span><span class="fl">1</span>, child <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>
 <span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span></code></pre></div>
 <p><img src="pedsuite_files/figure-html/fc-ped1-1.png" width="40%" style="display: block; margin: auto;"></p>
 <p>For symmetry let us change the sex of individual 3. We also highlight the child by hatching his symbol, and we only include his ID label in the plot.</p>
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">x</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/pedtools/man/getSex.html" class="external-link">swapSex</a></span><span class="op">(</span><span class="va">x</span>, ids <span class="op">=</span> <span class="fl">3</span><span class="op">)</span>
 <span class="co">#&gt; Changing sex of spouses as well: 4</span>
 
@@ -129,7 +132,7 @@
 <a href="#calculate-the-inbreeding-coefficient-ribd" class="anchor" aria-hidden="true"></a>2. Calculate the inbreeding coefficient (<strong>ribd</strong>)</h3>
 <p>The inbreeding coefficient <span class="math inline">\(f\)</span> of a pedigree member is defined as the probability of <em>autozygosity</em> at a random autosomal locus. That is, the probability that the two homologous alleles have the same origin within the pedigree.</p>
 <p>For a child of first cousins one can work out by pen and paper that <span class="math inline">\(f = 1/16\)</span>. Alternatively, we can calculate it with the <strong>ribd</strong> function <code><a href="https://rdrr.io/pkg/ribd/man/inbreeding.html" class="external-link">inbreeding()</a></code>.</p>
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/pkg/ribd/man/inbreeding.html" class="external-link">inbreeding</a></span><span class="op">(</span><span class="va">x</span>, ids <span class="op">=</span> <span class="fl">9</span><span class="op">)</span>
 <span class="co">#&gt; [1] 0.0625</span></code></pre></div>
 <p>The output agrees with <span class="math inline">\(f = 1/16\)</span>.</p>
@@ -137,12 +140,12 @@
 <div id="realised-inbreeding-ibdsim2" class="section level3">
 <h3 class="hasAnchor">
 <a href="#realised-inbreeding-ibdsim2" class="anchor" aria-hidden="true"></a>3. Realised inbreeding (<strong>ibdsim2</strong>)</h3>
-<p>For any particular child of first cousins, the actual fraction of the genome (except X &amp; Y) that is autozygous is called the <em>realised inbreeding</em> coefficient, denoted <span class="math inline">\(f_R\)</span>. Clearly, the expected value of <span class="math inline">\(f_R\)</span> is the pedigree-based coefficient <span class="math inline">\(f\)</span> calculated above, but there is in fact substantial variance.</p>
+<p>For any particular child of first cousins, the actual autozygous fraction of the genome (except X &amp; Y) is called the coefficient of <em>realised inbreeding</em>, denoted <span class="math inline">\(f_R\)</span>. This may deviate substantially from the pedigree-based expectation <span class="math inline">\(f = 1/16\)</span>.</p>
 <p>We can simulate the distribution of <span class="math inline">\(f_R\)</span> with the <strong>ibdsim2</strong> package. Since this is not a core package we must load it separately.</p>
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/magnusdv/ibdsim2" class="external-link">ibdsim2</a></span><span class="op">)</span></code></pre></div>
-<p>First, we use the function <code><a href="https://rdrr.io/pkg/ibdsim2/man/ibdsim.html" class="external-link">ibdsim()</a></code> to simulate the recombination process in the entire pedigree:</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/magnusdv/ibdsim2" class="external-link">ibdsim2</a></span><span class="op">)</span></code></pre></div>
+<p>First, we use the function <code><a href="https://rdrr.io/pkg/ibdsim2/man/ibdsim.html" class="external-link">ibdsim()</a></code> to simulate the recombination process in the entire pedigree, 200 times:</p>
+<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">sims</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/ibdsim2/man/ibdsim.html" class="external-link">ibdsim</a></span><span class="op">(</span><span class="va">x</span>, N <span class="op">=</span> <span class="fl">200</span>, seed <span class="op">=</span> <span class="fl">123</span><span class="op">)</span>
 <span class="co">#&gt; Simulation parameters:</span>
 <span class="co">#&gt; Simulations  : 200</span>
@@ -153,12 +156,12 @@
 <span class="co">#&gt; Recomb model : chi</span>
 <span class="co">#&gt; Target indivs: 1-9</span>
 <span class="co">#&gt; Skip recomb  : -</span>
-<span class="co">#&gt; Total time used: 9.51 secs</span></code></pre></div>
+<span class="co">#&gt; Total time used: 9.74 secs</span></code></pre></div>
 <p>Now extract the autozygous segments of each simulation.</p>
-<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">fr</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/ibdsim2/man/realised.html" class="external-link">realisedInbreeding</a></span><span class="op">(</span><span class="va">sims</span>, id <span class="op">=</span> <span class="fl">9</span><span class="op">)</span></code></pre></div>
 <p>Here is a summary of the first 6 simulations, including the number of segments and various length statistics:</p>
-<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">fr</span><span class="op">$</span><span class="va">perSimulation</span><span class="op">)</span>
 <span class="co">#&gt;   nSeg  meanLen   totLen   maxLen    minLen      fReal</span>
 <span class="co">#&gt; 1   18 12.04964 216.8935 35.11428 0.2658601 0.07875777</span>
@@ -168,7 +171,7 @@
 <span class="co">#&gt; 5   20 15.68533 313.7066 53.35902 1.3336400 0.11391226</span>
 <span class="co">#&gt; 6   13 14.04913 182.6387 41.60738 0.1404723 0.06631925</span></code></pre></div>
 <p>And here is a histogram of the realised inbreeding coefficients (given in the right-most column above):</p>
-<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/graphics/hist.html" class="external-link">hist</a></span><span class="op">(</span><span class="va">fr</span><span class="op">$</span><span class="va">perSimulation</span><span class="op">$</span><span class="va">fReal</span>, xlim <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">0</span>, <span class="fl">0.15</span><span class="op">)</span>, breaks <span class="op">=</span> <span class="fl">16</span>, xlab <span class="op">=</span> <span class="st">"f_R"</span>, main <span class="op">=</span> <span class="cn">NULL</span><span class="op">)</span>
 
 <span class="co"># Expected value</span>
@@ -181,7 +184,7 @@
 <a href="#marker-simulation-forrel" class="anchor" aria-hidden="true"></a>4. Marker simulation (<strong>forrel</strong>)</h3>
 <p>Note that everything we have done so far has been purely theoretical, with no markers involved. In medical and forensic applications we usually work with genetic data in the form of marker genotypes, so let us simulate such a dataset for our family.</p>
 <p>The <code><a href="https://rdrr.io/pkg/forrel/man/markerSim.html" class="external-link">markerSim()</a></code> function of the <strong>forrel</strong> package simulates the genotypes of pedigree members for a specific type of markers. For instance, here we produce 500 SNPs with alleles <code>A</code> and <code>B</code> (equally frequent, by default):</p>
-<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">y</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/forrel/man/markerSim.html" class="external-link">markerSim</a></span><span class="op">(</span><span class="va">x</span>, N <span class="op">=</span> <span class="fl">500</span>, alleles <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"A"</span>, <span class="st">"B"</span><span class="op">)</span><span class="op">)</span>
 <span class="co">#&gt; Unconditional simulation of 500 autosomal markers.</span>
 <span class="co">#&gt; Individuals: 1, 2, 3, 4, 5, 6, 7, 8, 9</span>
@@ -194,7 +197,7 @@
 <span class="co">#&gt; Calls to `likelihood()`: 0.</span>
 <span class="co">#&gt; Total time used: 0.01 seconds.</span></code></pre></div>
 <p>We can see the genotypes of the first few markers by printing <code>y</code> to the console.</p>
-<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">y</span>
 <span class="co">#&gt;  id fid mid sex &lt;1&gt; &lt;2&gt; &lt;3&gt; &lt;4&gt; &lt;5&gt;</span>
 <span class="co">#&gt;   1   *   *   1 A/B A/B A/B B/B A/A</span>
@@ -212,7 +215,7 @@
 <h3 class="hasAnchor">
 <a href="#inference-of-pairwise-relationships-forrel" class="anchor" aria-hidden="true"></a>5. Inference of pairwise relationships (<strong>forrel</strong>)</h3>
 <p>If this was a real dataset, a natural quality control step would be to check correctness of the pedigree. One way to do this is to use the data to estimate each pairwise relationship, and compare the result with the pedigree. The function <code><a href="https://rdrr.io/pkg/forrel/man/checkPairwise.html" class="external-link">checkPairwise()</a></code> does all of this, and presents the result in a relationship triangle.</p>
-<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/pkg/forrel/man/checkPairwise.html" class="external-link">checkPairwise</a></span><span class="op">(</span><span class="va">y</span>, plot <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>
 <span class="co">#&gt; Warning:</span>
 <span class="co">#&gt;  Individual '9' is inbred (f = 0.0625)</span>
