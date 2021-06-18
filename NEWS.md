@@ -1,3 +1,3 @@
-# pedsuite 1.0.3
+# pedsuite 1.0.4
 
 * Initial CRAN version

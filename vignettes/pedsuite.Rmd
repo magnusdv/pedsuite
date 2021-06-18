@@ -97,11 +97,16 @@ head(fr$perSimulation)
 
 And here is a histogram of the realised inbreeding coefficients (given in the right-most column above):
 ```{r fr-hist, echo = -1, out.width = "80%", fig.height = 3, fig.width = 7}
-par(mar = c(4.1, 4.1, 1, 1))
+op <- par(mar = c(4.1, 4.1, 1, 1))
 hist(fr$perSimulation$fReal, xlim = c(0, 0.15), breaks = 16, xlab = "f_R", main = NULL)
 
 # Expected value
 abline(v = 1/16, col = 2)
+```
+
+```{r, echo = F}
+# Just for CRAN
+par(op)
 ```
 
 As we see, the distribution centres around the expectation $f = 1/16 = 0.0625$ (red vertical line) but has substantial spread. The sample standard deviation can be found in `fr$stDev`, which in our case is `r round(fr$stDev, 3)`.
