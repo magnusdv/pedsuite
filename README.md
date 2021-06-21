@@ -13,7 +13,7 @@ to be solved in a few lines of code.
 
 <img src="man/figures/logos-pedsuite-wheel_1.png" width="100%" style="display: block; margin: auto;" />
 
-#### Core packages
+### Core packages
 
 At the centre of the **ped suite** we find the package **pedtools**, on
 which all the others depend. In addition, several packages contain basic
@@ -31,7 +31,7 @@ packages:
 -   [forrel](https://github.com/magnusdv/forrel): Forensic pedigree
     analysis and relatedness analysis
 
-#### Specialised packages
+### Specialised packages
 
 The following packages are devoted to special applications:
 
@@ -46,7 +46,7 @@ The following packages are devoted to special applications:
 -   [segregatr](https://github.com/magnusdv/segregatr): Segregation
     analysis for clinical variant interpretation
 
-#### Retired packages
+### Retired packages
 
 These packages have been superseded by other packages and are no longer
 compatible with the rest of the **ped suite**. They are maintained only
@@ -63,20 +63,20 @@ for legacy purposes and should not be used in new projects.
     ([Leblois, Estoup &
     Rousset](http://www1.montpellier.inra.fr/CBGP/software/ibdsim/index.html)).)
 
-#### Imported packages
+### Imported packages
 
--   [kinship2](https://CRAN.R-project.org/package=IBDsim): All pedigree
-    plots in the **ped suite** are internally made with the very nice
-    **kinship2** package ([Sinnwell, Therneau &
+-   [kinship2](https://CRAN.R-project.org/package=kinship2): All
+    pedigree plots in the **ped suite** are internally made by importing
+    the plotting feature of **kinship2** ([Sinnwell, Therneau &
     Schaid](https://doi.org/10.1159/000363105)). Creating nice pedigree
     plots is a highly non-trivial matter, so if you use the **ped
-    suite** to create pedigree plots for publications, please also
-    credit **kinship2**.
+    suite** to make pedigree plots for publications, please also credit
+    **kinship2**.
 
 ## QuickPed - an online pedigree creator
 
-In addition to the R packages, the **ped suite** also includes
-[QuickPed](https://magnusdv.github.io/pedsuite/articles/web_only/quickped.html),
-a free interactive program for drawing pedigrees. Read more about it by
-following the link, or simply try it out here:
-<https://magnusdv.shinyapps.io/quickped>.
+In addition to the R packages, the **ped suite** also includes QuickPed,
+a free interactive program for making pedigree charts. Read more about
+it
+[here](https://magnusdv.github.io/pedsuite/articles/web_only/quickped.html),
+or simply try it out: <https://magnusdv.shinyapps.io/quickped>.

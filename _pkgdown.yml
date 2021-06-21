@@ -2,7 +2,7 @@ url: https://magnusdv.github.io/pedsuite
 
 home:
   title: R packages for pedigree analysis
-  description:
+  description: >
     The 'ped suite' is a unified collection of packages for pedigree analysis,
     covering applications in relatedness inference, forensic genetics, medical genetics and more.
 

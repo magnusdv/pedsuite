@@ -1,6 +1,6 @@
 Package: pedsuite
 Title: Easy Installation of the 'ped suite' Packages for Pedigree Analysis
-Version: 1.0.4
+Version: 1.0.4.9000
 Authors@R: 
     c(person(given = "Magnus Dehli",
              family = "Vigeland",
