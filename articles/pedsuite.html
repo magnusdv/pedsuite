@@ -116,12 +116,12 @@
 <a href="#create-a-pedigree-pedtools" class="anchor" aria-hidden="true"></a>1. Create a pedigree (<strong>pedtools</strong>)</h3>
 <p>We begin by creating and plotting a pedigree with a child of first cousins:</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="va">x</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/pedtools/man/ped_basic.html" class="external-link">cousinPed</a></span><span class="op">(</span><span class="fl">1</span>, child <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>
+<code class="sourceCode R"><span class="va">x</span> <span class="op">=</span> <span class="fu"><a href="https://magnusdv.github.io/pedsuite/reference/ped_basic.html">cousinPed</a></span><span class="op">(</span><span class="fl">1</span>, child <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>
 <span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span></code></pre></div>
 <p><img src="pedsuite_files/figure-html/fc-ped1-1.png" width="40%" style="display: block; margin: auto;"></p>
 <p>For symmetry let us change the sex of individual 3. We also highlight the child by hatching his symbol, and we only include his ID label in the plot.</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="va">x</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/pedtools/man/getSex.html" class="external-link">swapSex</a></span><span class="op">(</span><span class="va">x</span>, ids <span class="op">=</span> <span class="fl">3</span><span class="op">)</span>
+<code class="sourceCode R"><span class="va">x</span> <span class="op">=</span> <span class="fu"><a href="https://magnusdv.github.io/pedsuite/reference/getSex.html">swapSex</a></span><span class="op">(</span><span class="va">x</span>, ids <span class="op">=</span> <span class="fl">3</span><span class="op">)</span>
 <span class="co">#&gt; Changing sex of spouses as well: 4</span>
 
 <span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">x</span>, labs <span class="op">=</span> <span class="fl">9</span>, hatched <span class="op">=</span> <span class="fl">9</span><span class="op">)</span></code></pre></div>
@@ -156,7 +156,7 @@
 <span class="co">#&gt; Recomb model : chi</span>
 <span class="co">#&gt; Target indivs: 1-9</span>
 <span class="co">#&gt; Skip recomb  : -</span>
-<span class="co">#&gt; Total time used: 9.23 secs</span></code></pre></div>
+<span class="co">#&gt; Total time used: 9.39 secs</span></code></pre></div>
 <p>Now extract the autozygous segments of each simulation.</p>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">fr</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/ibdsim2/man/realised.html" class="external-link">realisedInbreeding</a></span><span class="op">(</span><span class="va">sims</span>, id <span class="op">=</span> <span class="fl">9</span><span class="op">)</span></code></pre></div>
