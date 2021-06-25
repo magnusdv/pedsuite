@@ -1,9 +1,9 @@
 ---
-title: Publications
+title: Publications featuring the ped suite
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteIndexEntry{Publications}
+  %\VignetteIndexEntry{Publications featuring the ped suite}
   %\VignetteEncoding{UTF-8}
 
 resource_files:
@@ -33,7 +33,7 @@ knitr::include_graphics(path = "pedinr-cover.png")
 The following is a list of publications featuring **ped suite** packages. If you know of others, please let me know!
 
 #### **`dvir`**
-* MD Vigeland, T Egeland. [Joint DNA-based disaster victim identification](https://doi.org/10.21203/rs.3.rs-296414/v1). **2021**. (*In review.*)
+* MD Vigeland, T Egeland. [Joint DNA-based disaster victim identification](https://doi.org/10.21203/rs.3.rs-296414/v1). *Sci Rep*, **2021**. (*Accepted*)
 
 #### **`forrel`**
 * FL Marsico, MD Vigeland, T Egeland, M Herrera Piñero. [Making decisions in missing person identification cases with low statistical power](https://doi.org/10.1016/j.fsigen.2021.102519). *Forensic Sci Int: Genetics*, **2021**.
