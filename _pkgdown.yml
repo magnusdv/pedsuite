@@ -6,6 +6,10 @@ home:
     The 'ped suite' is a unified collection of packages for pedigree analysis,
     covering applications in relatedness inference, forensic genetics, medical genetics and more.
 
+repo:
+  url:
+    home: https://github.com/magnusdv/pedsuite/
+    source: NULL
 
 template:
   params:
