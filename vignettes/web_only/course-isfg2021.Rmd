@@ -16,13 +16,23 @@ knitr::opts_chunk$set(echo = FALSE,
 
 * Title: Pedigree analysis in R
 * Dates: July 28-30, 2021
-* Where: Online, as part of [ISFG Summer School 2021](https://isfgsummerschool.events.idloom.com/virtual-edition-2021))
+* Where: Online, as part of [ISFG Summer School 2021](https://isfgsummerschool.events.idloom.com/virtual-edition-2021)
 * Teachers: Magnus Dehli Vigeland (MDV) and Thore Egeland (TE)
 
-## Practicalities
-Preparations: All participants must bring a laptop with the R software installed. We also highly recommend the Rstudio desktop version. For pedigree analysis in R we will use the ped suite, in particular the packages pedtools, pedprobr, ribd, and forrel.
-Location: Room 1151 in the Domus Medica building.
-Exam: The take home exam problems have been emailed to the participants. Data for the exam problems: snp_data_exam.ped, GM.fam.
+## Description
+The study of genetic relatedness and how genetic information flows in families, is central in a variety of important research fields, including medical and forensic genetics. The aim of this course is to introduce the elegant concepts and results forming the theoretical foundation of genetic relatedness, and to present in some detail several forensic applications. In the exercises we will use R and the ped suite of packages for pedigree analysis. Most lectures and exercises will based on the book Pedigree analysis in R, by Magnus Dehli Vigeland (a 30% discount will be available for participants).
+
+## Learning outcome
+After completing the course, the participants should have knowledge about:
+
+* Classical concepts and methods of statistical genetics and relatedness analysis
+* How to create, manipulate and plot pedigrees in R
+* How to compute pedigree likelihoods and likelihood ratios in R 
+* How to perform kinship testing and pedigree reconstruction in R
+* How to perform disaster victim identification in R
+
+## Prerequisites
+Basic knowledge of genetics and probability. All participants should have a laptop with R (version > 4.0) installed (available from www.r-project.org). The participants are assumed to have a basic knowledge of R.
 
 ## Schedule
 The course runs from 14 to 18 (CEST) each day, with a 15 minutes break in the middle. The lectures are aimed at 55 minutes, allowing for a short interval before exercises.
@@ -48,5 +58,6 @@ The course runs from 14 to 18 (CEST) each day, with a 15 minutes break in the mi
 * 15:45–16:00 Break
 * 16:00–17:00 **Lecture 6. Disaster victim identification and other forensic applications** (TE)
 * 17:00–18:00 Exercises and wrap-up
-
+  
+  
 Comments and questions may be sent to *magnusdv at gmail dot com*.
