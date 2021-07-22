@@ -1,5 +1,6 @@
 ---
 title: ISFG Summer School - Virtual Edition 2021
+subtitle: "Workshop 7: Pedigree analysis in R"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteEngine{knitr::rmarkdown}
@@ -20,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE,
 * Teachers: Magnus Dehli Vigeland (MDV) and Thore Egeland (TE)
 
 ## Description
-The study of genetic relatedness and how genetic information flows in families, is central in a variety of important research fields, including medical and forensic genetics. The aim of this course is to introduce the elegant concepts and results forming the theoretical foundation of genetic relatedness, and to present in some detail several forensic applications. In the exercises we will use R and the ped suite of packages for pedigree analysis. Most lectures and exercises will based on the book Pedigree analysis in R, by Magnus Dehli Vigeland (a 30% discount will be available for participants).
+The study of genetic relatedness and how genetic information flows in families, is central in a variety of important research fields, including medical and forensic genetics. The aim of this course is to introduce the elegant concepts and results forming the theoretical foundation of genetic relatedness, and to present several forensic applications. Most lectures and exercises will based on the book [Pedigree Analysis in R](https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-824430-2). A 30% discount will be available for participants (but you do not have to buy the book in order to attend the course).
 
 ## Learning outcome
 After completing the course, the participants should have knowledge about:
@@ -37,22 +38,21 @@ Basic knowledge of genetics and probability. All participants should have a lapt
 ## Schedule
 The course runs from 14 to 18 (CEST) each day, with a 15 minutes break in the middle. The lectures are aimed at 55 minutes, allowing for a short interval before exercises.
 
-### Day 1 — July 28
-
+#### Day 1 — July 28
 * 14:00–15:00 **Lecture 1. Introduction I: Pedigrees, genetics and probabilities** (MDV)
 * 15:00–15:45 Exercises
 * 15:45–16:00 Break
-* 16:00–17:00 **Lecture 2. Introduction II: Pedigrees analysis in R with the ped suite** (MDV)
+* 16:00–17:00 **Lecture 2. Introduction II: Pedigrees analysis in R with the `ped suite`** (MDV)
 * 17:00–18:00 Exercises
 
-### Day 2 — July 29
-* 14:00–15:00 **Lecture 3. Kinship testing LR: paternitity cases and complex cases** (TE)
+#### Day 2 — July 29
+* 14:00–15:00 **Lecture 3. Kinship testing LR: paternity cases and complex cases** (TE)
 * 15:00–15:45 Exercises
 * 15:45–16:00 Break
 * 16:00–17:00 **Lecture 4. Relatedness coefficients and inference** (MDV)
 * 17:00–18:00 Exercises
 
-### Day 3 — July 30
+#### Day 3 — July 30
 * 14:00–15:00 **Lecture 5. Pedigree reconstruction** (MDV)
 * 15:00–15:45 Exercises
 * 15:45–16:00 Break
