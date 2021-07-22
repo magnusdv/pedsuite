@@ -1,11 +1,13 @@
 pandoc: 2.7.3
 pkgdown: 1.6.1.9001
-pkgdown_sha: 0328c6c9129896e5e2f555a864a71e6b014b5366
+pkgdown_sha: ce9781a15c7ea07df9fb17a11295ba4abec0b54b
 articles:
-  pedsuite: articles/pedsuite.html
-  publications: articles/web_only/publications.html
-  quickped: articles/web_only/quickped.html
-last_built: 2021-07-05T18:51Z
+  pedsuite: pedsuite.html
+  course-isfg2021: web_only/course-isfg2021.html
+  courses: web_only/courses.html
+  publications: web_only/publications.html
+  quickped: web_only/quickped.html
+last_built: 2021-07-22T09:12Z
 urls:
   reference: https://magnusdv.github.io/pedsuite/reference
   article: https://magnusdv.github.io/pedsuite/articles

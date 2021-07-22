@@ -5,13 +5,13 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>QuickPed - a free online pedigree creator • pedsuite</title>
+<title>ISFG Summer School - Virtual Edition 2021 • pedsuite</title>
 <!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="../../bootstrap-toc.css">
 <script src="../../bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="../../pkgdown.css" rel="stylesheet">
-<script src="../../pkgdown.js"></script><meta property="og:title" content="QuickPed - a free online pedigree creator">
+<script src="../../pkgdown.js"></script><meta property="og:title" content="ISFG Summer School - Virtual Edition 2021">
 <meta property="og:description" content="pedsuite">
 <meta name="google-site-verification" content="0EyxedeIXm4ThmZacSrfJ7L0z17Ulx0UKdK2Yo7p3wk">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
@@ -76,73 +76,68 @@
 
       
 
-      </header><script src="quickped_files/accessible-code-block-0.0.1/empty-anchor.js"></script><div class="row">
+      </header><script src="course-isfg2021_files/accessible-code-block-0.0.1/empty-anchor.js"></script><div class="row">
   <div class="col-md-9 contents">
     <div class="page-header toc-ignore">
-      <h1 data-toc-skip>QuickPed - a free online pedigree creator</h1>
+      <h1 data-toc-skip>ISFG Summer School - Virtual Edition 2021</h1>
             
       
-      <small class="dont-index">Source: <a href="https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/quickped.Rmd" class="external-link"><code>vignettes/web_only/quickped.Rmd</code></a></small>
-      <div class="hidden name"><code>quickped.Rmd</code></div>
+      <small class="dont-index">Source: <a href="https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/course-isfg2021.Rmd" class="external-link"><code>vignettes/web_only/course-isfg2021.Rmd</code></a></small>
+      <div class="hidden name"><code>course-isfg2021.Rmd</code></div>
 
     </div>
 
     
     
-<div class="greeting message" style="color: red;">
-<p><strong><em>Try QuickPed here</em></strong>: <a href="https://magnusdv.shinyapps.io/quickped" class="external-link uri">https://magnusdv.shinyapps.io/quickped</a>.</p>
-</div>
-<p><a href="https://magnusdv.shinyapps.io/quickped" class="external-link">QuickPed</a> is an interactive program for making and plotting pedigrees. After creation, the pedigree may be saved as an image, or as a text file in <em>ped format</em> (see below). You may also obtain various information about the pedigree, including coefficients of inbreeding, kinship and identity-by-descent.</p>
-<p>QuickPed is powered by the <strong>ped suite</strong> and imports <strong>kinship2</strong> for plotting. The web app was built with Shiny.</p>
-<div id="using-quickped" class="section level2">
-<h2 class="hasAnchor">
-<a href="#using-quickped" class="anchor" aria-hidden="true"></a>Using QuickPed</h2>
-<p>Creating pedigrees with QuickPed is very intuitive: Just click on a pedigree member and add a child or parents as needed. At any time you may change attributes like sex, affection status, twin status and ID labels.</p>
-</div>
-<div id="relationship-information" class="section level2">
-<h2 class="hasAnchor">
-<a href="#relationship-information" class="anchor" aria-hidden="true"></a>Relationship information</h2>
-<p>The <em>Relationships</em> feature of QuickPed provides information about pairwise relationships within the current pedigree. After selecting any two pedigree members, the user may click either <code>Coeffs</code> or <code>Describe</code>:</p>
 <ul>
-<li>
-<p><code>Coeffs</code>: This prints a variety of pedigree coefficients describing the relationship:</p>
-<ul>
-<li>The inbreeding coefficient of each individual (this works for any number of selected members).</li>
-<li>The kinship coefficient <span class="math inline">\(\varphi\)</span>.</li>
-<li>The IBD coefficients <span class="math inline">\(\kappa = (\kappa_0, \kappa_1, \kappa_2)\)</span>, defined as the probabilities of sharing 0, 1, and 2 alleles identical by descent (IBD). These are well-defined only if both individuals are non-inbred.</li>
-<li>The 9 condensed identity coefficients of Jacquard, <span class="math inline">\(\Delta = (\Delta_1, ..., \Delta_9)\)</span>.</li>
+<li>Title: Pedigree analysis in R</li>
+<li>Dates: July 28-30, 2021</li>
+<li>Where: Online, as part of <a href="https://isfgsummerschool.events.idloom.com/virtual-edition-2021" class="external-link">ISFG Summer School 2021</a>)</li>
+<li>Teachers: Magnus Dehli Vigeland (MDV) and Thore Egeland (TE)</li>
 </ul>
-<p>More information about these coefficients can be found in the documentation of the <a href="https://github.com/magnusdv/ribd" class="external-link">ribd</a> package, which is used in the calculations.</p>
-</li>
-<li><p><code>Describe</code>: This prints a verbal description of the relationship, generated by <a href="https://github.com/magnusdv/verbalisr" class="external-link">verbalisr</a>. (NB: This is still work in progress.)</p></li>
+<div id="practicalities" class="section level2">
+<h2 class="hasAnchor">
+<a href="#practicalities" class="anchor" aria-hidden="true"></a>Practicalities</h2>
+<p>Preparations: All participants must bring a laptop with the R software installed. We also highly recommend the Rstudio desktop version. For pedigree analysis in R we will use the ped suite, in particular the packages pedtools, pedprobr, ribd, and forrel. Location: Room 1151 in the Domus Medica building. Exam: The take home exam problems have been emailed to the participants. Data for the exam problems: snp_data_exam.ped, GM.fam.</p>
+</div>
+<div id="schedule" class="section level2">
+<h2 class="hasAnchor">
+<a href="#schedule" class="anchor" aria-hidden="true"></a>Schedule</h2>
+<p>The course runs from 14 to 18 (CEST) each day, with a 15 minutes break in the middle. The lectures are aimed at 55 minutes, allowing for a short interval before exercises.</p>
+<div id="day-1-july-28" class="section level3">
+<h3 class="hasAnchor">
+<a href="#day-1-july-28" class="anchor" aria-hidden="true"></a>Day 1 — July 28</h3>
+<ul>
+<li>14:00–15:00 <strong>Lecture 1. Introduction I: Pedigrees, genetics and probabilities</strong> (MDV)</li>
+<li>15:00–15:45 Exercises</li>
+<li>15:45–16:00 Break</li>
+<li>16:00–17:00 <strong>Lecture 2. Introduction II: Pedigrees analysis in R with the ped suite</strong> (MDV)</li>
+<li>17:00–18:00 Exercises</li>
 </ul>
 </div>
-<div id="ped-files" class="section level2">
-<h2 class="hasAnchor">
-<a href="#ped-files" class="anchor" aria-hidden="true"></a>Ped files</h2>
-<p>A useful feature of QuickPed is to produce text files describing pedigrees in so-called <em>ped format</em>. Such files are often required by software for pedigree analysis.</p>
-<p>For a simple illustration, consider this pedigree:</p>
-<p><img src="quickped_files/figure-html/trio-ped-1.png" width="25%" style="display: block; margin: auto;"></p>
-<p>A text file describing this pedigree may contain the following.</p>
-<pre><code> id fid mid sex aff
-  1   0   0   1   1
-  2   0   0   2   1
-  3   1   2   2   2</code></pre>
-<p>The columns are:</p>
+<div id="day-2-july-29" class="section level3">
+<h3 class="hasAnchor">
+<a href="#day-2-july-29" class="anchor" aria-hidden="true"></a>Day 2 — July 29</h3>
 <ul>
-<li>
-<code>id</code>: Individual ID</li>
-<li>
-<code>fid</code>: Father’s ID (or 0 if not included in the pedigree)</li>
-<li>
-<code>mid</code>: Mother’s ID (or 0 if not inlcuded in the pedigree)</li>
-<li>
-<code>sex</code>: Sex (1 = male; 2 = female; 0 = unknown)</li>
-<li>
-<code>aff</code>: Affection status (1 = unaffected; 2 = affected; 0 = unknown)</li>
+<li>14:00–15:00 <strong>Lecture 3. Kinship testing LR: paternitity cases and complex cases</strong> (TE)</li>
+<li>15:00–15:45 Exercises</li>
+<li>15:45–16:00 Break</li>
+<li>16:00–17:00 <strong>Lecture 4. Relatedness coefficients and inference</strong> (MDV)</li>
+<li>17:00–18:00 Exercises</li>
 </ul>
-<p>It should be noted that the ped format is not completely standardised, and different software may use slightly different versions. For example, a first column with <em>Family ID</em> is sometimes required. Also, the <code>aff</code> column may not be needed in non-medical applications. These and other details may be specified when using QuickPed.</p>
-<p>Some pedigree information may be shown on the plot, but is <em>not</em> stored in the ped file. In the current version of QuickPed, this includes twin relationships, and also <code>deceased</code> status.</p>
+</div>
+<div id="day-3-july-30" class="section level3">
+<h3 class="hasAnchor">
+<a href="#day-3-july-30" class="anchor" aria-hidden="true"></a>Day 3 — July 30</h3>
+<ul>
+<li>14:00–15:00 <strong>Lecture 5. Pedigree reconstruction</strong> (MDV)</li>
+<li>15:00–15:45 Exercises</li>
+<li>15:45–16:00 Break</li>
+<li>16:00–17:00 <strong>Lecture 6. Disaster victim identification and other forensic applications</strong> (TE)</li>
+<li>17:00–18:00 Exercises and wrap-up</li>
+</ul>
+<p>Comments and questions may be sent to <em>magnusdv at gmail dot com</em>.</p>
+</div>
 </div>
   </div>
 
