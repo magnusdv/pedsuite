@@ -1,0 +1,52 @@
+---
+title: ISFG Summer School - Virtual Edition 2021
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{ISFG Summer School - Virtual Edition 2021}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, 
+                      fig.align = "center",
+                      collapse = TRUE,
+                      comment = "#>")
+```
+
+* Title: Pedigree analysis in R
+* Dates: July 28-30, 2021
+* Where: Online, as part of [ISFG Summer School 2021](https://isfgsummerschool.events.idloom.com/virtual-edition-2021))
+* Teachers: Magnus Dehli Vigeland (MDV) and Thore Egeland (TE)
+
+## Practicalities
+Preparations: All participants must bring a laptop with the R software installed. We also highly recommend the Rstudio desktop version. For pedigree analysis in R we will use the ped suite, in particular the packages pedtools, pedprobr, ribd, and forrel.
+Location: Room 1151 in the Domus Medica building.
+Exam: The take home exam problems have been emailed to the participants. Data for the exam problems: snp_data_exam.ped, GM.fam.
+
+## Schedule
+The course runs from 14 to 18 (CEST) each day, with a 15 minutes break in the middle. The lectures are aimed at 55 minutes, allowing for a short interval before exercises.
+
+### Day 1 — July 28
+
+* 14:00–15:00 **Lecture 1. Introduction I: Pedigrees, genetics and probabilities** (MDV)
+* 15:00–15:45 Exercises
+* 15:45–16:00 Break
+* 16:00–17:00 **Lecture 2. Introduction II: Pedigrees analysis in R with the ped suite** (MDV)
+* 17:00–18:00 Exercises
+
+### Day 2 — July 29
+* 14:00–15:00 **Lecture 3. Kinship testing LR: paternitity cases and complex cases** (TE)
+* 15:00–15:45 Exercises
+* 15:45–16:00 Break
+* 16:00–17:00 **Lecture 4. Relatedness coefficients and inference** (MDV)
+* 17:00–18:00 Exercises
+
+### Day 3 — July 30
+* 14:00–15:00 **Lecture 5. Pedigree reconstruction** (MDV)
+* 15:00–15:45 Exercises
+* 15:45–16:00 Break
+* 16:00–17:00 **Lecture 6. Disaster victim identification and other forensic applications** (TE)
+* 17:00–18:00 Exercises and wrap-up
+
+Comments and questions may be sent to *magnusdv at gmail dot com*.

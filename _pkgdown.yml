@@ -14,7 +14,7 @@ template:
 
 navbar:
   structure:
-    left:  [home, intro, publications, quickped]
+    left:  [home, intro, publications, quickped, courses]
     right: [github, twitter]
   components:
     reference: ~
@@ -27,6 +27,9 @@ navbar:
     quickped:
       text: QuickPed
       href: articles/web_only/quickped.html
+    courses:
+      text: Courses
+      href: articles/web_only/courses.html
     twitter:
       icon: "fab fa-twitter fa-lg"
       href: https://twitter.com/mdvigeland

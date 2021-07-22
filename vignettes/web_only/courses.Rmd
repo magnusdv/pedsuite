@@ -1,0 +1,25 @@
+---
+title: Courses
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Courses}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, 
+                      fig.align = "center",
+                      collapse = TRUE,
+                      comment = "#>")
+```
+
+These are some past and future courses based on the **ped suite**. Follow the links for details.
+
+## 2021
+
+* ISFG Summer School 2021. Online workshop, July 28-30: [Pedigree Analysis in R](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2021.html)
+
+## 2020
+
+* NORBIS course Jan 6-10: [Statistical methods in relatedness and pedigree analysis](https://familias.name/norbisRelatedness/)
