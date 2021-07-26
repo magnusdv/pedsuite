@@ -42,7 +42,7 @@ The course runs from 14 to 18 (CEST) each day, with a 15 minutes break in the mi
 * 14:00–15:00 **Lecture 1. Introduction I: Pedigrees, genetics and probabilities** (MDV)
 * 15:00–15:45 Exercises
 * 15:45–16:00 Break
-* 16:00–17:00 **Lecture 2. Introduction II: Pedigrees analysis in R with the `ped suite`** (MDV)
+* 16:00–17:00 **Lecture 2. Introduction II: Pedigrees analysis in R with the ped suite** (MDV)
 * 17:00–18:00 Exercises
 
 #### Day 2 — July 29

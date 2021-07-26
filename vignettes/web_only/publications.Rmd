@@ -36,6 +36,7 @@ The following is a list of publications featuring **ped suite** packages. If you
 * MD Vigeland, T Egeland. [Joint DNA-based disaster victim identification](https://doi.org/10.1038/s41598-021-93071-5). *Sci Rep*, **2021**.
 
 #### **`forrel`**
+* HK Brustad, M Colucci, MA Jobling NA Sheehand, T Egeland. [Strategies for pairwise searches in forensic kinship analysis](https://doi.org/10.1016/j.fsigen.2021.102562). *Forensic Sci Int: Genetics*, **2021**.
 * FL Marsico, MD Vigeland, T Egeland, M Herrera Piñero. [Making decisions in missing person identification cases with low statistical power](https://doi.org/10.1016/j.fsigen.2021.102519). *Forensic Sci Int: Genetics*, **2021**.
 * HK Brustad, MD Vigeland, T Egeland. [Pairwise relatedness testing in the context of inbreeding: expectation and variance of the likelihood ratio](https://doi.org/10.1007/s00414-020-02426-6). *Int J Legal Med*, **2020**.
 * MD Vigeland, FL Marsico, M Herrera Piñero, T Egeland. [Prioritising family members for genotyping in missing person cases: A general approach combining the statistical power of exclusion and inclusion](https://doi.org/10.1016/j.fsigen.2020.102376). *Forensic Sci Int: Genetics*, **2020**.
