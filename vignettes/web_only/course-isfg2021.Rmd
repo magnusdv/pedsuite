@@ -38,21 +38,21 @@ Basic knowledge of genetics and probability. All participants should have a lapt
 ## Schedule
 The course runs from 14 to 18 (CEST) each day, with a 15 minutes break in the middle. The lectures are aimed at 55 minutes, allowing for a short interval before exercises.
 
-#### Day 1 — July 28
+#### Day 1 — July 28 (Wednesday)
 * 14:00–15:00 **Lecture 1. Introduction I: Pedigrees, genetics and probabilities** (MDV)
 * 15:00–15:45 Exercises
 * 15:45–16:00 Break
 * 16:00–17:00 **Lecture 2. Introduction II: Pedigrees analysis in R with the ped suite** (MDV)
 * 17:00–18:00 Exercises
 
-#### Day 2 — July 29
+#### Day 2 — July 29 (Thursday)
 * 14:00–15:00 **Lecture 3. Kinship testing LR: paternity cases and complex cases** (TE)
 * 15:00–15:45 Exercises
 * 15:45–16:00 Break
 * 16:00–17:00 **Lecture 4. Relatedness coefficients and inference** (MDV)
 * 17:00–18:00 Exercises
 
-#### Day 3 — July 30
+#### Day 3 — July 30 (Friday)
 * 14:00–15:00 **Lecture 5. Pedigree reconstruction** (MDV)
 * 15:00–15:45 Exercises
 * 15:45–16:00 Break
