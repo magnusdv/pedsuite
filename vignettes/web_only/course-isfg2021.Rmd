@@ -48,7 +48,7 @@ install.packages("pedsuite")
 The course runs from 14 to 18 (CEST) each day, with a 15 minute break in the middle. The lectures are aimed at 55 minutes, allowing for a short interval before exercises.
 
 #### Day 1 — July 28 (Wednesday)
-* 14:00–15:00 **Lecture 1. Introduction I: Pedigrees, genetics and probabilities** (MDV)
+* 14:00–15:00 **Lecture 1. [Introductions](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/Lecture1_intro.pdf)** (MDV)
 * 15:00–15:45 [Exercises](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises1.pdf)
 * 15:45–16:00 Break
 * 16:00–17:00 **Lecture 2. Introduction II: Pedigrees analysis in R with the ped suite** (MDV)
