@@ -58,8 +58,8 @@ The course runs from 14 to 18 (CEST) each day, with a 15 minute break in the mid
 * 14:00–15:00 Lecture 3. [Kinship testing: paternity cases and complex cases](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/Lecture3-kinship-LR.pdf) (TE)
 * 15:00–15:45 [Exercise set 3](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises3.pdf).
 * 15:45–16:00 Break
-* 16:00–17:00 **Lecture 4. Relatedness coefficients and inference** (MDV)
-* 17:00–18:00 Exercises
+* 16:00–17:00 Lecture 4. [Relatedness coefficients](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/Lecture4-relatedness1.pdf) (MDV)
+* 17:00–18:00 [Exercise set 4](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises4.pdf).
 
 #### Day 3 — July 30 (Friday)
 * 14:00–15:00 **Lecture 5. Pedigree reconstruction** (MDV)
