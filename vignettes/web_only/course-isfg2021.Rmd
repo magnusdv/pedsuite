@@ -66,7 +66,7 @@ The course runs from 14 to 18 (CEST) each day, with a 15 minute break in the mid
 * 15:00–15:45 [Exercise set 5](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises5.pdf). ([Solutions](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises5-solutions.pdf).)
 * 15:45–16:00 Break
 * 16:00–17:00 Lecture 6. [Disaster victim identification and other forensic applications](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/Lecture6-dvi.pdf) (TE)
-* 17:00–18:00 Exercises and wrap-up
+* 17:00–18:00 [Exercise set 6](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises6.pdf) and wrap-up.
   
   
 Comments and questions may be sent to *magnusdv at gmail dot com*.
