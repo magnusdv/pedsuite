@@ -63,9 +63,9 @@ The course runs from 14 to 18 (CEST) each day, with a 15 minute break in the mid
 
 #### Day 3 — July 30 (Friday)
 * 14:00–15:00 Lecture 5. [Relatedness inference and pedigree reconstruction](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/Lecture5-relatedness-inference.pdf) (MDV)
-* 15:00–15:45 [Exercise set 5](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises5.pdf).
+* 15:00–15:45 [Exercise set 5](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises5.pdf). ([Solutions](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises5-solutions.pdf).)
 * 15:45–16:00 Break
-* 16:00–17:00 **Lecture 6. Disaster victim identification and other forensic applications** (TE)
+* 16:00–17:00 Lecture 6. [Disaster victim identification and other forensic applications](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/Lecture6-dvi.pdf) (TE)
 * 17:00–18:00 Exercises and wrap-up
   
   
