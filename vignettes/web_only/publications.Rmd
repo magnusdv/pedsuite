@@ -49,6 +49,7 @@ The following is a list of publications featuring **ped suite** packages. If you
 
 #### **`paramlink`** / **`paramlink2`**
 * W Li, X Gu, C Liu, Y Shi, P Wang, N Zhang, R Wu, L Leng, B Xie, C Song, M Li. [A synergetic effect of BARD1 mutations on tumorigenesis](https://doi.org/10.1038/s41467-021-21519-3). *Nat Commun*, **2021**. 
+* LR Lopes, S Garcia-Hernández, M Lorenzini, M Futema, O Chumakova, D Zateyshchikov, M Isidoro-Garcia, E Villacorta, L Escobar-Lopez, P Garcia-Pavia, R Bilbao, D Dobarro, M Sandin-Fuentes, C Catalli, BG Querol, A Mezcua, JG Pinilla, TB Rasmussen, A Ferreira-Aguar, P Revilla-Martí, MTB Elorz, AB Paves, JR Gimeno, AV Figueroa, R Franco-Gutierrez, ME Fuentes-Cañamero, MM Moreno, M Ortiz-Genga, J Piqueras-Flores, KA Ramos, A Rudzitis, L Ruiz-Guerrero, R Stein, M Triguero-Bocharán, L de la Higuera, JP Ochoa, D Abu-Bonsrah, CYT Kwok, JB Smith, ER Porrello, MM Akhtar, J Jager, M Ashworth, P Syrris, DA Elliott, L Monserrat, PM Elliott. [Alpha-protein kinase 3 (ALPK3) truncating variants are a cause of autosomal dominant hypertrophic cardiomyopathy](https://doi.org/10.1093/eurheartj/ehab424). *Eur Heart J*, **2021**.
 * AL Junior, AG González, AR Vilela, AR Andrade, ÁR Alcaide, AB Sousa, CB López, DA García, GF Ferro, I Cruz, IJ Reyes, JS-M García, JM Larrañaga-Moreira, JP Ochoa, J Palomino-Doza, L de la H Romero, MN Cicerchia, MAR Córdoba, ML Peña-Peña, MN Brögger, M Loureiro, MVM Jiménez, RB Quesada, RF Gutiérrez, SG Hernández, T Ripoll-Vera, X Fernández, O Azevedo, PG Pavía, LR Lopes, M Ortiz, D Brito, R Barriales-Villa, LM Iglesias. [Genotype-phenotype correlations in hypertrophic cardiomyopathy: a multicenter study in Portugal and Spain of the TPM1 p.Arg21Leu variant](https://doi.org/10.1016/j.rec.2021.01.001). *Rev Esp Cardiol (English Ed)*, **2021**.
 * G Wu, J Ruan, J Liu, C Zhang, L Kang, J Wang, Y Zou, L Song. [Variant spectrum of Formin Homology 2 Domain‐Containing 3 gene in Chinese patients with hypertrophic cardiomyopathy](https://doi.org/10.1161/JAHA.120.018236). *Journal of the American Heart Association*, **2021**.
 * F Hendrickx, Z De Corte, G Sonet, SM Van Belleghem, S Köstlbacher, C Vangestel. [A masculinizing supergene underlies an exaggerated male reproductive morph in a spider](https://doi.org/10.1101/2021.02.09.430505). *bioRxiv*, **2021**.
@@ -69,7 +70,7 @@ The following is a list of publications featuring **ped suite** packages. If you
 
 #### **`ribd`**
 * MD Vigeland. [Relatedness coefficients in pedigrees with inbred founders](https://doi.org/10.1007/s00285-020-01505-x). *Journal of Mathematical Biology*, **2020**.
-* PJ Green, J Montera. [Inference about complex relationships using peak height data](https://arxiv.org/abs/2005.09365). *arXiv:2005.09365*, **2020**.
+* PJ Green, J Montera. [Inference about complex relationships using peak height data from DNA mixtures](https://doi.org/10.1111/rssc.12498). *J R Stat Soc Ser C Appl Stat*, **2021**.
 
 
 ---
