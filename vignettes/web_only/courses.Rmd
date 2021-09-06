@@ -14,19 +14,21 @@ knitr::opts_chunk$set(echo = FALSE,
                       comment = "#>")
 ```
 
-These are some past and future courses based on the **ped suite**.
+Courses and lectures based on the **ped suite**.
 
 ## 2021
 
-* Aug 18 and 25. **Statistical power in missing person cases**. Online lecture series for the *Proyecto de Cooperación Triangular Argentina-Colombia-Unión Europea*. [Lecture 1: Do we have enough data?](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/colombia2021/Lecture1-power.pdf). [Lecture 2: Who should be exhumed?](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/colombia2021/Lecture2-prioritisation.pdf).
-* Jul 28-30. **Pedigree Analysis in R**. ISFG Summer School - Virtual Edition 2021. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2021.html).
+* Aug 18 and 25. **Statistical power in missing person cases**. Online lecture series for the *Proyecto de Cooperación Triangular Argentina-Colombia-Unión Europea*. Lecturer: Magnus Dehli Vigeland.
+    * [Lecture 1: Do we have enough data?](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/colombia2021/Lecture1-power.pdf)
+    * [Lecture 2: Who should be exhumed?](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/colombia2021/Lecture2-prioritisation.pdf)
+* Jul 28-30. **Pedigree Analysis in R**. ISFG Summer School - Virtual Edition 2021. Teachers: Thore Egeland and Magnus Dehli Vigeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2021.html).
 
 ## 2020
 
-* Jan 06-10. **Statistical methods in relatedness and pedigree analysis**. NORBIS 1-week intensive course, Oslo, Norway. [Course homepage](https://familias.name/norbisRelatedness/).
+* Jan 06-10. **Statistical methods in relatedness and pedigree analysis**. NORBIS 1-week intensive course, Oslo, Norway. Teachers: Thore Egeland and Magnus Dehli Vigeland. [Course homepage](https://familias.name/norbisRelatedness/).
 
 ## 2018
-* Jan 08-12. **Statistical methods in relatedness and pedigree analysis**. NORBIS 1-week intensive course, Oslo, Norway. [Details and program](https://norbis.w.uib.no/activities/courses/statistical-methods-in-relatedness-and-pedigree-analysis/).
+* Jan 08-12. **Statistical methods in relatedness and pedigree analysis**. NORBIS 1-week intensive course, Oslo, Norway. Teachers: Thore Egeland and Magnus Dehli Vigeland. [Details and program](https://norbis.w.uib.no/activities/courses/statistical-methods-in-relatedness-and-pedigree-analysis/).
 
 ## 2016
-* Nov 16-19. **Statistical methods in genetics using R**. 4-day intensive course, Rio de Janeiro, Brazil. [Course homepage](https://familias.name/RioR/).
+* Nov 16-19. **Statistical methods in genetics using R**. 4-day intensive course, Rio de Janeiro, Brazil. Teachers: Thore Egeland and Magnus Dehli Vigeland. [Course homepage](https://familias.name/RioR/).
