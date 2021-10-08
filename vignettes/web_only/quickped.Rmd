@@ -24,7 +24,15 @@ QuickPed is powered by the **ped suite** and imports **kinship2** for plotting. 
 
 
 ## Using QuickPed
-Creating pedigrees with QuickPed is very intuitive: Just click on a pedigree member and add a child or parents as needed. At any time you may change attributes like sex, affection status, twin status and ID labels. 
+Creating pedigrees with QuickPed is very intuitive: Select a suitable start pedigree and modify it as needed. You may also load an existing ped file (see below). Modifications are done by clicking on one or several individuals and then applying appropriate buttons, for instance to add children, siblings or parents. At any time you may change attributes like sex, affection status, twin status and ID labels. 
+
+## Built-in pedigrees
+In the left-most panel of QuickPed the user may choose among a selection of standard pedigrees, including trios, full/half siblings, avuncular and cousin pedigrees of different kinds. Also included are several interesting (albeit less common) pedigree structures like double cousins and quad half first cousins. Finally, the following *historic pedigrees* are available:
+
+* `Habsburg`: A subset of the infamously inbred family tree of the Habsburg royalties. The inbreeding coefficient of King Charles II of Spain (1661-1700) was approximately 0.25, i.e., equivalent to that of a child produced by full siblings. Pedigree adapted from [Wikipedia](https://en.wikipedia.org/wiki/Habsburg_family_tree). See also [The Role of Inbreeding in the Extinction of a European Royal Dynasty](https://doi.org/10.1371/journal.pone.0005174).
+* `Jicaque`: A pedigree of Jicaque Indians originally studied by Chapman & Jacquard (1971) and subsequently used in many papers on relatedness and pedigree coefficients.
+* `Queen Victoria (haemophilia)`: The royal family tree descending from Queen Victoria, showing the X-linked inheritance of *haemophilia*. Adapted from Figure S1 of [Genotype Analysis Identifies the Cause of the “Royal Disease"](https://doi.org/10.1126/science.1180660).
+* `Tutankhamun`: The family tree of the Egyptian pharao Tutankhamun, as inferred from genetic evidence presented by Hawass et al. (2010), [Ancestry and Pathology in King Tutankhamun's Family](https://doi.org/10.1001/jama.2010.121).
 
 ## Relationship information
 The *Relationships* feature of QuickPed provides information about pairwise relationships within the current pedigree. After selecting any two pedigree members, the user may click either `Coeffs` or `Describe`:
