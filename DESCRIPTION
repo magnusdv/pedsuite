@@ -1,6 +1,6 @@
 Package: pedsuite
 Title: Easy Installation of the 'ped suite' Packages for Pedigree Analysis
-Version: 1.0.4.9003
+Version: 1.1.0
 Authors@R: c(
     person("Magnus Dehli", "Vigeland", , "m.d.vigeland@medisin.uio.no", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-9134-4962")),
