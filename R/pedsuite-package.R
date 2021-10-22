@@ -13,5 +13,11 @@
 #' @import pedprobr
 #' @import forrel
 #'
+#' @importFrom dvir jointDVI
+#' @importFrom ibdsim2 ibdsim
+#' @importFrom paramlink2 lod
+#' @importFrom pedbuildr reconstruct
+#' @importFrom segregatr FLB
+#'
 #' @name pedsuite
 NULL
