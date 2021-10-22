@@ -1,17 +1,12 @@
 Package: pedsuite
 Title: Easy Installation of the 'ped suite' Packages for Pedigree Analysis
 Version: 1.0.4.9003
-Authors@R: 
-    c(person(given = "Magnus Dehli",
-             family = "Vigeland",
-             role = c("aut", "cre"),
-             email = "m.d.vigeland@medisin.uio.no",
-             comment = c(ORCID = "0000-0002-9134-4962")),
-      person(given = "Thore",
-             family = "Egeland",
-             role = "aut",
-             email = "thore.egeland@nmbu.no",
-             comment = c(ORCID = "0000-0002-3465-8885")))
+Authors@R: c(
+    person("Magnus Dehli", "Vigeland", , "m.d.vigeland@medisin.uio.no", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-9134-4962")),
+    person("Thore", "Egeland", , "thore.egeland@nmbu.no", role = "aut",
+           comment = c(ORCID = "0000-0002-3465-8885"))
+  )
 Description: The 'ped suite' is a collection of packages for pedigree
     analysis, covering applications in forensic genetics, medical genetics
     and more. A detailed presentation of the 'ped suite' is given in the
@@ -40,4 +35,4 @@ VignetteBuilder:
 Encoding: UTF-8
 Language: en-GB
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
