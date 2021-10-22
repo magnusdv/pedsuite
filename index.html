@@ -35,7 +35,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">pedsuite</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">1.0.4.9003</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">1.1.0</span>
       </span>
     </div>
 
@@ -66,20 +66,20 @@
       <a href="articles/web_only/course-isfg2021.html">ISFG Summer School 2021</a>
     </li>
     <li>
-      <a href="https://familias.name/norbisRelatedness/">NORBIS 2020</a>
+      <a href="https://familias.name/norbisRelatedness/" class="external-link">NORBIS 2020</a>
     </li>
   </ul>
 </li>
       </ul>
 <ul class="nav navbar-nav navbar-right">
 <li>
-  <a href="https://github.com/magnusdv/pedsuite/">
+  <a href="https://github.com/magnusdv/pedsuite/" class="external-link">
     <span class="fab fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://twitter.com/mdvigeland">
+  <a href="https://twitter.com/mdvigeland" class="external-link">
     <span class="fab fa-twitter fa-lg"></span>
      
   </a>
@@ -96,16 +96,16 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-<div id="the-ped-suite-r-packages-for-pedigree-analysis" class="section level1">
-<div class="page-header"><h1 class="hasAnchor">
-<a href="#the-ped-suite-r-packages-for-pedigree-analysis" class="anchor" aria-hidden="true"></a>The <strong>ped suite</strong>: R packages for pedigree analysis</h1></div>
+<div class="section level1">
+<div class="page-header"><h1 id="the-ped-suite-r-packages-for-pedigree-analysis">The <strong>ped suite</strong>: R packages for pedigree analysis<a class="anchor" aria-label="anchor" href="#the-ped-suite-r-packages-for-pedigree-analysis"></a>
+</h1></div>
 <!-- badges: start -->
 <!-- badges: end -->
 <p>The <strong>ped suite</strong> is a collection of R packages for pedigree analysis, covering a variety of applications across several fields. The packages are designed to work harmoniously together, often allowing complex tasks to be solved in a few lines of code.</p>
 <p><img src="reference/figures/logos-pedsuite-wheel_1.png" width="100%" style="display: block; margin: auto;"></p>
-<div id="core-packages" class="section level3">
-<h3 class="hasAnchor">
-<a href="#core-packages" class="anchor" aria-hidden="true"></a>Core packages</h3>
+<div class="section level3">
+<h3 id="core-packages">Core packages<a class="anchor" aria-label="anchor" href="#core-packages"></a>
+</h3>
 <p>At the centre of the <strong>ped suite</strong> we find the package <strong>pedtools</strong>, on which all the others depend. In addition, several packages contain basic features often needed in many types of analysis. These are the <em>core</em> packages:</p>
 <ul>
 <li>
@@ -120,9 +120,9 @@
 <a href="https://github.com/magnusdv/forrel" class="external-link">forrel</a>: Forensic pedigree analysis and relatedness analysis</li>
 </ul>
 </div>
-<div id="specialised-packages" class="section level3">
-<h3 class="hasAnchor">
-<a href="#specialised-packages" class="anchor" aria-hidden="true"></a>Specialised packages</h3>
+<div class="section level3">
+<h3 id="specialised-packages">Specialised packages<a class="anchor" aria-label="anchor" href="#specialised-packages"></a>
+</h3>
 <p>The following packages are devoted to special applications:</p>
 <ul>
 <li>
@@ -137,9 +137,9 @@
 <a href="https://github.com/magnusdv/segregatr" class="external-link">segregatr</a>: Segregation analysis for clinical variant interpretation</li>
 </ul>
 </div>
-<div id="retired-packages" class="section level3">
-<h3 class="hasAnchor">
-<a href="#retired-packages" class="anchor" aria-hidden="true"></a>Retired packages</h3>
+<div class="section level3">
+<h3 id="retired-packages">Retired packages<a class="anchor" aria-label="anchor" href="#retired-packages"></a>
+</h3>
 <p>These packages have been superseded by other packages and are no longer compatible with the rest of the <strong>ped suite</strong>. They are maintained only for legacy purposes and should not be used in new projects.</p>
 <ul>
 <li>
@@ -148,18 +148,18 @@
 <a href="https://CRAN.R-project.org/package=IBDsim" class="external-link">IBDsim</a>: This is replaced by <strong>ibdsim2</strong>. (Regrettably, the name ‘IBDsim’ is very similar to that of the unrelated (non-R) software ‘IBDSim’ (<a href="http://www1.montpellier.inra.fr/CBGP/software/ibdsim/index.html" class="external-link">Leblois, Estoup &amp; Rousset</a>).)</li>
 </ul>
 </div>
-<div id="imported-packages" class="section level3">
-<h3 class="hasAnchor">
-<a href="#imported-packages" class="anchor" aria-hidden="true"></a>Imported packages</h3>
+<div class="section level3">
+<h3 id="imported-packages">Imported packages<a class="anchor" aria-label="anchor" href="#imported-packages"></a>
+</h3>
 <ul>
 <li>
 <a href="https://CRAN.R-project.org/package=kinship2" class="external-link">kinship2</a>: All pedigree plots in the <strong>ped suite</strong> are internally made by importing the plotting feature of <strong>kinship2</strong> (<a href="https://doi.org/10.1159/000363105" class="external-link">Sinnwell, Therneau &amp; Schaid</a>). Creating nice pedigree plots is a highly non-trivial matter, so if you use the <strong>ped suite</strong> to make pedigree plots for publications, please also credit <strong>kinship2</strong>.</li>
 </ul>
 </div>
-<div id="quickped---an-online-pedigree-creator" class="section level2">
-<h2 class="hasAnchor">
-<a href="#quickped---an-online-pedigree-creator" class="anchor" aria-hidden="true"></a>QuickPed - an online pedigree creator</h2>
-<p>In addition to the R packages, the <strong>ped suite</strong> also includes QuickPed, a free interactive program for making pedigree charts. Read more about it <a href="https://magnusdv.github.io/pedsuite/articles/web_only/quickped.html">here</a>, or simply try it out: <a href="https://magnusdv.shinyapps.io/quickped" class="external-link uri">https://magnusdv.shinyapps.io/quickped</a>.</p>
+<div class="section level2">
+<h2 id="quickped---an-online-pedigree-creator">QuickPed - an online pedigree creator<a class="anchor" aria-label="anchor" href="#quickped---an-online-pedigree-creator"></a>
+</h2>
+<p>In addition to the R packages, the <strong>ped suite</strong> also includes QuickPed, a free interactive program for creating and exploring pedigrees. Read more about it <a href="https://magnusdv.github.io/pedsuite/articles/web_only/quickped.html">here</a>, or simply try it out: <a href="https://magnusdv.shinyapps.io/quickped" class="external-link uri">https://magnusdv.shinyapps.io/quickped</a>.</p>
 </div>
 </div>
   </div>
@@ -168,11 +168,11 @@
     <div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
-<li>Download from CRAN at <br><a href="https://cloud.r-project.org/package=pedsuite">https://​cloud.r-project.org/​package=pedsuite</a>
+<li>Download from CRAN at <br><a href="https://cloud.r-project.org/package=pedsuite" class="external-link">https://​cloud.r-project.org/​package=pedsuite</a>
 </li>
-<li>Browse source code at <br><a href="https://github.com/magnusdv/pedsuite/">https://​github.com/​magnusdv/​pedsuite/​</a>
+<li>Browse source code at <br><a href="https://github.com/magnusdv/pedsuite/" class="external-link">https://​github.com/​magnusdv/​pedsuite/​</a>
 </li>
-<li>Report a bug at <br><a href="https://github.com/magnusdv/pedsuite/issues">https://​github.com/​magnusdv/​pedsuite/​issues</a>
+<li>Report a bug at <br><a href="https://github.com/magnusdv/pedsuite/issues" class="external-link">https://​github.com/​magnusdv/​pedsuite/​issues</a>
 </li>
 </ul>
 </div>
@@ -189,8 +189,8 @@
 <div class="developers">
 <h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
-<li>Magnus Dehli Vigeland <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0002-9134-4962" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>Thore Egeland <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-3465-8885" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Magnus Dehli Vigeland <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0002-9134-4962" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Thore Egeland <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-3465-8885" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 </ul>
 </div>
 
