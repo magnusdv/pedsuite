@@ -56,7 +56,7 @@ These packages have been superseded by other packages and are no longer compatib
 
 
 ## QuickPed - an online pedigree creator
-In addition to the R packages, the **ped suite** also includes QuickPed, a free interactive program for making pedigree charts. Read more about it [here](https://magnusdv.github.io/pedsuite/articles/web_only/quickped.html), or simply try it out: https://magnusdv.shinyapps.io/quickped.  
+In addition to the R packages, the **ped suite** also includes QuickPed, a free interactive program for creating and exploring pedigrees. Read more about it [here](https://magnusdv.github.io/pedsuite/articles/web_only/quickped.html), or simply try it out: https://magnusdv.shinyapps.io/quickped.  
 
 
 

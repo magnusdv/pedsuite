@@ -35,7 +35,7 @@ If you only need a few of the packages, you may choose to install them individua
 
 
 ## A quick tour
-The aim of this vignette is to illustrate just a few of the possibilities of the **ped suite** packages. Of course, we barely scratch the surface here, and several packages are not even mentioned. For a more comprehensive overview, I recommend the [book](https://magnusdv.github.io/pedsuite/articles/web_only/publications.html#book).
+The aim of this vignette is to illustrate a few of the possibilities of the **ped suite** packages. It should be noted that we are barely scratching the surface here; in particular several packages are not even mentioned. For a more comprehensive overview, I recommend the [book](https://magnusdv.github.io/pedsuite/articles/web_only/publications.html#book).
 
 To get started we load the **pedsuite** package, which is a convenient shortcut for loading all the [core packages](https://magnusdv.github.io/pedsuite/#core-packages), making their methods available in the current R session.
 
