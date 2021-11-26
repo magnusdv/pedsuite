@@ -151,9 +151,9 @@
 <h3 id="calculate-the-inbreeding-coefficient-ribd">2. Calculate the inbreeding coefficient (<strong>ribd</strong>)<a class="anchor" aria-label="anchor" href="#calculate-the-inbreeding-coefficient-ribd"></a>
 </h3>
 <p>The inbreeding coefficient <span class="math inline">\(f\)</span> of a pedigree member is defined as the probability of <em>autozygosity</em> at a random autosomal locus. That is, the probability that the two homologous alleles have the same origin within the pedigree.</p>
-<p>For a child of first cousins one can work out by pen and paper that <span class="math inline">\(f = 1/16\)</span>. Alternatively, we can calculate it with the <strong>ribd</strong> function <code><a href="https://rdrr.io/pkg/ribd/man/inbreeding.html" class="external-link">inbreeding()</a></code>.</p>
+<p>For a child of first cousins one can work out by pen and paper that <span class="math inline">\(f = 1/16\)</span>. Alternatively, we can calculate it with the <strong>ribd</strong> function <code><a href="https://magnusdv.github.io/pedsuite/reference/inbreeding.html">inbreeding()</a></code>.</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/pkg/ribd/man/inbreeding.html" class="external-link">inbreeding</a></span><span class="op">(</span><span class="va">x</span>, ids <span class="op">=</span> <span class="fl">9</span><span class="op">)</span>
+<code class="sourceCode R"><span class="fu"><a href="https://magnusdv.github.io/pedsuite/reference/inbreeding.html">inbreeding</a></span><span class="op">(</span><span class="va">x</span>, ids <span class="op">=</span> <span class="fl">9</span><span class="op">)</span>
 <span class="co">#&gt; [1] 0.0625</span></code></pre></div>
 <p>The output agrees with <span class="math inline">\(f = 1/16\)</span>.</p>
 </div>
@@ -176,7 +176,7 @@
 <span class="co">#&gt; Recomb model : chi</span>
 <span class="co">#&gt; Target indivs: 1-9</span>
 <span class="co">#&gt; Skip recomb  : -</span>
-<span class="co">#&gt; Total time used: 9.32 secs</span></code></pre></div>
+<span class="co">#&gt; Total time used: 9.12 secs</span></code></pre></div>
 <p>Now extract the autozygous segments of each simulation.</p>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">fr</span> <span class="op">=</span> <span class="fu"><a href="https://magnusdv.github.io/pedsuite/reference/realised.html">realisedInbreeding</a></span><span class="op">(</span><span class="va">sims</span>, id <span class="op">=</span> <span class="fl">9</span><span class="op">)</span></code></pre></div>
