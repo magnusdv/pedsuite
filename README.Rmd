@@ -22,7 +22,6 @@ knitr::opts_chunk$set(
 The **ped suite** is a collection of R packages for pedigree analysis, covering a variety of applications across several fields. The packages are designed to work harmoniously together, often allowing complex tasks to be solved in a few lines of code.
 
 ```{r logos-pedsuite, echo = F}
-# pdftools::pdf_convert("man/figures/logos-pedsuite-wheel.pdf", format = "png", dpi = 300)
 knitr::include_graphics("man/figures/logos-pedsuite-wheel_1.png")
 ```
 
