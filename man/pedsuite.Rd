@@ -5,8 +5,8 @@
 \alias{pedsuite}
 \title{pedsuite: A collection of packages for pedigree analysis in R}
 \description{
-The 'ped suite' is a collection of packages for pedigree analysis, covering
-applications in forensic genetics, medical genetics and others. A detailed
-presentation of the 'ped suite' is given in the book 'Pedigree Analysis in R'
-(Vigeland, 2021, ISBN: 9780128244302).
+This package makes it easy to install and load the \strong{ped suite} packages for
+pedigree analysis in R, covering applications in forensic genetics, medical
+genetics and others. A detailed presentation of the \strong{ped suite} is given in
+the book \emph{Pedigree Analysis in R} (Vigeland, 2021, ISBN: 9780128244302).
 }
