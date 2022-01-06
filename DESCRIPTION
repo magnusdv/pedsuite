@@ -20,7 +20,8 @@ Depends:
     pedmut,
     pedprobr,
     pedtools,
-    ribd
+    ribd,
+    verbalisr
 Imports:
     dvir,
     ibdsim2,

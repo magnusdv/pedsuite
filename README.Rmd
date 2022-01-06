@@ -29,6 +29,7 @@ knitr::include_graphics("man/figures/logos-pedsuite-wheel_1.png")
 At the centre of the **ped suite** we find the package **pedtools**, on which all the others depend. In addition, several packages contain basic features often needed in many types of analysis. These are the *core* packages:
 
 * [pedtools](https://github.com/magnusdv/pedtools): Creating and working with pedigrees and marker data
+* [verbalisr](https://github.com/magnusdv/verbalisr): Describe pedigree relationships in words
 * [ribd](https://github.com/magnusdv/ribd): Computation of pedigree-based relatedness coefficients
 * [pedprobr](https://github.com/magnusdv/pedprobr): Marker probabilities and pedigree likelihoods
 * [pedmut](https://github.com/magnusdv/pedmut): Mutation models for pedigree likelihood computations

@@ -12,6 +12,7 @@
 #' @import pedmut
 #' @import pedprobr
 #' @import forrel
+#' @import verbalisr
 #'
 #' @importFrom dvir jointDVI
 #' @importFrom ibdsim2 ibdsim
