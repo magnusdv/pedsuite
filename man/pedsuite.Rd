@@ -14,10 +14,10 @@ suite} is given in the book \emph{Pedigree Analysis in R} (Vigeland, 2021, ISBN:
 \section{Core packages}{
 
 
-At the centre of the \strong{ped suite} we find the
-package \strong{pedtools}, on which all the others depend. In addition, several
-packages contain basic features often needed in many types of analysis.
-These are the \emph{core} packages:
+At the centre of the \strong{ped suite} we find the package \strong{pedtools}, on
+which all the others depend. In addition, several packages contain basic
+features often needed in many types of analysis. These are the \emph{core}
+packages:
 \itemize{
 \item \href{https://github.com/magnusdv/pedtools}{pedtools}: Creating and working
 with pedigrees and marker data
@@ -27,8 +27,6 @@ of pedigree relationships
 coefficients
 \item \href{https://github.com/magnusdv/pedprobr}{pedprobr}: Marker probabilities
 and pedigree likelihoods
-\item \href{https://github.com/magnusdv/pedmut}{pedmut}: Mutation models for
-pedigree likelihood computations
 \item \href{https://github.com/magnusdv/forrel}{forrel}: Forensic pedigree analysis
 and relatedness analysis
 }
@@ -37,16 +35,18 @@ and relatedness analysis
 \section{Specialised packages}{
 
 
-The following packages are devoted to special
-applications. They must be loaded separately, e.g., \code{library(ibdsim2)}.
+The following packages are devoted to special applications. They must be
+loaded separately, e.g., \code{library(ibdsim2)}.
 \itemize{
+\item \href{https://github.com/thoree/dvir}{dvir}: Disaster victim identification
 \item \href{https://github.com/magnusdv/ibdsim2}{ibdsim2}: Simulation of
 identity-by-descent sharing by family members
-\item \href{https://github.com/thoree/dvir}{dvir}: Disaster victim identification
-\item \href{https://github.com/magnusdv/pedbuildr}{pedbuildr}: Reconstructing
-pedigrees from marker data
 \item \href{https://github.com/magnusdv/paramlink2}{paramlink2}: Parametric linkage
 analysis
+\item \href{https://github.com/magnusdv/pedbuildr}{pedbuildr}: Reconstructing
+pedigrees from marker data
+\item \href{https://github.com/magnusdv/pedmut}{pedmut}: Mutation models for
+pedigree likelihood computations
 \item \href{https://github.com/magnusdv/segregatr}{segregatr}: Segregation analysis
 for clinical variant interpretation
 }

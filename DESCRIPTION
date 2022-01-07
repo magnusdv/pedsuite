@@ -17,12 +17,12 @@ URL: https://magnusdv.github.io/pedsuite/,
 BugReports: https://github.com/magnusdv/pedsuite/issues
 Depends: 
     forrel,
-    pedmut,
     pedprobr,
     pedtools,
     ribd,
     verbalisr
 Imports:
+    pedmut,
     dvir,
     ibdsim2,
     paramlink2,
