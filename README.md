@@ -4,6 +4,11 @@
 # The **ped suite**: R packages for pedigree analysis
 
 <!-- badges: start -->
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/pedsuite)](https://CRAN.R-project.org/package=pedsuite)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/pedsuite?color=yellow)](https://cran.r-project.org/package=pedsuite)
+[![](https://cranlogs.r-pkg.org/badges/last-month/pedsuite?color=yellow)](https://cran.r-project.org/package=pedsuite)
 <!-- badges: end -->
 
 The **ped suite** is a collection of R packages for pedigree analysis,
