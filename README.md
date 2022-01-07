@@ -22,14 +22,14 @@ packages:
 
 -   [pedtools](https://github.com/magnusdv/pedtools): Creating and
     working with pedigrees and marker data
--   [verbalisr](https://github.com/magnusdv/verbalisr): Textual
-    descriptions of pedigree relationships
--   [ribd](https://github.com/magnusdv/ribd): Computation of
-    pedigree-based relatedness coefficients
--   [pedprobr](https://github.com/magnusdv/pedprobr): Marker
-    probabilities and pedigree likelihoods
 -   [forrel](https://github.com/magnusdv/forrel): Forensic pedigree
     analysis and relatedness analysis
+-   [pedprobr](https://github.com/magnusdv/pedprobr): Marker
+    probabilities and pedigree likelihoods
+-   [ribd](https://github.com/magnusdv/ribd): Computation of
+    pedigree-based relatedness coefficients
+-   [verbalisr](https://github.com/magnusdv/verbalisr): Textual
+    descriptions of pedigree relationships
 
 ### Specialised packages
 
