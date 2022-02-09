@@ -125,8 +125,8 @@
 </h2>
 <ul>
 <li><p><strong>Selecting individuals</strong>. Select/deselect pedigree members by clicking on them. Selected individuals are shown in red colour. Time-saving tip: To deselect everyone, click the “Selection” button under the “Remove” heading.</p></li>
-<li><p><strong>Automatic labelling</strong>: Automatic labelling of the pedigree members are available in two different formats. The button marked <code>1,2,..</code> applies numeric labels to all individuals, in the order of their appearance in the pedigree plot. Alternatively, the <code>I-1, I-2,..</code> button numbers the members generation-wise, using roman numerals to indicate the generation number.</p></li>
-<li><p><strong>Line breaks in labels</strong>: Double spaces are shown as line breaks in the plot. For instance, if you want <code>King Lear</code> to appear on two lines, modify the label to <code>King  Lear</code>, i.e., with two spaces between the words.</p></li>
+<li><p><strong>Automatic labelling</strong>. Automatic labelling of the pedigree members are available in two different formats. The button marked <code>1,2,..</code> applies numeric labels to all individuals, in the order of their appearance in the pedigree plot. Alternatively, the <code>I-1, I-2,..</code> button numbers the members generation-wise, using roman numerals to indicate the generation number.</p></li>
+<li><p><strong>Line breaks in labels</strong>. Double spaces are shown as line breaks in the plot. For instance, if you want <code>King Lear</code> to appear on two lines, modify the label to <code>King  Lear</code>, i.e., with two spaces between the words.</p></li>
 <li><p><strong>Unknown sex</strong>. Double clicking on a pedigree member changes its symbol into a diamond, representing unknown sex. Double click again to revert. Note: Only pedigree <em>leaves</em> (members without children) may have unknown sex.</p></li>
 <li><p><strong>Plot settings</strong>. If the pedigree gets too large, increase the plot region using the control panel on the far right. Here you may also adjust the margins, the size of pedigree symbols and text labels.</p></li>
 </ul>
@@ -138,13 +138,13 @@
 <p>Finally, the following historic pedigrees are available:</p>
 <ul>
 <li>
-<code>Habsburg</code>: A subset of the infamously inbred family tree of the Habsburg royalties. The inbreeding coefficient of King Charles II of Spain (1661-1700) was approximately 0.25, i.e., equivalent to that of a child produced by full siblings. Pedigree adapted from <a href="https://en.wikipedia.org/wiki/Habsburg_family_tree" class="external-link">Wikipedia</a>. See also <a href="https://doi.org/10.1371/journal.pone.0005174" class="external-link">The Role of Inbreeding in the Extinction of a European Royal Dynasty</a>.</li>
+<strong>Habsburg</strong>: A subset of the infamously inbred family tree of the Habsburg royalties. The inbreeding coefficient of King Charles II of Spain (1661-1700) was approximately 0.25, i.e., equivalent to that of a child produced by full siblings. Pedigree adapted from <a href="https://en.wikipedia.org/wiki/Habsburg_family_tree" class="external-link">Wikipedia</a>. See also <a href="https://doi.org/10.1371/journal.pone.0005174" class="external-link">The Role of Inbreeding in the Extinction of a European Royal Dynasty</a>.</li>
 <li>
-<code>Jicaque</code>: A pedigree of Jicaque Indians originally studied by Chapman &amp; Jacquard (1971) and subsequently used in many papers on relatedness and pedigree coefficients.</li>
+<strong>Jicaque</strong>: A pedigree of Jicaque Indians originally studied by Chapman &amp; Jacquard (1971) and subsequently used in many papers on relatedness and pedigree coefficients.</li>
 <li>
-<code>Queen Victoria (haemophilia)</code>: The royal family tree descending from Queen Victoria, showing the X-linked inheritance of <em>haemophilia</em>. Adapted from Figure S1 of <a href="https://doi.org/10.1126/science.1180660" class="external-link">Genotype Analysis Identifies the Cause of the “Royal Disease”</a>.</li>
+<strong>Queen Victoria (haemophilia)</strong>: The royal family tree descending from Queen Victoria, showing the X-linked inheritance of <em>haemophilia</em>. Adapted from Figure S1 of <a href="https://doi.org/10.1126/science.1180660" class="external-link">Genotype Analysis Identifies the Cause of the “Royal Disease”</a>.</li>
 <li>
-<code>Tutankhamun</code>: The family tree of the Egyptian pharao Tutankhamun, as inferred from genetic evidence presented by Hawass et al. (2010), <a href="https://doi.org/10.1001/jama.2010.121" class="external-link">Ancestry and Pathology in King Tutankhamun’s Family</a>.</li>
+<strong>Tutankhamun</strong>: The family tree of the Egyptian pharao Tutankhamun, as inferred from genetic evidence presented by Hawass et al. (2010), <a href="https://doi.org/10.1001/jama.2010.121" class="external-link">Ancestry and Pathology in King Tutankhamun’s Family</a>.</li>
 </ul>
 </div>
 <div class="section level2">
@@ -152,9 +152,9 @@
 </h2>
 <p>The four buttons in the <code>Relationships</code> frame can be used to analyse the relatedness between selected individuals in the current pedigree. They are, in order:</p>
 <ul>
-<li><p><code>Describe relationship</code>: Prints a textual description of the relationship, generated by <a href="https://github.com/magnusdv/verbalisr" class="external-link">verbalisr</a>. Requires exactly 2 individuals to be selected.</p></li>
+<li><p><strong>Describe relationship</strong>. Prints a textual description of the relationship, generated by <a href="https://github.com/magnusdv/verbalisr" class="external-link">verbalisr</a>. Requires exactly 2 individuals to be selected.</p></li>
 <li>
-<p><code>Calculate coefficients</code>: Prints a variety of pedigree coefficients between two selected individuals.</p>
+<p><strong>Calculate coefficients</strong>. Prints a variety of pedigree coefficients between two selected individuals.</p>
 <ul>
 <li>The inbreeding coefficient of each individual.</li>
 <li>The kinship coefficient <span class="math inline">\(\varphi\)</span>.</li>
@@ -164,8 +164,8 @@
 </ul>
 <p>More information about these coefficients can be found in the documentation of the <a href="https://github.com/magnusdv/ribd" class="external-link">ribd</a> package, which is used in the calculations.</p>
 </li>
-<li><p><code>Relatedness triangle</code>: Produces a plot representing <span class="math inline">\(\kappa\)</span> as a point in a <em>relatedness triangle</em>. Requires exactly two noninbred individuals to be selected.</p></li>
-<li><p><code>Table of coefficients</code>: Activates a popup window where the user can choose which individuals and coefficients to compute. Generates a tab-separated file for download, containing all the data.</p></li>
+<li><p><strong>Relatedness triangle</strong>. Produces a plot representing <span class="math inline">\(\kappa\)</span> as a point in a <em>relatedness triangle</em>. Requires exactly two noninbred individuals to be selected.</p></li>
+<li><p><strong>Table of coefficients</strong>. Activates a popup window where the user can choose which individuals and coefficients to compute. Generates a tab-separated file for download, containing all the data.</p></li>
 </ul>
 </div>
 <div class="section level2">
