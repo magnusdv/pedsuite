@@ -30,12 +30,19 @@ Creating pedigrees with QuickPed is very intuitive: Select a suitable start pedi
 ## Tips and tricks
 
 * __Selecting individuals__. Select/deselect pedigree members by clicking on them. Selected individuals are shown in red colour. Time-saving tip: To deselect everyone, click the "Selection" button under the "Remove" heading.
-* __Labels__: Automatic labelling of the pedigree members are available in two different formats. The button marked `1,2,..` applies numeric labels to all individuals, in the order of their appearance in the pedigree plot. Alternatively, the `I-1, I-2,..` button numbers the members generation-wise, using roman numerals to indicate the generation number. 
-* __Unknown sex__. If you double click on a pedigree member, its symbol will change into a diamond representing unknown sex. Double click again to revert. Note: Only pedigree *leaves* (members without children) may have unknown sex.
+
+* __Automatic labelling__: Automatic labelling of the pedigree members are available in two different formats. The button marked `1,2,..` applies numeric labels to all individuals, in the order of their appearance in the pedigree plot. Alternatively, the `I-1, I-2,..` button numbers the members generation-wise, using roman numerals to indicate the generation number. 
+
+* __Line breaks in labels__: Double spaces are shown as line breaks in the plot. For instance, if you want `King Lear` to appear on two lines, modify the label to `King  Lear`, i.e., with two spaces between the words.
+
+* __Unknown sex__. Double clicking on a pedigree member changes its symbol into a diamond, representing unknown sex. Double click again to revert. Note: Only pedigree *leaves* (members without children) may have unknown sex.
+
 * __Plot settings__. If the pedigree gets too large, increase the plot region using the control panel on the far right. Here you may also adjust the margins, the size of pedigree symbols and text labels.
 
 ## Built-in pedigrees
-In the left-most panel of QuickPed the user may choose among a selection of standard pedigrees, including trios, full/half siblings, avuncular and cousin pedigrees of different kinds. Also included are several interesting (albeit less common) pedigree structures like double cousins and quad half first cousins. Finally, the following *historic pedigrees* are available:
+In the left-most panel of QuickPed the user may choose among a selection of standard pedigrees, including trios, full/half siblings, avuncular and cousin pedigrees of different kinds. Also included are several interesting (albeit less common) pedigree structures like double cousins and quad half first cousins. 
+
+Finally, the following historic pedigrees are available:
 
 * `Habsburg`: A subset of the infamously inbred family tree of the Habsburg royalties. The inbreeding coefficient of King Charles II of Spain (1661-1700) was approximately 0.25, i.e., equivalent to that of a child produced by full siblings. Pedigree adapted from [Wikipedia](https://en.wikipedia.org/wiki/Habsburg_family_tree). See also [The Role of Inbreeding in the Extinction of a European Royal Dynasty](https://doi.org/10.1371/journal.pone.0005174).
 * `Jicaque`: A pedigree of Jicaque Indians originally studied by Chapman & Jacquard (1971) and subsequently used in many papers on relatedness and pedigree coefficients.
@@ -51,14 +58,14 @@ The four buttons in the `Relationships` frame can be used to analyse the related
   * The inbreeding coefficient of each individual.
   * The kinship coefficient $\varphi$.
   * The degree of relationship, as used e.g. by [KING](https://www.kingrelatedness.com/manual.shtml).
-  * The IBD coefficients $\kappa = (\kappa_0, \kappa_1, \kappa_2)$, defined as the probabilities of sharing 0, 1, and 2 alleles identical by descent (IBD). These are well-defined only if both individuals are non-inbred.
-  * The 9 condensed identity coefficients of Jacquard, $\Delta = (\Delta_1, ..., \Delta_9)$. These are included only if at least one of the individuals is inbred.
+  * The IBD coefficients $\kappa = (\kappa_0, \kappa_1, \kappa_2)$, defined as the probabilities of sharing 0, 1, and 2 alleles identical by descent (IBD). These are included only if both individuals are noninbred (otherwise they are not defined).
+  * The 9 condensed identity coefficients of Jacquard, $\Delta = (\Delta_1, ..., \Delta_9)$. These are included only if at least one of the individuals is inbred. (For noninbred individuals, $\Delta = (0,0,0,0,0,0,\kappa_2, \kappa_1, \kappa_0)$.)
     
   More information about these coefficients can be found in the documentation of the [ribd](https://github.com/magnusdv/ribd) package, which is used in the calculations.
   
-* `Relatedness triangle`: Produces a plot representing $\kappa$ as a point in the *relatedness triangle*. Requires exactly two noninbred individuals to be selected.
+* `Relatedness triangle`: Produces a plot representing $\kappa$ as a point in a *relatedness triangle*. Requires exactly two noninbred individuals to be selected.
 
-* `Table of coefficients`: Activates a popup window where the user can choose which individuals and coefficients to compute. Generates a tab-separated table containing all the data.
+* `Table of coefficients`: Activates a popup window where the user can choose which individuals and coefficients to compute. Generates a tab-separated file for download, containing all the data.
 
 
 ## Ped files
