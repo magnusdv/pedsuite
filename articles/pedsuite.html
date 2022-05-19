@@ -50,7 +50,7 @@
   <a href="../articles/web_only/quickped.html">QuickPed</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Courses
      
     <span class="caret"></span>
@@ -61,7 +61,8 @@
     </li>
     <li class="divider">
     </li>
-<li>
+<li class="dropdown-header">Zakopane 2022</li>
+    <li>
       <a href="../articles/web_only/course-isfg2021.html">ISFG Summer School 2021</a>
     </li>
     <li>
@@ -176,7 +177,7 @@
 <span class="co">#&gt; Recomb model : chi</span>
 <span class="co">#&gt; Target indivs: 1-9</span>
 <span class="co">#&gt; Skip recomb  : -</span>
-<span class="co">#&gt; Total time used: 8.86 secs</span></code></pre></div>
+<span class="co">#&gt; Total time used: 10.3 secs</span></code></pre></div>
 <p>Now extract the autozygous segments of each simulation.</p>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">fr</span> <span class="op">=</span> <span class="fu"><a href="https://magnusdv.github.io/pedsuite/reference/realised.html">realisedInbreeding</a></span><span class="op">(</span><span class="va">sims</span>, id <span class="op">=</span> <span class="fl">9</span><span class="op">)</span></code></pre></div>
@@ -237,9 +238,7 @@
 <p>If this was a real dataset, a natural quality control step would be to check correctness of the pedigree. One way to do this is to use the data to estimate each pairwise relationship, and compare the result with the pedigree. The function <code><a href="https://rdrr.io/pkg/forrel/man/checkPairwise.html" class="external-link">checkPairwise()</a></code> does all of this, and presents the result in a relationship triangle.</p>
 <div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/pkg/forrel/man/checkPairwise.html" class="external-link">checkPairwise</a></span><span class="op">(</span><span class="va">y</span>, plot <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>
-<span class="co">#&gt; Warning:</span>
-<span class="co">#&gt;  Individual '9' is inbred (f = 0.0625)</span>
-<span class="co">#&gt; Kappa coefficients are only defined for non-inbred individuals.</span></code></pre></div>
+<span class="co">#&gt; Excluding inbred individuals: 9</span></code></pre></div>
 <p><img src="pedsuite_files/figure-html/check-pairwise-1.png" width="60%" style="display: block; margin: auto;"></p>
 <p>The plot shows that all pairwise estimates are near their expected location in the triangle. (The yellow symbols correspond to pairs involving the inbred child, which don’t have a well-defined position in the triangle.)</p>
 <hr>
@@ -270,7 +269,7 @@
 
 <div class="pkgdown">
   <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.2.9000.</p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.3.9000.</p>
 </div>
 
       </footer>
