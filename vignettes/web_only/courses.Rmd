@@ -16,6 +16,13 @@ knitr::opts_chunk$set(echo = FALSE,
 
 Courses and lectures based on the **ped suite**.
 
+## 2022
+
+* May 23. **Pedigrees and relatedness analysis in R**. Lecture and workshop at the Polish Forensic Genetics Conference, Zakopane. Lecturer: Magnus Dehli Vigeland.
+    * [Lecture: Statistical methods in forensic pedigree analysis - with a view towards R]
+    * [Workshop 1: Pedigree analysis in R](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/zakopane2022/exercises-session1.pdf)
+    * [Workshop 2: Forensic case studies](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/zakopane2022/exercises-session2.pdf)
+
 ## 2021
 
 * Aug 18 and 25. **Statistical power in missing person cases**. Online lecture series for the *Proyecto de Cooperación Triangular Argentina-Colombia-Unión Europea*. Lecturer: Magnus Dehli Vigeland.
