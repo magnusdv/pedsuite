@@ -37,10 +37,8 @@ navbar:
       - text: Overview
         href: articles/web_only/courses.html
       - text: -------
-      - text: ISFG Summer School 2021
-        href: articles/web_only/course-isfg2021.html
-      - text: NORBIS 2020
-        href: https://familias.name/norbisRelatedness/
+      - text: NORBIS 2022
+        href: articles/web_only/course-norbis2022.html
     twitter:
       icon: "fab fa-twitter fa-lg"
       href: https://twitter.com/mdvigeland
