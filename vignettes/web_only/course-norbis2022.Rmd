@@ -56,41 +56,41 @@ The course runs from 9 to 16.30 (CEST) each day. A tentative schedule is given b
 
 #### Monday, June 13
 
-* 09-11 Introduction I: Pedigrees, genetics and probabilities
-* 11-12 Exercises
-* 12-13 Lunch
-* 13-15 Introduction II: Pedigree analysis in R with the ped suite
-* 15-16:30 Exercises
+* 09--11 Introduction I: Pedigrees, genetics and probabilities
+* 11--12 Exercises
+* 12--13 Lunch
+* 13--15 Introduction II: Pedigree analysis in R with the ped suite
+* 15--16:30 Exercises
 
 #### Tuesday, June 14
 
-* 09-11 Relatedness I: What does it mean to be related? IBD and coefficients of relatedness
-* 11-12 Exercises
-* 12-13 Lunch
-* 13-15 Relatedness II: Why are some siblings more equal than others? Distributions of realised relatedness
-* 15-16:30 Exercises
+* 09--11 Relatedness I: What does it mean to be related? IBD and coefficients of relatedness
+* 11--12 Exercises
+* 12--13 Lunch
+* 13--15 Relatedness II: Why are some siblings more equal than others? Distributions of realised relatedness
+* 15--16:30 Exercises
 
-#### Wednesday
+#### Wednesday, June 15
 
-* 09-11 Forensic applications I
-* 11-12 Exercises
-* 12-13 Lunch
-* 13-15 Inference of relatedness and pedigree reconstruction
-* 15-16:30 Exercises
+* 09--11 Forensic applications I
+* 11--12 Exercises
+* 12--13 Lunch
+* 13--15 Inference of relatedness and pedigree reconstruction
+* 15--16:30 Exercises
 
-#### Thursday
+#### Thursday, June 16
 
-* 09-11 Forensic applications II
-* 11-12 Exercises
-* 12-13 Lunch
-* 13-15 Segregation analysis in medical genetics
-* 15-16:30 Exercises
+* 09--11 Forensic applications II
+* 11--12 Exercises
+* 12--13 Lunch
+* 13--15 Segregation analysis in medical genetics
+* 15--16:30 Exercises
 
-#### Friday
+#### Friday, June 17
 
-* 09-11 Genealogical triangulation
-* 11-12 Exercises
-* 12-13 Lunch
-* 13-16:30 Case study and wrap up
+* 09--11 Genealogical triangulation
+* 11--12 Exercises
+* 12--13 Lunch
+* 13--16:30 Case study and wrap up
 
 Comments and questions may be sent to *magnusdv at medisin uio no*.
