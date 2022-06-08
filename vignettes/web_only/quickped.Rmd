@@ -14,9 +14,15 @@ knitr::opts_chunk$set(echo = FALSE,
                       comment = "#>")
 ```
 
-::: { .greeting .message style="color: red;"}
+::: { .greeting .message style="color: red; font-size: large;"}
 **_Try QuickPed here_**: https://magnusdv.shinyapps.io/quickped.
 :::
+
+::: { .greeting .message style="color: orange; font-size: large;"}
+**_Paper in BMC Bioinformatics_**: https://doi.org/10.1186/s12859-022-04759-y. 
+:::
+
+<br>
 
 # What is QuickPed?
 QuickPed is an interactive web application for drawing and analysing pedigrees. A created pedigree may be saved as an image or as a text file in *ped format* (see [below](#ped-files)). You may also obtain various information about the pedigree, including relatedness coefficients and verbal descriptions of relationships.
