@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = TRUE,
 
 * Title: Statistical methods in relatedness and pedigree analysis
 * Dates: June 13-17, 2022
-* Teachers: Thore Egeland and Magnus Dehli Vigeland
+* Teachers: Magnus Dehli Vigeland and Thore Egeland
 * Where: Room 2203a ("Helix"), Kristine Bonnevies hus
 * Address: [Blindernveien 31, entrance from Moltke Moes vei](https://www.uio.no/english/about/getting-around/areas/blindern/bl18/).
 
@@ -56,41 +56,41 @@ The course runs from 9 to 16.30 (CEST) each day. A tentative schedule is given b
 
 #### Monday, June 13
 
-* 09--11 Introduction I: Pedigrees, genetics and probabilities
+* 09--11 Introduction I: Pedigrees, genetics and probabilities (MDV)
 * 11--12 Exercises
 * 12--13 Lunch
-* 13--15 Introduction II: Pedigree analysis in R with the ped suite
+* 13--15 Introduction II: Pedigree analysis in R with the ped suite (MDV)
 * 15--16:30 Exercises
 
 #### Tuesday, June 14
 
-* 09--11 Relatedness I: What does it mean to be related? IBD and coefficients of relatedness
+* 09--11 Relatedness I: What does it mean to be related? IBD and coefficients of relatedness (MDV)
 * 11--12 Exercises
 * 12--13 Lunch
-* 13--15 Relatedness II: Why are some siblings more equal than others? Distributions of realised relatedness
+* 13--15 Relatedness II: Why are some siblings more equal than others? Distributions of realised relatedness (MDV)
 * 15--16:30 Exercises
 
 #### Wednesday, June 15
 
-* 09--11 Forensic applications I
+* 09--11 Forensic applications I (TE)
 * 11--12 Exercises
 * 12--13 Lunch
-* 13--15 Inference of relatedness and pedigree reconstruction
+* 13--15 Inference of relatedness and pedigree reconstruction (MDV)
 * 15--16:30 Exercises
 
 #### Thursday, June 16
 
-* 09--11 Forensic applications II
+* 09--11 Forensic applications II (TE)
 * 11--12 Exercises
 * 12--13 Lunch
-* 13--15 Segregation analysis in medical genetics
+* 13--15 Segregation analysis in medical genetics (MDV)
 * 15--16:30 Exercises
 
 #### Friday, June 17
 
-* 09--11 Genealogical triangulation
+* 09--11 Genealogical triangulation (MDV/TE)
 * 11--12 Exercises
 * 12--13 Lunch
-* 13--16:30 Case study and wrap up
+* 13--16:30 Case study and wrap up (MDV)
 
 Comments and questions may be sent to *magnusdv at medisin uio no*.
