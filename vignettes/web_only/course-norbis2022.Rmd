@@ -22,10 +22,10 @@ knitr::opts_chunk$set(echo = TRUE,
 * Title: Statistical methods in relatedness and pedigree analysis
 * Dates: 13--17 June 2022
 * Teachers: Magnus Dehli Vigeland and Thore Egeland
-* Credits: 4 ECTS
-* Exam: Home project (passed/not passed)
 * Where: Room 2203a ("Helix"), Kristine Bonnevies hus, University of Oslo
 * Address: [Blindernveien 31, entrance from Moltke Moes vei](https://www.uio.no/english/about/getting-around/areas/blindern/bl18/).
+* Credits: 4 ECTS
+* Exam: Home project (passed/not passed)
 
 ## Description
 The course introduces statistical methods used in relatedness and pedigree analysis, with applications in forensic genetics, medical genetics and pedigree reconstruction.
