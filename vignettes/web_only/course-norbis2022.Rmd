@@ -58,7 +58,7 @@ The course runs from 9 to 16.30 (CEST) each day. A tentative schedule is given b
 
 #### Monday, June 13
 
-* 09--11 Introduction I: Pedigrees, genetics and probabilities (MDV)
+* 09--11 Introduction I: [Pedigrees, genetics and probabilities](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture1_intro_ norbis2022.pdf) (MDV)
 * 11--12 Exercises
 * 12--13 Lunch
 * 13--15 Introduction II: Pedigree analysis in R with the ped suite (MDV)
@@ -94,5 +94,7 @@ The course runs from 9 to 16.30 (CEST) each day. A tentative schedule is given b
 * 11--12 Exercises
 * 12--13 Lunch
 * 13--16:30 Case study and wrap up (MDV)
+
+<br>
 
 Comments and questions may be sent to *magnusdv at medisin uio no*.
