@@ -70,7 +70,7 @@ The course runs from 9 to 16.30 (CEST) each day. A tentative schedule is given b
 * 11--12 [Exercises III](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/exercises3.pdf).
 * 12--13 Lunch
 * 13--15 Relatedness II: [Realised relatedness](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture4_realised_norbis2022.pdf) (MDV)
-* 15--16:30 Exercises
+* 15--16:30 [Exercises IV](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/exercises4.pdf).
 
 #### Wednesday, June 15
 
