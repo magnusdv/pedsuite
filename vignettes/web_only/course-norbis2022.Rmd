@@ -78,7 +78,7 @@ The course runs from 9 to 16.30 (CEST) each day. A tentative schedule is given b
 * 09--11 [Forensic applications I](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture5_forensics_part_1.pdf) (TE)
 * 11--12 [Exercises V](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/exercises5.pdf).
 * 12--13 Lunch
-* 13--15 Inference of relatedness and pedigree reconstruction (MDV)
+* 13--15 [Inference of relatedness and pedigree reconstruction](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture6_inference_norbis2022.pdf) (MDV)
 * 15--16:30 Exercises
 
 #### Thursday, June 16
