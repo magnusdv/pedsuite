@@ -84,7 +84,7 @@ The course runs from 9 to 16.30 (CEST) each day. A tentative schedule is given b
 #### Thursday, June 16
 
 * 09--11 [Forensic applications II](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture7_forensics_part_2.pdf) (TE)
-* 11--12 Exercises
+* 11--12 [Exercises VII](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/exercises7.pdf)
 * 12--13 Lunch
 * 13--15 Segregation analysis in medical genetics (MDV)
 * 15--16:30 Exercises
