@@ -91,7 +91,7 @@ The course runs from 9 to 16.30 (CEST) each day. A tentative schedule is given b
 
 #### Friday, June 17
 
-* 09--11 Genealogical triangulation (MDV/TE)
+* 09--11 [Genealogical triangulation](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture7_triangulation_part1.pdf) (TE/MDV)
 * 11--12 Exercises
 * 12--13 Lunch
 * 13--16:30 Case study and wrap up (MDV)
