@@ -49,24 +49,24 @@ The course runs from 14 to 18 (CEST) each day, with a 15 minute break in the mid
 
 #### Day 1 — July 28 (Wednesday)
 * 14:00–15:00 Lecture 1. [Introductions](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/Lecture1_intro.pdf) (MDV)
-* 15:00–15:45 [Exercise set 1](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises1.pdf). ([Solutions](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises1-solutions.pdf).)
+* 15:00–15:45 [Exercise set 1](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises1.pdf)
 * 15:45–16:00 Break
 * 16:00–17:00 Lecture 2. [Working with pedigrees in R](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/Lecture2_pedsuite.pdf) (MDV)
-* 17:00–18:00 [Exercise set 2](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises2.pdf). ([Solutions](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises2-solutions.pdf).)
+* 17:00–18:00 [Exercise set 2](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises2.pdf)
 
 #### Day 2 — July 29 (Thursday)
 * 14:00–15:00 Lecture 3. [Kinship testing: paternity cases and complex cases](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/Lecture3-kinship-LR.pdf) (TE)
-* 15:00–15:45 [Exercise set 3](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises3.pdf). ([Solutions](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises3-solutions.pdf).)
+* 15:00–15:45 [Exercise set 3](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises3.pdf)
 * 15:45–16:00 Break
 * 16:00–17:00 Lecture 4. [Relatedness coefficients](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/Lecture4_relatednessI.pdf) (MDV)
-* 17:00–18:00 [Exercise set 4](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises4.pdf). ([Solutions](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises4-solutions.pdf).)
+* 17:00–18:00 [Exercise set 4](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises4.pdf)
 
 #### Day 3 — July 30 (Friday)
 * 14:00–15:00 Lecture 5. [Relatedness inference and pedigree reconstruction](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/Lecture5-relatedness-inference.pdf) (MDV)
-* 15:00–15:45 [Exercise set 5](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises5.pdf). ([Solutions](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises5-solutions.pdf).)
+* 15:00–15:45 [Exercise set 5](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises5.pdf)
 * 15:45–16:00 Break
 * 16:00–17:00 Lecture 6. [Disaster victim identification and other forensic applications](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/Lecture6-dvi.pdf) (TE)
-* 17:00–18:00 [Exercise set 6](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises6.pdf). ([Solutions](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises6-solutions.pdf).)
+* 17:00–18:00 [Exercise set 6](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2021/exercises6.pdf)
   
   
 Comments and questions may be sent to *magnusdv at gmail dot com*.
