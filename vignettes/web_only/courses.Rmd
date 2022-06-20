@@ -23,6 +23,7 @@ Courses and lectures based on the **ped suite**.
     * [Lecture: Introduction to the ped suite](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/zakopane2022/intro-pedsuite.pdf)
     * [Exercises 1: Pedigree analysis in R](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/zakopane2022/exercises-session1.pdf)
     * [Exercises 2: Forensic case studies](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/zakopane2022/exercises-session2.pdf)
+
 ## 2021
 
 * Aug 18 and 25. **Statistical power in missing person cases**. Online lecture series for the *Proyecto de Cooperación Triangular Argentina-Colombia-Unión Europea*. Lecturer: Magnus Dehli Vigeland.
