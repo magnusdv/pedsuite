@@ -58,40 +58,40 @@ The course runs from 9 to 16.30 (CEST) each day. A tentative schedule is given b
 
 #### Monday, June 13
 
-* 09--11 Introduction I: [Pedigrees, genetics and probabilities](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture1_intro_norbis2022.pdf) (MDV)
-* 11--12 [Exercises I](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/exercises1.pdf) 
+* 09--11 Introduction I: Pedigrees, genetics and probabilities (MDV)
+* 11--12 Exercises I 
 * 12--13 Lunch
-* 13--15 Introduction II: [R and the ped suite](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture2_pedsuite_norbis2022.pdf) (MDV)
-* 15--16:30 [Exercises II](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/exercises2.pdf) 
+* 13--15 Introduction II: R and the ped suite (MDV)
+* 15--16:30 Exercises II
 
 #### Tuesday, June 14
 
-* 09--11 Relatedness I: [IBD and coefficients of relatedness](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture3_coefficients_norbis2022.pdf) (MDV)
-* 11--12 [Exercises III](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/exercises3.pdf) 
+* 09--11 Relatedness I: IBD and coefficients of relatedness (MDV)
+* 11--12 Exercises III 
 * 12--13 Lunch
-* 13--15 Relatedness II: [Realised relatedness](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture4_realised_norbis2022.pdf) (MDV)
-* 15--16:30 [Exercises IV](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/exercises4.pdf) 
+* 13--15 Relatedness II: Realised relatedness (MDV)
+* 15--16:30 Exercises IV 
 
 #### Wednesday, June 15
 
-* 09--11 [Forensic applications I](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture5_forensics_part_1.pdf) (TE)
-* 11--12 [Exercises V](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/exercises5.pdf) 
+* 09--11 Forensic applications I (TE)
+* 11--12 Exercises V 
 * 12--13 Lunch
-* 13--15 [Inference of relatedness and pedigree reconstruction](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture6_inference_norbis2022.pdf) (MDV)
-* 15--16:30 [Exercises VI](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/exercises6.pdf) 
+* 13--15 Inference of relatedness and pedigree reconstruction (MDV)
+* 15--16:30 Exercises VI 
 
 #### Thursday, June 16
 
-* 09--11 [Forensic applications II](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture7_forensics_part_2.pdf) (TE)
-* 11--12 [Exercises VII](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/exercises7.pdf)
+* 09--11 Forensic applications II (TE)
+* 11--12 Exercises VII
 * 12--13 Lunch
-* 13--15 [Linkage and segregation analysis in medical genetics](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture8_medical_segregation_norbis2022.pdf) (MDV)
-* 15--16:30 [Exercises VIII](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/exercises8.pdf)
+* 13--15 Linkage and segregation analysis in medical genetics (MDV)
+* 15--16:30 Exercises VIII
 
 #### Friday, June 17
 
-* 09--11 [Genealogical triangulation 1](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture9_triangulation_part1.pdf) [Genealogical triangulation 2](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/Lecture9_triangulation_part2.pdf) (TE/MDV)
-* 11--12 [Exercises](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/norbis2022/exercises9.pdf)
+* 09--11 Genealogical triangulation (TE/MDV)
+* 11--12 Exercises
 * 12--13 Lunch
 * 13--16:30 Case study and wrap up (MDV)
 

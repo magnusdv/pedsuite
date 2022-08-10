@@ -19,16 +19,16 @@ Courses and lectures based on the **ped suite**.
 ## 2022
 * June 13-17. **Statistical methods in relatedness and pedigree analysis**. NORBIS 1-week intensive course, Oslo, Norway. Teachers: Magnus Dehli Vigeland and Thore Egeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-norbis2022.html).
 * May 23-24. **Pedigrees and relatedness analysis in R**. Lecture and workshop at the Polish Forensic Genetics Conference, Zakopane. Lecturer: Magnus Dehli Vigeland.
-    * [Lecture: Pedigrees and relatedness analysis in R](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/zakopane2022/Lecture-zakopane.pdf)
-    * [Lecture: Introduction to the ped suite](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/zakopane2022/intro-pedsuite.pdf)
-    * [Exercises 1: Pedigree analysis in R](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/zakopane2022/exercises-session1.pdf)
-    * [Exercises 2: Forensic case studies](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/zakopane2022/exercises-session2.pdf)
+    * Lecture: Pedigrees and relatedness analysis in R
+    * Lecture: Introduction to the ped suite
+    * Exercises 1: Pedigree analysis in R
+    * Exercises 2: Forensic case studies
 
 ## 2021
 
 * Aug 18 and 25. **Statistical power in missing person cases**. Online lecture series for the *Proyecto de Cooperación Triangular Argentina-Colombia-Unión Europea*. Lecturer: Magnus Dehli Vigeland.
-    * [Lecture 1: Do we have enough data?](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/colombia2021/Lecture1-power.pdf)
-    * [Lecture 2: Who should be exhumed?](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/colombia2021/Lecture2-prioritisation.pdf)
+    * Lecture 1: Do we have enough data?
+    * Lecture 2: Who should be exhumed?
 * Jul 28-30. **Pedigree Analysis in R**. ISFG Summer School - Virtual Edition 2021. Teachers: Thore Egeland and Magnus Dehli Vigeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2021.html).
 
 ## 2020
