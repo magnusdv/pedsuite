@@ -1,6 +1,6 @@
 Package: pedsuite
 Title: Easy Installation of the 'ped suite' Packages for Pedigree Analysis
-Version: 1.1.0.9000
+Version: 1.2.0
 Authors@R: c(
     person("Magnus Dehli", "Vigeland", , "m.d.vigeland@medisin.uio.no", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-9134-4962")),
@@ -36,4 +36,4 @@ VignetteBuilder:
 Encoding: UTF-8
 Language: en-GB
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.3
