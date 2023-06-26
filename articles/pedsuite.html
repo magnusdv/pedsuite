@@ -4,14 +4,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="pedsuite">
 <title>Getting started with the ped suite • pedsuite</title>
-<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="../bootstrap-toc.css">
-<script src="../bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
+<script src="../deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="../deps/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet">
+<script src="../deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
-<!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="../pkgdown.css" rel="stylesheet">
-<script src="../pkgdown.js"></script><meta property="og:title" content="Getting started with the ped suite">
+<!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Getting started with the ped suite">
 <meta property="og:description" content="pedsuite">
 <meta name="google-site-verification" content="0EyxedeIXm4ThmZacSrfJ7L0z17Ulx0UKdK2Yo7p3wk">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
@@ -19,86 +19,75 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body data-spy="scroll" data-target="#toc">
+<body>
+    <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
     
 
-    <div class="container template-article">
-      <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <span class="navbar-brand">
-        <a class="navbar-link" href="../index.html">pedsuite</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">1.1.0.9000</span>
-      </span>
-    </div>
+    <nav class="navbar fixed-top navbar-light navbar-expand-lg bg-light"><div class="container">
+    
+    <a class="navbar-brand me-2" href="../index.html">pedsuite</a>
 
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-<li>
-  <a href="../articles/pedsuite.html">Get started</a>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.2.0</small>
+
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navbar" class="collapse navbar-collapse ms-3">
+      <ul class="navbar-nav me-auto">
+<li class="active nav-item">
+  <a class="nav-link" href="../articles/pedsuite.html">Get started</a>
 </li>
-<li>
-  <a href="../articles/web_only/publications.html">Publications</a>
+<li class="nav-item">
+  <a class="nav-link" href="../articles/web_only/publications.html">Publications</a>
 </li>
-<li>
-  <a href="../articles/web_only/quickped.html">QuickPed</a>
+<li class="nav-item">
+  <a class="nav-link" href="../articles/web_only/quickped.html">QuickPed</a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Courses
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-<li>
-      <a href="../articles/web_only/courses.html">Overview</a>
-    </li>
-    <li class="divider">
-    </li>
-<li>
-      <a href="../articles/web_only/course-norbis2022.html">NORBIS 2022</a>
-    </li>
-  </ul>
-</li>
-      </ul>
-<ul class="nav navbar-nav navbar-right">
-<li>
-  <a href="https://github.com/magnusdv/pedsuite/" class="external-link">
-    <span class="fab fa-github fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://twitter.com/mdvigeland" class="external-link">
-    <span class="fab fa-twitter fa-lg"></span>
-     
-  </a>
-</li>
-      </ul>
-</div>
-<!--/.nav-collapse -->
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-courses">Courses</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-courses">
+    <a class="dropdown-item" href="../articles/web_only/courses.html">Overview</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="../articles/web_only/course-norbis2022.html">NORBIS 2022</a>
   </div>
-<!--/.container -->
+</li>
+      </ul>
+<form class="form-inline my-2 my-lg-0" role="search">
+        <input type="search" class="form-control me-sm-2" aria-label="Toggle navigation" name="search-input" data-search-index="../search.json" id="search-input" placeholder="Search for" autocomplete="off">
+</form>
+
+      <ul class="navbar-nav">
+<li class="nav-item">
+  <a class="external-link nav-link" href="https://github.com/magnusdv/pedsuite/" aria-label="github">
+    <span class="fab fa fab fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li class="nav-item">
+  <a class="external-link nav-link" href="https://twitter.com/mdvigeland" aria-label="twitter account">
+    <span class="fab fa fab fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
 </div>
-<!--/.navbar -->
 
-      
+    
+  </div>
+</nav><div class="container template-article">
 
-      </header><script src="pedsuite_files/accessible-code-block-0.0.1/empty-anchor.js"></script><div class="row">
-  <div class="col-md-9 contents">
-    <div class="page-header toc-ignore">
-      <h1 data-toc-skip>Getting started with the ped suite</h1>
+
+
+
+<div class="row">
+  <main id="main" class="col-md-9"><div class="page-header">
+      <img src="" class="logo" alt=""><h1>Getting started with the ped suite</h1>
             
       
       
-      <div class="hidden name"><code>pedsuite.Rmd</code></div>
-
+      <div class="d-none name"><code>pedsuite.Rmd</code></div>
     </div>
 
     
@@ -106,21 +95,31 @@
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>The following command installs the latest official versions of the <strong>ped suite</strong> packages:</p>
+<p>The following command installs the latest official versions of the
+<strong>ped suite</strong> packages:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"pedsuite"</span><span class="op">)</span></span></code></pre></div>
-<p>Alternatively, you can install the development versions from GitHub:</p>
+<p>Alternatively, you can install the development versions from
+GitHub:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
 <span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"magnusdv/pedsuite"</span><span class="op">)</span></span></code></pre></div>
-<p>If you only need a few of the packages, you may choose to install them individually instead of the entire collection.</p>
+<p>If you only need a few of the packages, you may choose to install
+them individually instead of the entire collection.</p>
 <hr>
 </div>
 <div class="section level2">
 <h2 id="a-quick-tour">A quick tour<a class="anchor" aria-label="anchor" href="#a-quick-tour"></a>
 </h2>
-<p>The aim of this vignette is to illustrate a few of the possibilities of the <strong>ped suite</strong> packages. It should be noted that we are barely scratching the surface here; in particular several packages are not even mentioned. For a more comprehensive overview, I recommend the <a href="https://magnusdv.github.io/pedsuite/articles/web_only/publications.html#book">book</a>.</p>
-<p>To get started we load the <strong>pedsuite</strong> package, which is a convenient shortcut for loading all the <a href="https://magnusdv.github.io/pedsuite/#core-packages">core packages</a>, making their methods available in the current R session.</p>
+<p>The aim of this vignette is to illustrate a few of the possibilities
+of the <strong>ped suite</strong> packages. It should be noted that we
+are barely scratching the surface here; in particular several packages
+are not even mentioned. For a more comprehensive overview, I recommend
+the <a href="https://magnusdv.github.io/pedsuite/articles/web_only/publications.html#book">book</a>.</p>
+<p>To get started we load the <strong>pedsuite</strong> package, which
+is a convenient shortcut for loading all the <a href="https://magnusdv.github.io/pedsuite/#core-packages">core
+packages</a>, making their methods available in the current R
+session.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://magnusdv.github.io/pedsuite/">pedsuite</a></span><span class="op">)</span></span>
 <span><span class="co">#&gt; Loading required package: forrel</span></span>
@@ -131,12 +130,15 @@
 <div class="section level3">
 <h3 id="create-a-pedigree-pedtools">1. Create a pedigree (<strong>pedtools</strong>)<a class="anchor" aria-label="anchor" href="#create-a-pedigree-pedtools"></a>
 </h3>
-<p>We begin by creating and plotting a pedigree with a child of first cousins:</p>
+<p>We begin by creating and plotting a pedigree with a child of first
+cousins:</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">x</span> <span class="op">=</span> <span class="fu"><a href="https://magnusdv.github.io/pedsuite/reference/ped_basic.html">cousinPed</a></span><span class="op">(</span><span class="fl">1</span>, child <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span></span></code></pre></div>
 <p><img src="pedsuite_files/figure-html/fc-ped1-1.png" width="40%" style="display: block; margin: auto;"></p>
-<p>For symmetry let us change the sex of individual 3. We also highlight the child by hatching his symbol, and we only include his ID label in the plot.</p>
+<p>For symmetry let us change the sex of individual 3. We also highlight
+the child by hatching his symbol, and we only include his ID label in
+the plot.</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">x</span> <span class="op">=</span> <span class="fu"><a href="https://magnusdv.github.io/pedsuite/reference/getSex.html">swapSex</a></span><span class="op">(</span><span class="va">x</span>, ids <span class="op">=</span> <span class="fl">3</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Changing sex of spouses as well: 4</span></span>
@@ -147,21 +149,35 @@
 <div class="section level3">
 <h3 id="calculate-the-inbreeding-coefficient-ribd">2. Calculate the inbreeding coefficient (<strong>ribd</strong>)<a class="anchor" aria-label="anchor" href="#calculate-the-inbreeding-coefficient-ribd"></a>
 </h3>
-<p>The inbreeding coefficient <span class="math inline">\(f\)</span> of a pedigree member is defined as the probability of <em>autozygosity</em> at a random autosomal locus. That is, the probability that the two homologous alleles have the same origin within the pedigree.</p>
-<p>For a child of first cousins one can work out by pen and paper that <span class="math inline">\(f = 1/16\)</span>. Alternatively, we can calculate it with the <strong>ribd</strong> function <code><a href="https://magnusdv.github.io/pedsuite/reference/inbreeding.html">inbreeding()</a></code>.</p>
+<p>The inbreeding coefficient <span class="math inline">\(f\)</span> of
+a pedigree member is defined as the probability of <em>autozygosity</em>
+at a random autosomal locus. That is, the probability that the two
+homologous alleles have the same origin within the pedigree.</p>
+<p>For a child of first cousins one can work out by pen and paper that
+<span class="math inline">\(f = 1/16\)</span>. Alternatively, we can
+calculate it with the <strong>ribd</strong> function
+<code><a href="https://magnusdv.github.io/pedsuite/reference/inbreeding.html">inbreeding()</a></code>.</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://magnusdv.github.io/pedsuite/reference/inbreeding.html">inbreeding</a></span><span class="op">(</span><span class="va">x</span>, ids <span class="op">=</span> <span class="fl">9</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] 0.0625</span></span></code></pre></div>
-<p>The output agrees with <span class="math inline">\(f = 1/16\)</span>.</p>
+<p>The output agrees with <span class="math inline">\(f =
+1/16\)</span>.</p>
 </div>
 <div class="section level3">
 <h3 id="realised-inbreeding-ibdsim2">3. Realised inbreeding (<strong>ibdsim2</strong>)<a class="anchor" aria-label="anchor" href="#realised-inbreeding-ibdsim2"></a>
 </h3>
-<p>For any particular child of first cousins, the actual autozygous fraction of the genome (except X &amp; Y) is called the coefficient of <em>realised inbreeding</em>, denoted <span class="math inline">\(f_R\)</span>. This may deviate substantially from the pedigree-based expectation <span class="math inline">\(f = 1/16\)</span>.</p>
-<p>We can simulate the distribution of <span class="math inline">\(f_R\)</span> with the <strong>ibdsim2</strong> package. Since this is not a core package we must load it separately.</p>
+<p>For any particular child of first cousins, the actual autozygous
+fraction of the genome (except X &amp; Y) is called the coefficient of
+<em>realised inbreeding</em>, denoted <span class="math inline">\(f_R\)</span>. This may deviate substantially from
+the pedigree-based expectation <span class="math inline">\(f =
+1/16\)</span>.</p>
+<p>We can simulate the distribution of <span class="math inline">\(f_R\)</span> with the <strong>ibdsim2</strong>
+package. Since this is not a core package we must load it
+separately.</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/magnusdv/ibdsim2" class="external-link">ibdsim2</a></span><span class="op">)</span></span></code></pre></div>
-<p>First, we use the function <code><a href="https://magnusdv.github.io/pedsuite/reference/ibdsim.html">ibdsim()</a></code> to simulate the recombination process in the entire pedigree, 200 times:</p>
+<p>First, we use the function <code><a href="https://magnusdv.github.io/pedsuite/reference/ibdsim.html">ibdsim()</a></code> to simulate the
+recombination process in the entire pedigree, 200 times:</p>
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">sims</span> <span class="op">=</span> <span class="fu"><a href="https://magnusdv.github.io/pedsuite/reference/ibdsim.html">ibdsim</a></span><span class="op">(</span><span class="va">x</span>, N <span class="op">=</span> <span class="fl">200</span>, seed <span class="op">=</span> <span class="fl">123</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Simulation parameters:</span></span>
@@ -173,11 +189,12 @@
 <span><span class="co">#&gt; Recomb model : chi</span></span>
 <span><span class="co">#&gt; Target indivs: 1-9</span></span>
 <span><span class="co">#&gt; Skip recomb  : -</span></span>
-<span><span class="co">#&gt; Total time used: 11.3 secs</span></span></code></pre></div>
+<span><span class="co">#&gt; Total time used: 6.31 secs</span></span></code></pre></div>
 <p>Now extract the autozygous segments of each simulation.</p>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">fr</span> <span class="op">=</span> <span class="fu"><a href="https://magnusdv.github.io/pedsuite/reference/realised.html">realisedInbreeding</a></span><span class="op">(</span><span class="va">sims</span>, id <span class="op">=</span> <span class="fl">9</span><span class="op">)</span></span></code></pre></div>
-<p>Here is a summary of the first 6 simulations, including the number of segments and various length statistics:</p>
+<p>Here is a summary of the first 6 simulations, including the number of
+segments and various length statistics:</p>
 <div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">fr</span><span class="op">$</span><span class="va">perSimulation</span><span class="op">)</span></span>
 <span><span class="co">#&gt;   nSeg  meanLen   totLen   maxLen    minLen      fReal</span></span>
@@ -187,20 +204,29 @@
 <span><span class="co">#&gt; 4    9 24.45525 220.0973 61.67048 0.9938968 0.07992111</span></span>
 <span><span class="co">#&gt; 5   20 15.68533 313.7066 53.35902 1.3336400 0.11391226</span></span>
 <span><span class="co">#&gt; 6   13 14.04913 182.6387 41.60738 0.1404723 0.06631925</span></span></code></pre></div>
-<p>And here is a histogram of the realised inbreeding coefficients (given in the right-most column above):</p>
+<p>And here is a histogram of the realised inbreeding coefficients
+(given in the right-most column above):</p>
 <div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/hist.html" class="external-link">hist</a></span><span class="op">(</span><span class="va">fr</span><span class="op">$</span><span class="va">perSimulation</span><span class="op">$</span><span class="va">fReal</span>, xlim <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">0</span>, <span class="fl">0.15</span><span class="op">)</span>, breaks <span class="op">=</span> <span class="fl">16</span>, xlab <span class="op">=</span> <span class="st">"f_R"</span>, main <span class="op">=</span> <span class="cn">NULL</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># Expected value</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/abline.html" class="external-link">abline</a></span><span class="op">(</span>v <span class="op">=</span> <span class="fl">1</span><span class="op">/</span><span class="fl">16</span>, col <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span></code></pre></div>
 <p><img src="pedsuite_files/figure-html/fr-hist-1.png" width="80%" style="display: block; margin: auto;"></p>
-<p>As we see, the distribution centres around the expectation <span class="math inline">\(f = 1/16 = 0.0625\)</span> (red vertical line) but has substantial spread. The sample standard deviation can be found in <code>fr$stDev</code>, which in our case is 0.024.</p>
+<p>As we see, the distribution centres around the expectation <span class="math inline">\(f = 1/16 = 0.0625\)</span> (red vertical line) but
+has substantial spread. The sample standard deviation can be found in
+<code>fr$stDev</code>, which in our case is 0.024.</p>
 </div>
 <div class="section level3">
 <h3 id="marker-simulation-forrel">4. Marker simulation (<strong>forrel</strong>)<a class="anchor" aria-label="anchor" href="#marker-simulation-forrel"></a>
 </h3>
-<p>Note that everything we have done so far has been purely theoretical, with no markers involved. In medical and forensic applications we usually work with genetic data in the form of marker genotypes, so let us simulate such a dataset for our family.</p>
-<p>The <code><a href="https://rdrr.io/pkg/forrel/man/markerSim.html" class="external-link">markerSim()</a></code> function of the <strong>forrel</strong> package simulates the genotypes of pedigree members for a specific type of markers. For instance, here we produce 500 SNPs with alleles <code>A</code> and <code>B</code> (equally frequent, by default):</p>
+<p>Note that everything we have done so far has been purely theoretical,
+with no markers involved. In medical and forensic applications we
+usually work with genetic data in the form of marker genotypes, so let
+us simulate such a dataset for our family.</p>
+<p>The <code><a href="https://rdrr.io/pkg/forrel/man/markerSim.html" class="external-link">markerSim()</a></code> function of the <strong>forrel</strong>
+package simulates the genotypes of pedigree members for a specific type
+of markers. For instance, here we produce 500 SNPs with alleles
+<code>A</code> and <code>B</code> (equally frequent, by default):</p>
 <div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">y</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/forrel/man/markerSim.html" class="external-link">markerSim</a></span><span class="op">(</span><span class="va">x</span>, N <span class="op">=</span> <span class="fl">500</span>, alleles <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"A"</span>, <span class="st">"B"</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Unconditional simulation of 500 autosomal markers.</span></span>
@@ -212,8 +238,9 @@
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Simulation finished.</span></span>
 <span><span class="co">#&gt; Calls to `likelihood()`: 0.</span></span>
-<span><span class="co">#&gt; Total time used: 0.02 seconds.</span></span></code></pre></div>
-<p>We can see the genotypes of the first few markers by printing <code>y</code> to the console.</p>
+<span><span class="co">#&gt; Total time used: 0.01 seconds.</span></span></code></pre></div>
+<p>We can see the genotypes of the first few markers by printing
+<code>y</code> to the console.</p>
 <div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">y</span></span>
 <span><span class="co">#&gt;  id fid mid sex &lt;1&gt; &lt;2&gt; &lt;3&gt; &lt;4&gt; &lt;5&gt;</span></span>
@@ -229,50 +256,55 @@
 <span><span class="co">#&gt; Only 5 (out of 500) markers are shown.</span></span></code></pre></div>
 </div>
 <div class="section level3">
-<h3 id="inference-of-pairwise-relationships-forrel">5. Inference of pairwise relationships (<strong>forrel</strong>)<a class="anchor" aria-label="anchor" href="#inference-of-pairwise-relationships-forrel"></a>
+<h3 id="inference-of-pairwise-relationships-forrel">5. Inference of pairwise relationships
+(<strong>forrel</strong>)<a class="anchor" aria-label="anchor" href="#inference-of-pairwise-relationships-forrel"></a>
 </h3>
-<p>If this was a real dataset, a natural quality control step would be to check correctness of the pedigree. One way to do this is to use the data to estimate each pairwise relationship, and compare the result with the pedigree. The function <code><a href="https://rdrr.io/pkg/forrel/man/checkPairwise.html" class="external-link">checkPairwise()</a></code> does all of this, and presents the result in a relationship triangle.</p>
+<p>If this was a real dataset, a natural quality control step would be
+to check correctness of the pedigree. One way to do this is to use the
+data to estimate each pairwise relationship, and compare the result with
+the pedigree. The function <code><a href="https://rdrr.io/pkg/forrel/man/checkPairwise.html" class="external-link">checkPairwise()</a></code> does all of
+this, and presents the result in a relationship triangle.</p>
 <div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/forrel/man/checkPairwise.html" class="external-link">checkPairwise</a></span><span class="op">(</span><span class="va">y</span>, plot <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Excluding inbred individuals: 9</span></span></code></pre></div>
 <p><img src="pedsuite_files/figure-html/check-pairwise-1.png" width="60%" style="display: block; margin: auto;"></p>
-<p>The plot shows that all pairwise estimates are near their expected location in the triangle. (The yellow symbols correspond to pairs involving the inbred child, which don’t have a well-defined position in the triangle.)</p>
+<p>The plot shows that all pairwise estimates are near their expected
+location in the triangle. (The yellow symbols correspond to pairs
+involving the inbred child, which don’t have a well-defined position in
+the triangle.)</p>
 <hr>
 </div>
 </div>
 <div class="section level2">
 <h2 id="where-to-go-from-here">Where to go from here<a class="anchor" aria-label="anchor" href="#where-to-go-from-here"></a>
 </h2>
-<p>If you enjoyed this quick tour and would like more details, you should check out the GitHub README files of the packages that interest you.</p>
-<p>There is also the <a href="https://cran.r-project.org/package=pedtools/vignettes/pedtools.html" class="external-link">pedtools vignette</a>, with a lot more details on how to create and plot pedigrees in R.</p>
+<p>If you enjoyed this quick tour and would like more details, you
+should check out the GitHub README files of the packages that interest
+you.</p>
+<p>There is also the <a href="https://cran.r-project.org/package=pedtools/vignettes/pedtools.html" class="external-link">pedtools
+vignette</a>, with a lot more details on how to create and plot
+pedigrees in R.</p>
 </div>
-  </div>
-
-  <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
-
-        <nav id="toc" data-toggle="toc"><h2 data-toc-skip>Contents</h2>
-    </nav>
-</div>
-
+  </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
+    </nav></aside>
 </div>
 
 
 
-      <footer><div class="copyright">
+    <footer><div class="pkgdown-footer-left">
   <p></p>
 <p>Created by Magnus Dehli Vigeland.</p>
 </div>
 
-<div class="pkgdown">
+<div class="pkgdown-footer-right">
   <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.6.9000.</p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.7.</p>
 </div>
 
-      </footer>
+    </footer>
 </div>
 
   
-
 
   
 

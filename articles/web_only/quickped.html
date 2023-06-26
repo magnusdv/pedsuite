@@ -4,14 +4,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="pedsuite">
 <title>QuickPed - a free online pedigree creator • pedsuite</title>
-<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="../../bootstrap-toc.css">
-<script src="../../bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
+<script src="../../deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="../../deps/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet">
+<script src="../../deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
-<!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="../../pkgdown.css" rel="stylesheet">
-<script src="../../pkgdown.js"></script><meta property="og:title" content="QuickPed - a free online pedigree creator">
+<!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../../pkgdown.js"></script><meta property="og:title" content="QuickPed - a free online pedigree creator">
 <meta property="og:description" content="pedsuite">
 <meta name="google-site-verification" content="0EyxedeIXm4ThmZacSrfJ7L0z17Ulx0UKdK2Yo7p3wk">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
@@ -19,86 +19,75 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body data-spy="scroll" data-target="#toc">
+<body>
+    <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
     
 
-    <div class="container template-article">
-      <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <span class="navbar-brand">
-        <a class="navbar-link" href="../../index.html">pedsuite</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">1.1.0.9000</span>
-      </span>
-    </div>
+    <nav class="navbar fixed-top navbar-light navbar-expand-lg bg-light"><div class="container">
+    
+    <a class="navbar-brand me-2" href="../../index.html">pedsuite</a>
 
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-<li>
-  <a href="../../articles/pedsuite.html">Get started</a>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.2.0</small>
+
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navbar" class="collapse navbar-collapse ms-3">
+      <ul class="navbar-nav me-auto">
+<li class="nav-item">
+  <a class="nav-link" href="../../articles/pedsuite.html">Get started</a>
 </li>
-<li>
-  <a href="../../articles/web_only/publications.html">Publications</a>
+<li class="nav-item">
+  <a class="nav-link" href="../../articles/web_only/publications.html">Publications</a>
 </li>
-<li>
-  <a href="../../articles/web_only/quickped.html">QuickPed</a>
+<li class="active nav-item">
+  <a class="nav-link" href="../../articles/web_only/quickped.html">QuickPed</a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Courses
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-<li>
-      <a href="../../articles/web_only/courses.html">Overview</a>
-    </li>
-    <li class="divider">
-    </li>
-<li>
-      <a href="../../articles/web_only/course-norbis2022.html">NORBIS 2022</a>
-    </li>
-  </ul>
-</li>
-      </ul>
-<ul class="nav navbar-nav navbar-right">
-<li>
-  <a href="https://github.com/magnusdv/pedsuite/" class="external-link">
-    <span class="fab fa-github fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://twitter.com/mdvigeland" class="external-link">
-    <span class="fab fa-twitter fa-lg"></span>
-     
-  </a>
-</li>
-      </ul>
-</div>
-<!--/.nav-collapse -->
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-courses">Courses</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-courses">
+    <a class="dropdown-item" href="../../articles/web_only/courses.html">Overview</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="../../articles/web_only/course-norbis2022.html">NORBIS 2022</a>
   </div>
-<!--/.container -->
+</li>
+      </ul>
+<form class="form-inline my-2 my-lg-0" role="search">
+        <input type="search" class="form-control me-sm-2" aria-label="Toggle navigation" name="search-input" data-search-index="../../search.json" id="search-input" placeholder="Search for" autocomplete="off">
+</form>
+
+      <ul class="navbar-nav">
+<li class="nav-item">
+  <a class="external-link nav-link" href="https://github.com/magnusdv/pedsuite/" aria-label="github">
+    <span class="fab fa fab fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li class="nav-item">
+  <a class="external-link nav-link" href="https://twitter.com/mdvigeland" aria-label="twitter account">
+    <span class="fab fa fab fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
 </div>
-<!--/.navbar -->
 
-      
+    
+  </div>
+</nav><div class="container template-article">
 
-      </header><script src="quickped_files/accessible-code-block-0.0.1/empty-anchor.js"></script><div class="row">
-  <div class="col-md-9 contents">
-    <div class="page-header toc-ignore">
-      <h1 data-toc-skip>QuickPed - a free online pedigree creator</h1>
+
+
+
+<div class="row">
+  <main id="main" class="col-md-9"><div class="page-header">
+      <img src="" class="logo" alt=""><h1>QuickPed - a free online pedigree creator</h1>
             
       
       
-      <div class="hidden name"><code>quickped.Rmd</code></div>
-
+      <div class="d-none name"><code>quickped.Rmd</code></div>
     </div>
 
     
@@ -113,34 +102,80 @@
 <div class="section level2">
 <h2 id="what-is-quickped">What is QuickPed?<a class="anchor" aria-label="anchor" href="#what-is-quickped"></a>
 </h2>
-<p>QuickPed is an interactive web application for drawing and analysing pedigrees. A created pedigree may be saved as an image or as a text file in <em>ped format</em> (see <a href="#ped-files">below</a>). You may also obtain various information about the pedigree, including relatedness coefficients and verbal descriptions of relationships.</p>
-<p>QuickPed is powered by the <a href="https://magnusdv.github.io/pedsuite/">ped suite</a> and <a href="https://CRAN.R-project.org/package=kinship2" class="external-link">kinship2</a> for pedigree plotting. The web app was built with Shiny.</p>
+<p>QuickPed is an interactive web application for drawing and analysing
+pedigrees. A created pedigree may be saved as an image or as a text file
+in <em>ped format</em> (see <a href="#ped-files">below</a>). You may
+also obtain various information about the pedigree, including
+relatedness coefficients and verbal descriptions of relationships.</p>
+<p>QuickPed is powered by the <a href="https://magnusdv.github.io/pedsuite/">ped suite</a> and <a href="https://CRAN.R-project.org/package=kinship2" class="external-link">kinship2</a> for
+pedigree plotting. The web app was built with Shiny.</p>
 </div>
 <div class="section level2">
 <h2 id="drawing-pedigrees">Drawing pedigrees<a class="anchor" aria-label="anchor" href="#drawing-pedigrees"></a>
 </h2>
-<p>Creating pedigrees with QuickPed is very intuitive: Select a suitable start pedigree and modify it as needed. You may also load an existing ped file (see below). Modifications are done by clicking on one or several individuals and then applying appropriate buttons, for instance to add children, siblings or parents. At any time you may change attributes like sex, affection status, twin status and ID labels.</p>
+<p>Creating pedigrees with QuickPed is very intuitive: Select a suitable
+start pedigree and modify it as needed. You may also load an existing
+ped file (see below). Modifications are done by clicking on one or
+several individuals and then applying appropriate buttons, for instance
+to add children, siblings or parents. At any time you may change
+attributes like sex, affection status, twin status and ID labels.</p>
 <div class="section level3">
 <h3 id="tips-and-tricks">Tips and tricks<a class="anchor" aria-label="anchor" href="#tips-and-tricks"></a>
 </h3>
 <ul>
-<li><p><strong>Selecting individuals</strong>. Select/deselect pedigree members by clicking on them. Selected individuals are shown in red colour. Time-saving tip: To deselect everyone, click the “Selection” button under the “Remove” heading.</p></li>
-<li><p><strong>Automatic labelling</strong>. Automatic labelling of the pedigree members are available in two different formats. The button marked <code>1,2,..</code> applies numeric labels to all individuals, in the order of their appearance in the pedigree plot. Alternatively, the <code>I-1, I-2,..</code> button numbers the members generation-wise, using roman numerals to indicate the generation number.</p></li>
-<li><p><strong>Line breaks in labels</strong>. Double spaces are shown as line breaks in the plot labels. For instance, if you want “King Lear” to appear on two lines, modify the label to “King␣␣Lear”, i.e., with two spaces between the words.</p></li>
-<li><p><strong>Unknown sex</strong>. Double clicking on a pedigree member changes its symbol into a diamond, representing unknown sex. Double click again to revert. Note: Only pedigree <em>leaves</em> (members without children) may have unknown sex.</p></li>
-<li><p><strong>Plot settings</strong>. If the pedigree gets too large, increase the plot region using the control panel on the far right. Here you may also adjust the margins, the size of pedigree symbols and text labels.</p></li>
+<li><p><strong>Selecting individuals</strong>. Select/deselect pedigree
+members by clicking on them. Selected individuals are shown in red
+colour. Time-saving tip: To deselect everyone, click the “Selection”
+button under the “Remove” heading.</p></li>
+<li><p><strong>Automatic labelling</strong>. Automatic labelling of the
+pedigree members are available in two different formats. The button
+marked <code>1,2,..</code> applies numeric labels to all individuals, in
+the order of their appearance in the pedigree plot. Alternatively, the
+<code>I-1, I-2,..</code> button numbers the members generation-wise,
+using roman numerals to indicate the generation number.</p></li>
+<li><p><strong>Line breaks in labels</strong>. Double spaces are shown
+as line breaks in the plot labels. For instance, if you want “King Lear”
+to appear on two lines, modify the label to “King␣␣Lear”, i.e., with two
+spaces between the words.</p></li>
+<li><p><strong>Unknown sex</strong>. Double clicking on a pedigree
+member changes its symbol into a diamond, representing unknown sex.
+Double click again to revert. Note: Only pedigree <em>leaves</em>
+(members without children) may have unknown sex.</p></li>
+<li><p><strong>Plot settings</strong>. If the pedigree gets too large,
+increase the plot region using the control panel on the far right. Here
+you may also adjust the margins, the size of pedigree symbols and text
+labels.</p></li>
 </ul>
 </div>
 <div class="section level3">
 <h3 id="built-in-pedigrees">Built-in pedigrees<a class="anchor" aria-label="anchor" href="#built-in-pedigrees"></a>
 </h3>
-<p>In the left-most panel of QuickPed the user may choose among a selection of standard pedigrees, including trios, full/half siblings, avuncular and cousin pedigrees of different kinds. Also included are several interesting (albeit less common) pedigree structures like double cousins and quad half first cousins.</p>
+<p>In the left-most panel of QuickPed the user may choose among a
+selection of standard pedigrees, including trios, full/half siblings,
+avuncular and cousin pedigrees of different kinds. Also included are
+several interesting (albeit less common) pedigree structures like double
+cousins and quad half first cousins.</p>
 <p>Finally, the following historic pedigrees are available:</p>
 <ul>
-<li><p><strong>Habsburg</strong>: A subset of the infamously inbred family tree of the Habsburg royalties. The inbreeding coefficient of King Charles II of Spain (1661-1700) was approximately 0.25, i.e., equivalent to that of a child produced by full siblings. Pedigree adapted from <a href="https://en.wikipedia.org/wiki/Habsburg_family_tree" class="external-link">Wikipedia</a>. See also <a href="https://doi.org/10.1371/journal.pone.0005174" class="external-link">The Role of Inbreeding in the Extinction of a European Royal Dynasty</a>.</p></li>
-<li><p><strong>Jicaque</strong>: A pedigree of Jicaque Indians originally studied by Chapman &amp; Jacquard (1971) and subsequently used in many papers on relatedness and pedigree coefficients.</p></li>
-<li><p><strong>Queen Victoria (haemophilia)</strong>: The royal family tree descending from Queen Victoria, showing the X-linked inheritance of <em>haemophilia</em>. Adapted from Figure S1 of <a href="https://doi.org/10.1126/science.1180660" class="external-link">Genotype Analysis Identifies the Cause of the “Royal Disease”</a>.</p></li>
-<li><p><strong>Tutankhamun</strong>: The family tree of the Egyptian pharao Tutankhamun, as inferred from genetic evidence presented by Hawass et al. (2010), <a href="https://doi.org/10.1001/jama.2010.121" class="external-link">Ancestry and Pathology in King Tutankhamun’s Family</a>.</p></li>
+<li><p><strong>Habsburg</strong>: A subset of the infamously inbred
+family tree of the Habsburg royalties. The inbreeding coefficient of
+King Charles II of Spain (1661-1700) was approximately 0.25, i.e.,
+equivalent to that of a child produced by full siblings. Pedigree
+adapted from <a href="https://en.wikipedia.org/wiki/Habsburg_family_tree" class="external-link">Wikipedia</a>.
+See also <a href="https://doi.org/10.1371/journal.pone.0005174" class="external-link">The Role
+of Inbreeding in the Extinction of a European Royal
+Dynasty</a>.</p></li>
+<li><p><strong>Jicaque</strong>: A pedigree of Jicaque Indians
+originally studied by Chapman &amp; Jacquard (1971) and subsequently
+used in many papers on relatedness and pedigree coefficients.</p></li>
+<li><p><strong>Queen Victoria (haemophilia)</strong>: The royal family
+tree descending from Queen Victoria, showing the X-linked inheritance of
+<em>haemophilia</em>. Adapted from Figure S1 of <a href="https://doi.org/10.1126/science.1180660" class="external-link">Genotype Analysis
+Identifies the Cause of the “Royal Disease”</a>.</p></li>
+<li><p><strong>Tutankhamun</strong>: The family tree of the Egyptian
+pharao Tutankhamun, as inferred from genetic evidence presented by
+Hawass et al. (2010), <a href="https://doi.org/10.1001/jama.2010.121" class="external-link">Ancestry and Pathology in
+King Tutankhamun’s Family</a>.</p></li>
 </ul>
 </div>
 </div>
@@ -150,73 +185,138 @@
 <div class="section level3">
 <h3 id="analysis-overview">Analysis overview<a class="anchor" aria-label="anchor" href="#analysis-overview"></a>
 </h3>
-<p>Under <code>Relationships</code> there are four buttons offering different analyses of relationships within the loaded pedigree. The buttons are, in order:</p>
+<p>Under <code>Relationships</code> there are four buttons offering
+different analyses of relationships within the loaded pedigree. The
+buttons are, in order:</p>
 <ul>
-<li><p><strong>Describe relationship</strong>. Prints a standardised description of the relationship between two selected individuals. The text is generated by <a href="https://github.com/magnusdv/verbalisr" class="external-link">verbalisr</a>.</p></li>
+<li><p><strong>Describe relationship</strong>. Prints a standardised
+description of the relationship between two selected individuals. The
+text is generated by <a href="https://github.com/magnusdv/verbalisr" class="external-link">verbalisr</a>.</p></li>
 <li>
-<p><strong>Calculate coefficients</strong>. Prints the most important relatedness coefficients between two selected individuals:</p>
+<p><strong>Calculate coefficients</strong>. Prints the most
+important relatedness coefficients between two selected individuals:</p>
 <ul>
 <li>The inbreeding coefficient of each individual.</li>
 <li>The kinship coefficient <span class="math inline">\(\varphi\)</span>.</li>
 <li>The degree of relationship.</li>
-<li>The IBD coefficients <span class="math inline">\(\kappa = (\kappa_0, \kappa_1, \kappa_2)\)</span>, if both individuals are non-inbred.</li>
-<li>The condensed identity coefficients <span class="math inline">\(\Delta = (\Delta_1, ..., \Delta_9)\)</span>, if either individual is inbred.</li>
+<li>The IBD coefficients <span class="math inline">\(\kappa = (\kappa_0,
+\kappa_1, \kappa_2)\)</span>, if both individuals are non-inbred.</li>
+<li>The condensed identity coefficients <span class="math inline">\(\Delta = (\Delta_1, ..., \Delta_9)\)</span>, if
+either individual is inbred.</li>
 </ul>
 </li>
-<li><p><strong>Relatedness triangle</strong>. Produces a plot representing the IBD coefficients <span class="math inline">\(\kappa\)</span> as a point in a <em>relatedness triangle</em>. Requires two noninbred individuals to be selected.</p></li>
-<li><p><strong>Table of coefficients</strong>. Activates a popup window where the user can choose among a variety of coefficients, including detailed identity and X-chromosomal coefficients, to be computed for each pair of pedigree members. Generates a tab-separated file for download.</p></li>
+<li><p><strong>Relatedness triangle</strong>. Produces a plot
+representing the IBD coefficients <span class="math inline">\(\kappa\)</span> as a point in a <em>relatedness
+triangle</em>. Requires two noninbred individuals to be
+selected.</p></li>
+<li><p><strong>Table of coefficients</strong>. Activates a popup window
+where the user can choose among a variety of coefficients, including
+detailed identity and X-chromosomal coefficients, to be computed for
+each pair of pedigree members. Generates a tab-separated file for
+download.</p></li>
 </ul>
 </div>
 <div class="section level3">
 <h3 id="coefficients-of-relatedness">Coefficients of relatedness<a class="anchor" aria-label="anchor" href="#coefficients-of-relatedness"></a>
 </h3>
-<p>QuickPed calculates a variety of different relatedness coefficients, which we briefly review here for convenience. For more details we recommend e.g. Thompson’s book <em>Statistical Inference from Genetic Data on Pedigrees</em> or Lange’s book <em>Mathematical and Statistical Methods for Genetic Analysis</em>.</p>
+<p>QuickPed calculates a variety of different relatedness coefficients,
+which we briefly review here for convenience. For more details we
+recommend e.g. Thompson’s book <em>Statistical Inference from Genetic
+Data on Pedigrees</em> or Lange’s book <em>Mathematical and Statistical
+Methods for Genetic Analysis</em>.</p>
 <p>For a given pedigree with members <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> we define the following:</p>
 <ul>
-<li>The inbreeding coefficient <span class="math inline">\(f\)</span> of individual <span class="math inline">\(A\)</span> is the kinship coefficient (see below) of the parents of <span class="math inline">\(A\)</span>, or 0 if <span class="math inline">\(A\)</span> is a founder of the pedigree.</li>
-<li>The kinship coefficient <span class="math inline">\(\varphi\)</span> between <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> is the probability that a random allele from <span class="math inline">\(A\)</span> and a random allele from <span class="math inline">\(B\)</span> at the same locus, are <em>identical by descent</em> (IBD), i.e., that they have the same ancestral origin within the pedigree.</li>
-<li>The IBD coefficients <span class="math inline">\(\kappa = (\kappa_0, \kappa_1, \kappa_2)\)</span> between <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>, are the probabilities of sharing respectively 0, 1, or 2 alleles IBD at a random locus. Defined for noninbred individuals only.</li>
-<li>The <em>condensed identity coefficients</em> <span class="math inline">\(\Delta = (\Delta_1, \dots, \Delta_9)\)</span> between <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>, are the expected relative frequencies of the 9 condensed IBD states (see below) of the four homologue alleles at an autosomal locus.</li>
-<li>The <em>detailed identity coefficients</em> <span class="math inline">\(\delta = (\delta_1, \dots, \delta_{15})\)</span> are the expected relative frequencies of the 15 detailed IBD states (see below).</li>
+<li>The inbreeding coefficient <span class="math inline">\(f\)</span> of
+individual <span class="math inline">\(A\)</span> is the kinship
+coefficient (see below) of the parents of <span class="math inline">\(A\)</span>, or 0 if <span class="math inline">\(A\)</span> is a founder of the pedigree.</li>
+<li>The kinship coefficient <span class="math inline">\(\varphi\)</span>
+between <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> is the probability that a random allele
+from <span class="math inline">\(A\)</span> and a random allele from
+<span class="math inline">\(B\)</span> at the same locus, are
+<em>identical by descent</em> (IBD), i.e., that they have the same
+ancestral origin within the pedigree.</li>
+<li>The IBD coefficients <span class="math inline">\(\kappa = (\kappa_0,
+\kappa_1, \kappa_2)\)</span> between <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>, are the probabilities of sharing
+respectively 0, 1, or 2 alleles IBD at a random locus. Defined for
+noninbred individuals only.</li>
+<li>The <em>condensed identity coefficients</em> <span class="math inline">\(\Delta = (\Delta_1, \dots, \Delta_9)\)</span>
+between <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>, are the expected relative frequencies
+of the 9 condensed IBD states (see below) of the four homologue alleles
+at an autosomal locus.</li>
+<li>The <em>detailed identity coefficients</em> <span class="math inline">\(\delta = (\delta_1, \dots, \delta_{15})\)</span>
+are the expected relative frequencies of the 15 detailed IBD states (see
+below).</li>
 </ul>
 </div>
 <div class="section level3">
 <h3 id="a-brief-recap-of-identity-states">A brief recap of identity states<a class="anchor" aria-label="anchor" href="#a-brief-recap-of-identity-states"></a>
 </h3>
-<p>Following Jacquard (1974) and subsequent authors, the 4 alleles carried by individuals <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> at an autosomal locus, can be drawn as dots in a square diagram:</p>
+<p>Following Jacquard (1974) and subsequent authors, the 4 alleles
+carried by individuals <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> at an autosomal locus, can be drawn as
+dots in a square diagram:</p>
 <p><img src="jacquardSquare.png" width="40%" style="display: block; margin: auto;"></p>
-<p>An <em>identity state</em> is a pattern of IBD between the alleles, represented by line segments connecting the alleles.</p>
+<p>An <em>identity state</em> is a pattern of IBD between the alleles,
+represented by line segments connecting the alleles.</p>
 <div class="section level4">
 <h4 id="detailed-states">Detailed states<a class="anchor" aria-label="anchor" href="#detailed-states"></a>
 </h4>
-<p>In total there are 15 possible patterns of IBD between 4 alleles. These are called the <em>detailed identity states</em>, and are shown below in the order used by QuickPed.</p>
+<p>In total there are 15 possible patterns of IBD between 4 alleles.
+These are called the <em>detailed identity states</em>, and are shown
+below in the order used by QuickPed.</p>
 <p><img src="identity-states-detailed.png" width="100%" style="display: block; margin: auto;"></p>
 </div>
 <div class="section level4">
 <h4 id="condensed-states">Condensed states<a class="anchor" aria-label="anchor" href="#condensed-states"></a>
 </h4>
-<p>In most applications the paternal/maternal origin of alleles does not matter. The 15 detailed states are then reduced to 9, known as the <em>condensed identity states</em>:</p>
+<p>In most applications the paternal/maternal origin of alleles does not
+matter. The 15 detailed states are then reduced to 9, known as the
+<em>condensed identity states</em>:</p>
 <p><img src="identity-states-condensed.png" width="100%" style="display: block; margin: auto;"></p>
 </div>
 </div>
 <div class="section level3">
 <h3 id="x-chromosomal-identity-coefficients">X-chromosomal identity coefficients<a class="anchor" aria-label="anchor" href="#x-chromosomal-identity-coefficients"></a>
 </h3>
-<p>X-chromosomal identity states and their coefficients are less studied than the autosomal ones, and there are fewer conventions regarding their order and how to draw them. The presentation here does not claim superiority over others; its main purpose is to act as a reference for understanding the output of QuickPed.</p>
-<p>As in the autosomal case, the identity coefficients on X are the expected proportions of the possible IBD states involving the alleles at a random locus (on X). The challenge is that the set of states depends on the sex of the two individuals: F/F, F/M, M/F or M/M (where F = female and M = male).</p>
-<p>Males are <em>hemizygous</em> on X, with only one allele at each locus (except in a few so-called <em>pseudo-autosomal regions</em>, which we ignore here). Hence, for pairs of individuals including a male, the total number of alleles is less than 4. However, to avoid having to memorise new states for each sex combination, we may re-use the autosomal pictograms by invoking a simple rule: Given an X-chromosomal identity state, <strong>replace any hemizygous allele with a pair of autozygous alleles</strong>. This rule guides the following table, which shows how to interpret the condensed X-chromosomal coefficients returned by QuickPed. The first row, corresponding to two females, is identical to the autosomal case.</p>
+<p>X-chromosomal identity states and their coefficients are less studied
+than the autosomal ones, and there are fewer conventions regarding their
+order and how to draw them. The presentation here does not claim
+superiority over others; its main purpose is to act as a reference for
+understanding the output of QuickPed.</p>
+<p>As in the autosomal case, the identity coefficients on X are the
+expected proportions of the possible IBD states involving the alleles at
+a random locus (on X). The challenge is that the set of states depends
+on the sex of the two individuals: F/F, F/M, M/F or M/M (where F =
+female and M = male).</p>
+<p>Males are <em>hemizygous</em> on X, with only one allele at each
+locus (except in a few so-called <em>pseudo-autosomal regions</em>,
+which we ignore here). Hence, for pairs of individuals including a male,
+the total number of alleles is less than 4. However, to avoid having to
+memorise new states for each sex combination, we may re-use the
+autosomal pictograms by invoking a simple rule: Given an X-chromosomal
+identity state, <strong>replace any hemizygous allele with a pair of
+autozygous alleles</strong>. This rule guides the following table, which
+shows how to interpret the condensed X-chromosomal coefficients returned
+by QuickPed. The first row, corresponding to two females, is identical
+to the autosomal case.</p>
 <p><img src="identity-states-condensed-X.png" width="100%" style="display: block; margin: auto;"></p>
-<p>In a similar fashion, the states corresponding to the <em>detailed</em> X-chromosomal coefficients, are as follows:</p>
+<p>In a similar fashion, the states corresponding to the
+<em>detailed</em> X-chromosomal coefficients, are as follows:</p>
 <p><img src="identity-states-detailed-X.png" width="100%" style="display: block; margin: auto;"></p>
-<p>Note that for hemizygous males, the single allele is drawn on the right side, since it is maternally inherited. It should also be noted that QuickPed always outputs the same number of coefficients (9 condensed; 15 detailed), regardless of sex, but with NA’s in all positions corresponding to undefined states.</p>
+<p>Note that for hemizygous males, the single allele is drawn on the
+right side, since it is maternally inherited. It should also be noted
+that QuickPed always outputs the same number of coefficients (9
+condensed; 15 detailed), regardless of sex, but with NA’s in all
+positions corresponding to undefined states.</p>
 </div>
 </div>
 <div class="section level2">
 <h2 id="ped-files">Ped files<a class="anchor" aria-label="anchor" href="#ped-files"></a>
 </h2>
-<p>A useful feature of QuickPed is to produce text files describing pedigrees in so-called <em>ped format</em>. Such files are often required by software for pedigree analysis.</p>
+<p>A useful feature of QuickPed is to produce text files describing
+pedigrees in so-called <em>ped format</em>. Such files are often
+required by software for pedigree analysis.</p>
 <p>For a simple illustration, consider this pedigree:</p>
-<p><img src="quickped_files/figure-html/trio-ped-1.png" width="25%" style="display: block; margin: auto;"></p>
+<p><img src="quickped_files/figure-html/trio-ped-1.png" width="30%" style="display: block; margin: auto;"></p>
 <p>A text file describing this pedigree may contain the following.</p>
 <pre><code> id fid mid sex aff
   1   0   0   1   1
@@ -227,44 +327,48 @@
 <li>
 <code>id</code>: Individual ID</li>
 <li>
-<code>fid</code>: Father’s ID (or 0 if not included in the pedigree)</li>
+<code>fid</code>: Father’s ID (or 0 if not included in the
+pedigree)</li>
 <li>
-<code>mid</code>: Mother’s ID (or 0 if not inlcuded in the pedigree)</li>
+<code>mid</code>: Mother’s ID (or 0 if not inlcuded in the
+pedigree)</li>
 <li>
 <code>sex</code>: Sex (1 = male; 2 = female; 0 = unknown)</li>
 <li>
-<code>aff</code>: Affection status (1 = unaffected; 2 = affected; 0 = unknown)</li>
+<code>aff</code>: Affection status (1 = unaffected; 2 = affected; 0
+= unknown)</li>
 </ul>
-<p>It should be noted that the ped format is not completely standardised, and different software may use slightly different versions. For example, a first column with <em>Family ID</em> is sometimes required. Also, the <code>aff</code> column may not be needed in non-medical applications. These and other details may be specified when using QuickPed.</p>
-<p>Some pedigree information may be shown on the plot, but is <em>not</em> stored in the ped file. In the current version of QuickPed, this includes twin relationships, carrier status and deceased status.</p>
+<p>It should be noted that the ped format is not completely
+standardised, and different software may use slightly different
+versions. For example, a first column with <em>Family ID</em> is
+sometimes required. Also, the <code>aff</code> column may not be needed
+in non-medical applications. These and other details may be specified
+when using QuickPed.</p>
+<p>Some pedigree information may be shown on the plot, but is
+<em>not</em> stored in the ped file. In the current version of QuickPed,
+this includes twin relationships, carrier status and deceased
+status.</p>
 </div>
-  </div>
-
-  <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
-
-        <nav id="toc" data-toggle="toc"><h2 data-toc-skip>Contents</h2>
-    </nav>
-</div>
-
+  </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
+    </nav></aside>
 </div>
 
 
 
-      <footer><div class="copyright">
+    <footer><div class="pkgdown-footer-left">
   <p></p>
 <p>Created by Magnus Dehli Vigeland.</p>
 </div>
 
-<div class="pkgdown">
+<div class="pkgdown-footer-right">
   <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.6.9000.</p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.7.</p>
 </div>
 
-      </footer>
+    </footer>
 </div>
 
   
-
 
   
 
