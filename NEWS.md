@@ -3,7 +3,7 @@
 * Update Github Actions workflow
 * Update pkgdown stuff
 * Various minor improvements
-
+* Add citation info
 
 
 # pedsuite 1.1.0
