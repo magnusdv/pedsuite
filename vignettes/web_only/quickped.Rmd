@@ -10,6 +10,7 @@ vignette: >
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, 
                       fig.align = "center",
+                      dpi = 300,
                       collapse = TRUE,
                       comment = "#>")
 ```
@@ -138,10 +139,10 @@ A useful feature of QuickPed is to produce text files describing pedigrees in so
 
 For a simple illustration, consider this pedigree:
 
-```{r trio-ped, echo = F, fig.height = 1.8, fig.width = 2.2, out.width = "25%", fig.align = "center"}
+```{r trio-ped, echo = F, fig.height = 2, fig.width = 2.2, out.width = "30%"}
 df = data.frame(id = 1:3, fid = c(0,0,1), mid = c(0,0,2), sex = c(1,2,2), aff = c(1,1,2))
 x = pedtools::as.ped(df[1:4])
-plot(x, aff = which(df$aff == 2), margins = c(1,1,1,1))
+plot(x, aff = which(df$aff == 2), margins = 0.5)
 ```
 
 A text file describing this pedigree may contain the following.
