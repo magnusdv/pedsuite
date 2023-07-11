@@ -1,9 +1,8 @@
 bibentry(
   bibtype  = "Book",
-  title    = "Pedigree Analysis in R",
-  author   = person("Magnus Dehli", "Vigeland"),
-  year     = 2021,
+  title    = "Pedigree Analysis in {R}",
+  author   = "Magnus Dehli Vigeland",
+  year     = "2021",
   publisher= "Academic Press",
-  isbn      = "978-0128244302",
-  doi       = "10.1016/c2020-0-01956-0"
+  isbn     = "978-0128244302",
 )
