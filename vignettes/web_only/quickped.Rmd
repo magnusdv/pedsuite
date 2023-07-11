@@ -15,6 +15,11 @@ knitr::opts_chunk$set(echo = FALSE,
                       comment = "#>")
 ```
 
+<!-- avoid border around images -->
+<style>
+    img {border: 0;}
+</style>
+
 ::: { .greeting .message style="color: red; font-size: large;"}
 **_Try QuickPed here_**: https://magnusdv.shinyapps.io/quickped.
 :::
@@ -28,7 +33,8 @@ knitr::opts_chunk$set(echo = FALSE,
 # What is QuickPed?
 QuickPed is an interactive web application for drawing and analysing pedigrees. A created pedigree may be saved as an image or as a text file in *ped format* (see [below](#ped-files)). You may also obtain various information about the pedigree, including relatedness coefficients and verbal descriptions of relationships.
 
-QuickPed is powered by the [ped suite](https://magnusdv.github.io/pedsuite/) and [kinship2](https://CRAN.R-project.org/package=kinship2) for pedigree plotting. The web app was built with Shiny.
+QuickPed is powered by the [pedsuite](https://magnusdv.github.io/pedsuite/) and uses [kinship2](https://CRAN.R-project.org/package=kinship2) for alignment calculations. 
+The web app was built with Shiny.
 
 
 # Drawing pedigrees
@@ -36,7 +42,16 @@ Creating pedigrees with QuickPed is very intuitive: Select a suitable start pedi
 
 ## Tips and tricks
 
-* __Selecting individuals__. Select/deselect pedigree members by clicking on them. Selected individuals are shown in red colour. Time-saving tip: To deselect everyone, click the "Selection" button under the "Remove" heading.
+* __Selecting individuals__. Select/deselect pedigree members by clicking on them. Selected individuals are shown in red colour. Time-saving tip: To deselect everyone, click the `Deselect` button under the "Remove" heading.
+
+* __Removing individuals__. When removing pedigree members you must decide whether you want to remove *downwards* or *upwards*. For example, in the pedigree below, if you want to end up with the trio 1-2-3, select 4 and/or 5 and delete downwards with `↓`. Conversely, if you want the trio 4-5-6, then select 1 and/or 2, and click `↑`. *Note: leftover founder-spouses are automatically removed.*
+    ```{r, echo = F, fig.height = 2.5, fig.width = 2.5, out.width = "32%"}
+    plot(pedtools::linearPed(2), margins = c(.2,1,1,1),
+         col = list(blue = 1:2, red = 4:5), 
+         textInside = c("1" = "↑", "2" = "↑", "4" = "↓", "5" = "↓"), 
+         lwd = list("2" = c(1,2,4,5)))
+    ```
+
 
 * __Automatic labelling__. Automatic labelling of the pedigree members are available in two different formats. The button marked `1,2,..` applies numeric labels to all individuals, in the order of their appearance in the pedigree plot. Alternatively, the `I-1, I-2,..` button numbers the members generation-wise, using roman numerals to indicate the generation number. 
 
@@ -47,7 +62,7 @@ Creating pedigrees with QuickPed is very intuitive: Select a suitable start pedi
 * __Plot settings__. If the pedigree gets too large, increase the plot region using the control panel on the far right. Here you may also adjust the margins, the size of pedigree symbols and text labels.
 
 ## Built-in pedigrees
-In the left-most panel of QuickPed the user may choose among a selection of standard pedigrees, including trios, full/half siblings, avuncular and cousin pedigrees of different kinds. Also included are several interesting (albeit less common) pedigree structures like double cousins and quad half first cousins. 
+In the left-most panel of QuickPed the user may choose among a selection of standard pedigrees, including trios, full/half siblings, avuncular and cousin pedigrees of different kinds. Also included are a variety of more complex pedigree structures like double cousins and quad half first cousins. 
 
 Finally, the following historic pedigrees are available:
 
@@ -57,11 +72,40 @@ Finally, the following historic pedigrees are available:
 
 * __Queen Victoria (haemophilia)__: The royal family tree descending from Queen Victoria, showing the X-linked inheritance of *haemophilia*. Adapted from Figure S1 of [Genotype Analysis Identifies the Cause of the “Royal Disease"](https://doi.org/10.1126/science.1180660).
 
-* __Tutankhamun__: The family tree of the Egyptian pharao Tutankhamun, as inferred from genetic evidence presented by Hawass et al. (2010), [Ancestry and Pathology in King Tutankhamun's Family](https://doi.org/10.1001/jama.2010.121).
+* __Tutankhamun__: The family tree of the Egyptian pharaoh Tutankhamun, as inferred from genetic evidence presented by Hawass et al. (2010), [Ancestry and Pathology in King Tutankhamun's Family](https://doi.org/10.1001/jama.2010.121).
 
+# Ped files
+A useful feature of QuickPed is to produce text files describing pedigrees in so-called *ped format*. Such files are often required by software for pedigree analysis.
+
+For a simple illustration, consider this pedigree:
+
+```{r trio-ped, echo = F, fig.height = 2, fig.width = 2.2, out.width = "30%"}
+df = data.frame(id = 1:3, fid = c(0,0,1), mid = c(0,0,2), sex = c(1,2,2), aff = c(1,1,2))
+x = pedtools::as.ped(df[1:4])
+plot(x, aff = which(df$aff == 2), margins = 0.5)
+```
+
+A text file describing this pedigree may contain the following.
+
+```{r, echo = F, comment = NA}
+print(df, row.names = F)
+```
+
+The columns are:
+
+* `id`: Individual ID
+* `fid`: Father's ID (or 0 if not included in the pedigree)
+* `mid`: Mother's ID (or 0 if not included in the pedigree)
+* `sex`: Sex (1 = male; 2 = female; 0 = unknown)
+* `aff`: Affection status (1 = unaffected; 2 = affected; 0 = unknown)
+
+It should be noted that the ped format is not completely standardised, and different software may use slightly different versions. For example, a first column with *Family ID* is sometimes required. Also, the `aff` column may not be needed in non-medical applications. These and other details may be specified when using QuickPed.
+
+Some pedigree information may be shown on the plot, but is *not* stored in the ped file. In the current version of QuickPed, this includes twin relationships, carrier status and deceased status.
+
+<br>
 
 # Relatedness
-
 ## Analysis overview
 Under `Relationships` there are four buttons offering different analyses of relationships within the loaded pedigree. The buttons are, in order:
 
@@ -132,33 +176,4 @@ In a similar fashion, the states corresponding to the *detailed* X-chromosomal c
 knitr::include_graphics("identity-states-detailed-X.png")
 ```
 
-Note that for hemizygous males, the single allele is drawn on the right side, since it is maternally inherited. It should also be noted that QuickPed always outputs the same number of coefficients (9 condensed; 15 detailed), regardless of sex, but with NA's in all positions corresponding to undefined states.
-
-# Ped files
-A useful feature of QuickPed is to produce text files describing pedigrees in so-called *ped format*. Such files are often required by software for pedigree analysis.
-
-For a simple illustration, consider this pedigree:
-
-```{r trio-ped, echo = F, fig.height = 2, fig.width = 2.2, out.width = "30%"}
-df = data.frame(id = 1:3, fid = c(0,0,1), mid = c(0,0,2), sex = c(1,2,2), aff = c(1,1,2))
-x = pedtools::as.ped(df[1:4])
-plot(x, aff = which(df$aff == 2), margins = 0.5)
-```
-
-A text file describing this pedigree may contain the following.
-
-```{r, echo = F, comment = NA}
-print(df, row.names = F)
-```
-
-The columns are:
-
-* `id`: Individual ID
-* `fid`: Father's ID (or 0 if not included in the pedigree)
-* `mid`: Mother's ID (or 0 if not inlcuded in the pedigree)
-* `sex`: Sex (1 = male; 2 = female; 0 = unknown)
-* `aff`: Affection status (1 = unaffected; 2 = affected; 0 = unknown)
-
-It should be noted that the ped format is not completely standardised, and different software may use slightly different versions. For example, a first column with *Family ID* is sometimes required. Also, the `aff` column may not be needed in non-medical applications. These and other details may be specified when using QuickPed.
-
-Some pedigree information may be shown on the plot, but is *not* stored in the ped file. In the current version of QuickPed, this includes twin relationships, carrier status and deceased status.
+Note that for hemizygous males, the single allele is drawn on the right side, since it is maternally inherited. It should also be noted that QuickPed always outputs the same number of coefficients (9 condensed; 15 detailed), regardless of sex, but with NAs in all positions corresponding to undefined states.
