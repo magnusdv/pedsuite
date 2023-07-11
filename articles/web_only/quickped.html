@@ -92,6 +92,10 @@
 
     
     
+<!-- avoid border around images -->
+<style>
+    img {border: 0;}
+</style>
 <div class="greeting message" style="color: red; font-size: large;">
 <p><strong><em>Try QuickPed here</em></strong>: <a href="https://magnusdv.shinyapps.io/quickped" class="external-link uri">https://magnusdv.shinyapps.io/quickped</a>.</p>
 </div>
@@ -107,8 +111,8 @@ pedigrees. A created pedigree may be saved as an image or as a text file
 in <em>ped format</em> (see <a href="#ped-files">below</a>). You may
 also obtain various information about the pedigree, including
 relatedness coefficients and verbal descriptions of relationships.</p>
-<p>QuickPed is powered by the <a href="https://magnusdv.github.io/pedsuite/">ped suite</a> and <a href="https://CRAN.R-project.org/package=kinship2" class="external-link">kinship2</a> for
-pedigree plotting. The web app was built with Shiny.</p>
+<p>QuickPed is powered by the <a href="https://magnusdv.github.io/pedsuite/">pedsuite</a> and uses <a href="https://CRAN.R-project.org/package=kinship2" class="external-link">kinship2</a> for
+alignment calculations. The web app was built with Shiny.</p>
 </div>
 <div class="section level2">
 <h2 id="drawing-pedigrees">Drawing pedigrees<a class="anchor" aria-label="anchor" href="#drawing-pedigrees"></a>
@@ -125,8 +129,16 @@ attributes like sex, affection status, twin status and ID labels.</p>
 <ul>
 <li><p><strong>Selecting individuals</strong>. Select/deselect pedigree
 members by clicking on them. Selected individuals are shown in red
-colour. Time-saving tip: To deselect everyone, click the “Selection”
-button under the “Remove” heading.</p></li>
+colour. Time-saving tip: To deselect everyone, click the
+<code>Deselect</code> button under the “Remove” heading.</p></li>
+<li><p><strong>Removing individuals</strong>. When removing pedigree
+members you must decide whether you want to remove <em>downwards</em> or
+<em>upwards</em>. For example, in the pedigree below, if you want to end
+up with the trio 1-2-3, select 4 and/or 5 and delete downwards with
+<code>↓</code>. Conversely, if you want the trio 4-5-6, then select 1
+and/or 2, and click <code>↑</code>. <em>Note: leftover founder-spouses
+are automatically removed.</em>
+<img src="quickped_files/figure-html/unnamed-chunk-1-1.png" width="32%" style="display: block; margin: auto;"></p></li>
 <li><p><strong>Automatic labelling</strong>. Automatic labelling of the
 pedigree members are available in two different formats. The button
 marked <code>1,2,..</code> applies numeric labels to all individuals, in
@@ -152,9 +164,9 @@ labels.</p></li>
 </h3>
 <p>In the left-most panel of QuickPed the user may choose among a
 selection of standard pedigrees, including trios, full/half siblings,
-avuncular and cousin pedigrees of different kinds. Also included are
-several interesting (albeit less common) pedigree structures like double
-cousins and quad half first cousins.</p>
+avuncular and cousin pedigrees of different kinds. Also included are a
+variety of more complex pedigree structures like double cousins and quad
+half first cousins.</p>
 <p>Finally, the following historic pedigrees are available:</p>
 <ul>
 <li><p><strong>Habsburg</strong>: A subset of the infamously inbred
@@ -173,11 +185,52 @@ tree descending from Queen Victoria, showing the X-linked inheritance of
 <em>haemophilia</em>. Adapted from Figure S1 of <a href="https://doi.org/10.1126/science.1180660" class="external-link">Genotype Analysis
 Identifies the Cause of the “Royal Disease”</a>.</p></li>
 <li><p><strong>Tutankhamun</strong>: The family tree of the Egyptian
-pharao Tutankhamun, as inferred from genetic evidence presented by
+pharaoh Tutankhamun, as inferred from genetic evidence presented by
 Hawass et al. (2010), <a href="https://doi.org/10.1001/jama.2010.121" class="external-link">Ancestry and Pathology in
 King Tutankhamun’s Family</a>.</p></li>
 </ul>
 </div>
+</div>
+<div class="section level2">
+<h2 id="ped-files">Ped files<a class="anchor" aria-label="anchor" href="#ped-files"></a>
+</h2>
+<p>A useful feature of QuickPed is to produce text files describing
+pedigrees in so-called <em>ped format</em>. Such files are often
+required by software for pedigree analysis.</p>
+<p>For a simple illustration, consider this pedigree:</p>
+<p><img src="quickped_files/figure-html/trio-ped-1.png" width="30%" style="display: block; margin: auto;"></p>
+<p>A text file describing this pedigree may contain the following.</p>
+<pre><code> id fid mid sex aff
+  1   0   0   1   1
+  2   0   0   2   1
+  3   1   2   2   2</code></pre>
+<p>The columns are:</p>
+<ul>
+<li>
+<code>id</code>: Individual ID</li>
+<li>
+<code>fid</code>: Father’s ID (or 0 if not included in the
+pedigree)</li>
+<li>
+<code>mid</code>: Mother’s ID (or 0 if not included in the
+pedigree)</li>
+<li>
+<code>sex</code>: Sex (1 = male; 2 = female; 0 = unknown)</li>
+<li>
+<code>aff</code>: Affection status (1 = unaffected; 2 = affected; 0
+= unknown)</li>
+</ul>
+<p>It should be noted that the ped format is not completely
+standardised, and different software may use slightly different
+versions. For example, a first column with <em>Family ID</em> is
+sometimes required. Also, the <code>aff</code> column may not be needed
+in non-medical applications. These and other details may be specified
+when using QuickPed.</p>
+<p>Some pedigree information may be shown on the plot, but is
+<em>not</em> stored in the ped file. In the current version of QuickPed,
+this includes twin relationships, carrier status and deceased
+status.</p>
+<p><br></p>
 </div>
 <div class="section level2">
 <h2 id="relatedness">Relatedness<a class="anchor" aria-label="anchor" href="#relatedness"></a>
@@ -305,49 +358,9 @@ to the autosomal case.</p>
 <p>Note that for hemizygous males, the single allele is drawn on the
 right side, since it is maternally inherited. It should also be noted
 that QuickPed always outputs the same number of coefficients (9
-condensed; 15 detailed), regardless of sex, but with NA’s in all
+condensed; 15 detailed), regardless of sex, but with NAs in all
 positions corresponding to undefined states.</p>
 </div>
-</div>
-<div class="section level2">
-<h2 id="ped-files">Ped files<a class="anchor" aria-label="anchor" href="#ped-files"></a>
-</h2>
-<p>A useful feature of QuickPed is to produce text files describing
-pedigrees in so-called <em>ped format</em>. Such files are often
-required by software for pedigree analysis.</p>
-<p>For a simple illustration, consider this pedigree:</p>
-<p><img src="quickped_files/figure-html/trio-ped-1.png" width="30%" style="display: block; margin: auto;"></p>
-<p>A text file describing this pedigree may contain the following.</p>
-<pre><code> id fid mid sex aff
-  1   0   0   1   1
-  2   0   0   2   1
-  3   1   2   2   2</code></pre>
-<p>The columns are:</p>
-<ul>
-<li>
-<code>id</code>: Individual ID</li>
-<li>
-<code>fid</code>: Father’s ID (or 0 if not included in the
-pedigree)</li>
-<li>
-<code>mid</code>: Mother’s ID (or 0 if not inlcuded in the
-pedigree)</li>
-<li>
-<code>sex</code>: Sex (1 = male; 2 = female; 0 = unknown)</li>
-<li>
-<code>aff</code>: Affection status (1 = unaffected; 2 = affected; 0
-= unknown)</li>
-</ul>
-<p>It should be noted that the ped format is not completely
-standardised, and different software may use slightly different
-versions. For example, a first column with <em>Family ID</em> is
-sometimes required. Also, the <code>aff</code> column may not be needed
-in non-medical applications. These and other details may be specified
-when using QuickPed.</p>
-<p>Some pedigree information may be shown on the plot, but is
-<em>not</em> stored in the ped file. In the current version of QuickPed,
-this includes twin relationships, carrier status and deceased
-status.</p>
 </div>
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
     </nav></aside>
