@@ -33,7 +33,7 @@ knitr::include_graphics(path = "pedinr-cover.png")
 The following is a list of publications featuring **pedsuite** packages. If you know of others, please let me know!
 
 
-#### **`[multiple pedsuite packages]**
+#### **`pedsuite` (multiple packages)`**
 * MD Vigeland. [QuickPed: an online tool for drawing pedigrees and analysing relatedness](https://doi.org/10.1186/s12859-022-04759-y). *BMC Bioinf*, **2022**. 
 * M Kruijver, J-A Bright. [A tool for simulating single source and mixed DNA profiles](https://doi.org/10.1016/j.fsigen.2022.102746). *Forensic Sci Int: Genetics*, **2022**.
 * NE Altınışık, DD Kazancı, et al. [A genomic snapshot of demographic and cultural dynamism in Upper Mesopotamia during the Neolithic Transition](https://doi.org/10.1126/sciadv.abo3609). *Science Advances*, **2022**.
@@ -44,6 +44,7 @@ The following is a list of publications featuring **pedsuite** packages. If you 
 
 
 #### **`forrel`**
+* FL Marsico, I Caridi. [Incorporating non-genetic evidence in large scale missing person searches: A general approach beyond filtering](https://doi.org/10.1016/j.fsigen.2023.102891). *Forensic Sci Int: Genetics*, **2023**.
 * M Iungman, S Biagini, M Canteros et al. [Empirical validation of a family-member prioritization approach to maximize statistical power in missing person cases](https://doi.org/10.1016/j.fsigss.2022.10.059). *Forensic Sci Int: Genetics Suppl Series*, **2022**.
 * HK Brustad, M Colucci, MA Jobling NA Sheehand, T Egeland. [Strategies for pairwise searches in forensic kinship analysis](https://doi.org/10.1016/j.fsigen.2021.102562). *Forensic Sci Int: Genetics*, **2021**.
 * FL Marsico, MD Vigeland, T Egeland, M Herrera Piñero. [Making decisions in missing person identification cases with low statistical power](https://doi.org/10.1016/j.fsigen.2021.102519). *Forensic Sci Int: Genetics*, **2021**.
