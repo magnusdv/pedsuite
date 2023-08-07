@@ -33,7 +33,7 @@ knitr::include_graphics(path = "pedinr-cover.png")
 The following is a list of publications featuring **pedsuite** packages. If you know of others, please let me know!
 
 
-#### **`pedsuite` (multiple packages)`**
+#### **`pedsuite` (multiple packages)**
 * MD Vigeland. [QuickPed: an online tool for drawing pedigrees and analysing relatedness](https://doi.org/10.1186/s12859-022-04759-y). *BMC Bioinf*, **2022**. 
 * M Kruijver, J-A Bright. [A tool for simulating single source and mixed DNA profiles](https://doi.org/10.1016/j.fsigen.2022.102746). *Forensic Sci Int: Genetics*, **2022**.
 * NE Altınışık, DD Kazancı, et al. [A genomic snapshot of demographic and cultural dynamism in Upper Mesopotamia during the Neolithic Transition](https://doi.org/10.1126/sciadv.abo3609). *Science Advances*, **2022**.
