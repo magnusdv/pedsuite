@@ -14,9 +14,15 @@ knitr::opts_chunk$set(echo = FALSE,
                       comment = "#>")
 ```
 
-Courses and lectures based on the **ped suite**.
+Courses and lectures based on the **pedsuite**.
+
+## 2023
+
+* Aug 30-31. **Pedigree Analysis**. ISFG Summer School 2023. Teachers: Magnus Dehli Vigeland and Thore Egeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2023.html).
+
 
 ## 2022
+
 * June 13-17. **Statistical methods in relatedness and pedigree analysis**. NORBIS 1-week intensive course, Oslo, Norway. Teachers: Magnus Dehli Vigeland and Thore Egeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-norbis2022.html).
 * May 23-24. **Pedigrees and relatedness analysis in R**. Lecture and workshop at the Polish Forensic Genetics Conference, Zakopane. Lecturer: Magnus Dehli Vigeland.
     * Lecture: Pedigrees and relatedness analysis in R

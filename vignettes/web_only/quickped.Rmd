@@ -53,7 +53,7 @@ Creating pedigrees with QuickPed is very intuitive: Select a suitable start pedi
     ```
     *Note: In both cases, leftover founder-spouses are automatically removed.*
 
-* __Automatic labelling__. Automatic labelling of the pedigree members are available in two different formats. The button marked `1,2,..` applies numeric labels to all individuals, in the order of their appearance in the pedigree plot. Alternatively, the `I-1, I-2,..` button numbers the members generation-wise, using roman numerals to indicate the generation number. 
+* __Automatic labelling__. Automatic labelling of the pedigree members are available in two different formats. The button marked `1,2,..` applies numeric labels to all individuals, in the order of their appearance in the pedigree plot. Alternatively, the `I-1, I-2,..` button numbers the members generation-wise, using Roman numerals to indicate the generation number. 
 
 * __Line breaks in labels__. Double spaces are shown as line breaks in the plot labels. For instance, if you want "King Lear" to appear on two lines, modify the label to "King`r knitr::asis_output("\U2423\U2423")`Lear", i.e., with two spaces between the words.
 

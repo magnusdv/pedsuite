@@ -35,11 +35,11 @@ navbar:
     courses:
       text: Courses
       menu:
-      - text: Overview
+      - text: All courses
         href: articles/web_only/courses.html
       - text: -------
-      - text: NORBIS 2022
-        href: articles/web_only/course-norbis2022.html
+      - text: "Upcoming: ISFG Summer School 2023"
+        href: articles/web_only/course-isfg2023.html
     twitter:
       icon: "fab fa-twitter fa-lg"
       href: https://twitter.com/mdvigeland

@@ -1,0 +1,64 @@
+---
+title: ISFG Summer School 2023
+subtitle: "Workshops 4.1 and 4.2: Pedigree analysis"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{ISFG Summer School 2023}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      fig.align = "center",
+                      collapse = TRUE,
+                      comment = "#>")
+```
+
+* Dates: August 30 & 31, 2023
+* Where: Online, as part of [ISFG Summer School 2023](https://isfgsummerschool.idloom.events/isfg-summer-school-virtual-edition-2023)
+* Teachers: Magnus Dehli Vigeland and Thore Egeland
+
+## Description
+The study of genetic relatedness and the flow of genetic information within families, is central in forensic genetics. The aim of this course is to introduce the elegant statistical foundations of relatedness, and to explore important forensic applications. We use the software R for calculations and visualisations, in particular the [pedsuite](https://magnusdv.github.io/pedsuite/) packages for pedigree analysis. Most lectures and exercises are based on the book [Pedigree Analysis in R](https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-824430-2) (but you do not need the book in order to attend the course).
+
+## Learning outcome
+After completing the course the participants should have knowledge about:
+
+* Classical concepts of statistical genetics and relatedness analysis
+* How to plot pedigrees and compute coefficients of relatedness
+* How to perform kinship testing and pedigree reconstruction in R
+* How to perform disaster victim identification in R
+
+## Prerequisites
+ 
+* Basic knowledge of genetics and probability. 
+* Some previous experience with R is recommended.
+* A recent version of [R](https://www.r-project.org) (at least 4.1) must be installed on your computer. We recommend running R from [RStudio](https://www.rstudio.com/products/rstudio/download/).
+
+The following R command installs the **pedsuite** packages, which will be used throughout the course:
+
+```{r, eval = F}
+install.packages("pedsuite")
+```
+
+## Schedule
+The course runs from 18 to 22 (CEST) each day, with a 15 minute break in the middle. The following schedule is tentative:
+
+#### Aug 30 (Wednesday) -- Pedigree analysis: Basic
+* 18:00--19:15 Lecture 1. Introduction to pedigree analysis and coefficients of relatedness (MDV)
+* 19:15--20:00 Exercise set 1
+* 20:15--21:00 Lecture 2. Kinship testing (TE)
+* 21:00--21:45 Exercise set 2
+* 21:45--22:00 Summary and discussion
+
+#### Aug 31 (Thursday) -- Pedigree analysis: Advanced
+* 18:00--19:00 Lecture 3. Relatedness inference and pedigree reconstruction (MDV)
+* 19:00--19:45 Exercise set 3
+* 20:00--21:00 Lecture 4. Disaster victim identification (TE)
+* 21:00--21:45 Exercise set 4
+* 21:45--22:00 Summary and discussion
+
+
+
+Comments and questions may be sent to *magnusdv at gmail dot com*.
