@@ -52,7 +52,7 @@ The course runs from 18 to 22 (CEST) each day, with a 15 minute break in the mid
 * 19:15--20:00 [Exercise set 1](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/exercises1.pdf)
 * 20:00--20:15 _Break_
 * 20:15--21:00 Lecture 2. [**Kinship testing**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/Lecture2_kinship.pdf) (TE)
-* 21:00--21:45 Exercise set 2
+* 21:00--21:45 [Exercise set 2](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/exercises2.pdf)
 * 21:45--22:00 Summary and discussion
 
 #### Aug 31 (Thursday) -- Pedigree analysis: Advanced
