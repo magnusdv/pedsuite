@@ -47,7 +47,7 @@ install.packages("pedsuite")
 The course runs from 18 to 22 (CEST) each day, with a 15 minute break in the middle. The following schedule is tentative:
 
 #### Aug 30 (Wednesday) -- Pedigree analysis: Basic
-* 18:00--19:00 Lecture 1. **Pedigrees and measures of relatedness** (MDV)
+* 18:00--19:00 Lecture 1. [**Pedigrees and measures of relatedness**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/Lecture1_pedigrees.pdf) (MDV)
 * 19:00--19:15 Crash course in R (MDV)
 * 19:15--20:00 [Exercise set 1](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/exercises1.pdf)
 * 20:00--20:15 _Break_
