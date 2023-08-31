@@ -56,7 +56,7 @@ The course runs from 18 to 22 (CEST) each day, with a 15 minute break in the mid
 * 21:45--22:00 Summary and discussion
 
 #### Aug 31 (Thursday) -- Pedigree analysis: Advanced
-* 18:00--19:00 Lecture 3. **Relatedness inference and pedigree reconstruction** (MDV)
+* 18:00--19:00 Lecture 3. [**Relatedness inference and pedigree reconstruction**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/Lecture3_reconstruction.pdf) (MDV)
 * 19:00--19:45 Exercise set 3
 * 19:45--20:00 _Break_
 * 20:00--21:00 Lecture 4. **Disaster victim identification** (TE)
