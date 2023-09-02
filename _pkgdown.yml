@@ -34,12 +34,13 @@ navbar:
       href: articles/web_only/quickped.html
     courses:
       text: Courses
-      menu:
-      - text: All courses
-        href: articles/web_only/courses.html
-      - text: -------
-      - text: "Upcoming: ISFG Summer School 2023"
-        href: articles/web_only/course-isfg2023.html
+      href: articles/web_only/courses.html
+      #menu:
+      #- text: All courses
+      #  href: articles/web_only/courses.html
+      #- text: -------
+      #- text: "Upcoming: ISFG Summer School 2023"
+      #  href: articles/web_only/course-isfg2023.html
     twitter:
       icon: "fab fa-twitter fa-lg"
       href: https://twitter.com/mdvigeland
