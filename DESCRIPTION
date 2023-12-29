@@ -27,6 +27,7 @@ Imports:
     ibdsim2,
     paramlink2,
     pedbuildr,
+    pedFamilias,
     segregatr
 Suggests: 
     knitr,
