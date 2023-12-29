@@ -6,12 +6,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="pedsuite">
-<title>Getting started with the ped suite • pedsuite</title>
+<title>Getting started with the pedsuite • pedsuite</title>
 <script src="../deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="../deps/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet">
-<script src="../deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
+<link href="../deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
+<script src="../deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
-<!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Getting started with the ped suite">
+<!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Getting started with the pedsuite">
 <meta property="og:description" content="pedsuite">
 <meta name="google-site-verification" content="0EyxedeIXm4ThmZacSrfJ7L0z17Ulx0UKdK2Yo7p3wk">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
@@ -41,9 +41,6 @@
 </li>
 <li class="nav-item">
   <a class="nav-link" href="../articles/web_only/publications.html">Publications</a>
-</li>
-<li class="nav-item">
-  <a class="nav-link" href="../articles/web_only/quickped.html">QuickPed</a>
 </li>
 <li class="nav-item">
   <a class="nav-link" href="../articles/web_only/courses.html">Courses</a>
@@ -78,7 +75,7 @@
 
 <div class="row">
   <main id="main" class="col-md-9"><div class="page-header">
-      <img src="" class="logo" alt=""><h1>Getting started with the ped suite</h1>
+      <img src="" class="logo" alt=""><h1>Getting started with the pedsuite</h1>
             
       
       
@@ -91,7 +88,7 @@
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
 <p>The following command installs the latest official versions of the
-<strong>ped suite</strong> packages:</p>
+<strong>pedsuite</strong> packages:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"pedsuite"</span><span class="op">)</span></span></code></pre></div>
 <p>Alternatively, you can install the development versions from
@@ -107,7 +104,7 @@ them individually instead of the entire collection.</p>
 <h2 id="a-quick-tour">A quick tour<a class="anchor" aria-label="anchor" href="#a-quick-tour"></a>
 </h2>
 <p>The aim of this vignette is to illustrate a few of the possibilities
-of the <strong>ped suite</strong> packages. It should be noted that we
+of the <strong>pedsuite</strong> packages. It should be noted that we
 are barely scratching the surface here; in particular several packages
 are not even mentioned. For a more comprehensive overview, I recommend
 the <a href="https://magnusdv.github.io/pedsuite/articles/web_only/publications.html#book">book</a>.</p>
@@ -184,7 +181,7 @@ recombination process in the entire pedigree, 200 times:</p>
 <span><span class="co">#&gt; Recomb model : chi</span></span>
 <span><span class="co">#&gt; Target indivs: 1-9</span></span>
 <span><span class="co">#&gt; Skip recomb  : -</span></span>
-<span><span class="co">#&gt; Total time used: 3.46 secs</span></span></code></pre></div>
+<span><span class="co">#&gt; Total time used: 2.25 secs</span></span></code></pre></div>
 <p>Now extract the autozygous segments of each simulation.</p>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">fr</span> <span class="op">=</span> <span class="fu"><a href="https://magnusdv.github.io/pedsuite/reference/realised.html">realisedInbreeding</a></span><span class="op">(</span><span class="va">sims</span>, id <span class="op">=</span> <span class="fl">9</span><span class="op">)</span></span></code></pre></div>
@@ -233,7 +230,7 @@ of markers. For instance, here we produce 500 SNPs with alleles
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Simulation finished.</span></span>
 <span><span class="co">#&gt; Calls to `likelihood()`: 0.</span></span>
-<span><span class="co">#&gt; Total time used: 0.01 seconds.</span></span></code></pre></div>
+<span><span class="co">#&gt; Total time used: 0 seconds.</span></span></code></pre></div>
 <p>We can see the genotypes of the first few markers by printing
 <code>y</code> to the console.</p>
 <div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
@@ -260,13 +257,11 @@ data to estimate each pairwise relationship, and compare the result with
 the pedigree. The function <code><a href="https://rdrr.io/pkg/forrel/man/checkPairwise.html" class="external-link">checkPairwise()</a></code> does all of
 this, and presents the result in a relationship triangle.</p>
 <div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/forrel/man/checkPairwise.html" class="external-link">checkPairwise</a></span><span class="op">(</span><span class="va">y</span>, plot <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/forrel/man/checkPairwise.html" class="external-link">checkPairwise</a></span><span class="op">(</span><span class="va">y</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Excluding inbred individuals: 9</span></span></code></pre></div>
 <p><img src="pedsuite_files/figure-html/check-pairwise-1.png" width="60%" style="display: block; margin: auto;"></p>
 <p>The plot shows that all pairwise estimates are near their expected
-location in the triangle. (The yellow symbols correspond to pairs
-involving the inbred child, which don’t have a well-defined position in
-the triangle.)</p>
+location in the triangle.</p>
 <hr>
 </div>
 </div>

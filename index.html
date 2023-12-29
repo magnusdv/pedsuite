@@ -5,15 +5,15 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="The 'ped suite' is a unified collection of packages for pedigree analysis, covering applications in relatedness inference, forensic genetics, medical genetics and more.
+<meta name="description" content="The 'pedsuite' is a unified collection of packages for pedigree analysis, covering applications in relatedness inference, forensic genetics, medical genetics and more.
 ">
 <title>R packages for pedigree analysis • pedsuite</title>
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="deps/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet">
-<script src="deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
+<link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
+<script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="R packages for pedigree analysis">
-<meta property="og:description" content="The 'ped suite' is a unified collection of packages for pedigree analysis, covering applications in relatedness inference, forensic genetics, medical genetics and more.
+<meta property="og:description" content="The 'pedsuite' is a unified collection of packages for pedigree analysis, covering applications in relatedness inference, forensic genetics, medical genetics and more.
 ">
 <meta name="google-site-verification" content="0EyxedeIXm4ThmZacSrfJ7L0z17Ulx0UKdK2Yo7p3wk">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
@@ -45,9 +45,6 @@
   <a class="nav-link" href="articles/web_only/publications.html">Publications</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="articles/web_only/quickped.html">QuickPed</a>
-</li>
-<li class="nav-item">
   <a class="nav-link" href="articles/web_only/courses.html">Courses</a>
 </li>
       </ul>
@@ -76,16 +73,16 @@
 </nav><div class="container template-home">
 <div class="row">
   <main id="main" class="col-md-9"><div class="section level1">
-<div class="page-header"><h1 id="the-ped-suite-r-packages-for-pedigree-analysis">The <strong>ped suite</strong>: R packages for pedigree analysis<a class="anchor" aria-label="anchor" href="#the-ped-suite-r-packages-for-pedigree-analysis"></a>
+<div class="page-header"><h1 id="the-pedsuite-r-packages-for-pedigree-analysis">The <strong>pedsuite</strong>: R packages for pedigree analysis<a class="anchor" aria-label="anchor" href="#the-pedsuite-r-packages-for-pedigree-analysis"></a>
 </h1></div>
 <!-- badges: start -->
 
-<p>The <strong>ped suite</strong> is a collection of R packages for pedigree analysis, covering a variety of applications across several fields. The packages are designed to work harmoniously together, often allowing complex tasks to be solved in a few lines of code.</p>
+<p>The <strong>pedsuite</strong> is a collection of R packages for pedigree analysis, covering a variety of applications across several fields. The packages are designed to work harmoniously together, often allowing complex tasks to be solved in a few lines of code.</p>
 <p><img src="reference/figures/logos-pedsuite-wheel_1.png" width="100%" style="display: block; margin: auto;"></p>
 <div class="section level3">
 <h3 id="core-packages">Core packages<a class="anchor" aria-label="anchor" href="#core-packages"></a>
 </h3>
-<p>At the centre of the <strong>ped suite</strong> we find the package <strong>pedtools</strong>, on which all the others depend. In addition, several packages contain basic features often needed in many types of analysis. These are the <em>core</em> packages:</p>
+<p>At the centre of the <strong>pedsuite</strong> we find the package <strong>pedtools</strong>, on which all the others depend. In addition, several packages contain basic features often needed in many types of analysis. These are the <em>core</em> packages:</p>
 <ul>
 <li>
 <a href="https://github.com/magnusdv/pedtools" class="external-link">pedtools</a>: Creating and working with pedigrees and marker data</li>
@@ -96,7 +93,7 @@
 <li>
 <a href="https://github.com/magnusdv/ribd" class="external-link">ribd</a>: Computation of pedigree-based relatedness coefficients</li>
 <li>
-<a href="https://github.com/magnusdv/verbalisr" class="external-link">verbalisr</a>: Textual descriptions of pedigree relationships</li>
+<a href="https://github.com/magnusdv/verbalisr" class="external-link">verbalisr</a>: Verbal descriptions of pedigree relationships</li>
 </ul>
 </div>
 <div class="section level3">
@@ -107,11 +104,13 @@
 <li>
 <a href="https://github.com/magnusdv/ibdsim2" class="external-link">ibdsim2</a>: Simulation of identity-by-descent sharing by family members</li>
 <li>
-<a href="https://github.com/thoree/dvir" class="external-link">dvir</a>: Disaster victim identification</li>
+<a href="https://github.com/magnusdv/dvir" class="external-link">dvir</a>: Disaster victim identification</li>
+<li>
+<a href="https://github.com/magnusdv/paramlink2" class="external-link">paramlink2</a>: Parametric linkage analysis</li>
 <li>
 <a href="https://github.com/magnusdv/pedbuildr" class="external-link">pedbuildr</a>: Pedigree reconstruction</li>
 <li>
-<a href="https://github.com/magnusdv/paramlink2" class="external-link">paramlink2</a>: Parametric linkage analysis</li>
+<a href="https://github.com/magnusdv/pedFamilias" class="external-link">pedFamilias</a>: Import and export .fam files used by the <a href="https://familias.name/" class="external-link">Familias</a> software</li>
 <li>
 <a href="https://github.com/magnusdv/pedmut" class="external-link">pedmut</a>: Mutation models for pedigree likelihood computations</li>
 <li>
@@ -121,12 +120,12 @@
 <div class="section level3">
 <h3 id="retired-packages">Retired packages<a class="anchor" aria-label="anchor" href="#retired-packages"></a>
 </h3>
-<p>These packages have been superseded by other packages and are no longer compatible with the rest of the <strong>ped suite</strong>. They are maintained only for legacy purposes and should not be used in new projects.</p>
+<p>These packages have been superseded by other packages and are no longer compatible with the rest of the <strong>pedsuite</strong>. They are maintained only for legacy purposes and should not be used in new projects.</p>
 <ul>
 <li>
-<a href="https://CRAN.R-project.org/package=paramlink" class="external-link">paramlink</a>: This package marked the birth of the <strong>ped suite</strong>. Originally intended for parametric linkage analysis, it also contained the seeds of the current packages <strong>pedtools</strong>, <strong>pedprobr</strong>, <strong>ribd</strong> and <strong>forrel</strong>.</li>
+<a href="https://CRAN.R-project.org/package=paramlink" class="external-link">paramlink</a>: This package marked the birth of the <strong>pedsuite</strong>. Originally intended for parametric linkage analysis, it also contained the seeds of the current packages <strong>pedtools</strong>, <strong>pedprobr</strong>, <strong>ribd</strong> and <strong>forrel</strong>.</li>
 <li>
-<a href="https://CRAN.R-project.org/package=IBDsim" class="external-link">IBDsim</a>: This is replaced by <strong>ibdsim2</strong>. (Regrettably, the name ‘IBDsim’ is very similar to that of the unrelated (non-R) software ‘IBDSim’ (<a href="http://www1.montpellier.inra.fr/CBGP/software/ibdsim/index.html" class="external-link">Leblois, Estoup &amp; Rousset</a>).)</li>
+<a href="https://CRAN.R-project.org/package=IBDsim" class="external-link">IBDsim</a>: This is replaced by <strong>ibdsim2</strong>. (Regrettably, the name ‘IBDsim’ is very similar to that of the unrelated (non-R) software ‘IBDSim’ (<a href="https://www1.montpellier.inra.fr/CBGP/software/ibdsim/index.html" class="external-link">Leblois, Estoup &amp; Rousset</a>).)</li>
 </ul>
 </div>
 <div class="section level3">
@@ -134,13 +133,23 @@
 </h3>
 <ul>
 <li>
-<a href="https://CRAN.R-project.org/package=kinship2" class="external-link">kinship2</a>: All pedigree plots in the <strong>ped suite</strong> are internally made by importing the plotting feature of <strong>kinship2</strong> (<a href="https://doi.org/10.1159/000363105" class="external-link">Sinnwell, Therneau &amp; Schaid</a>). Creating nice pedigree plots is a highly non-trivial matter, so if you use the <strong>ped suite</strong> to make pedigree plots for publications, please also credit <strong>kinship2</strong>.</li>
+<a href="https://CRAN.R-project.org/package=kinship2" class="external-link">kinship2</a>: Pedigree plotting in the <strong>pedsuite</strong> depends on <strong>kinship2</strong> (<a href="https://doi.org/10.1159/000363105" class="external-link">Sinnwell, Therneau &amp; Schaid</a>) for pedigree alignment calculations.</li>
 </ul>
 </div>
 <div class="section level2">
-<h2 id="quickped---an-online-pedigree-creator">QuickPed - an online pedigree creator<a class="anchor" aria-label="anchor" href="#quickped---an-online-pedigree-creator"></a>
+<h2 id="shiny-apps">Shiny apps<a class="anchor" aria-label="anchor" href="#shiny-apps"></a>
 </h2>
-<p>In addition to the R packages, the <strong>ped suite</strong> also includes QuickPed, a free interactive program for creating and exploring pedigrees. Read more about it <a href="https://magnusdv.github.io/pedsuite/articles/web_only/quickped.html">here</a>, or simply try it out: <a href="https://magnusdv.shinyapps.io/quickped" class="external-link uri">https://magnusdv.shinyapps.io/quickped</a>.</p>
+<p>Several Shiny apps based on the <strong>pedsuite</strong> have been developed. Read more about them here:</p>
+<ul>
+<li>
+<a href="https://magnusdv.github.io/pedsuite/articles/web_only/quickped.html">QuickPed</a>: An online pedigree creator</li>
+<li>
+<a href="https://magnusdv.github.io/pedsuite/articles/web_only/klink.html">KLINK</a>: Kinship analysis with linked markers</li>
+<li>
+<a href="https://magnusdv.github.io/pedsuite/articles/web_only/ibdsim-shiny.html">ibdsim2-shiny</a>: IBD distributions in pedigrees</li>
+<li>
+<a href="https://magnusdv.github.io/pedsuite/articles/web_only/linkagelab.html">LinkageLab</a>: Playing with linked markers</li>
+</ul>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">
