@@ -1,15 +1,15 @@
 Package: pedsuite
-Title: Easy Installation of the 'ped suite' Packages for Pedigree Analysis
 Version: 1.2.0
+Title: Easy Installation of the 'pedsuite' Packages for Pedigree Analysis
 Authors@R: c(
     person("Magnus Dehli", "Vigeland", , "m.d.vigeland@medisin.uio.no", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-9134-4962")),
     person("Thore", "Egeland", , "thore.egeland@nmbu.no", role = "aut",
            comment = c(ORCID = "0000-0002-3465-8885"))
   )
-Description: The 'ped suite' is a collection of packages for pedigree
+Description: The 'pedsuite' is a collection of packages for pedigree
     analysis, covering applications in forensic genetics, medical genetics
-    and more. A detailed presentation of the 'ped suite' is given in the
+    and more. A detailed presentation of the 'pedsuite' is given in the
     book 'Pedigree Analysis in R' (Vigeland, 2021, ISBN: 9780128244302).
 License: GPL (>= 3)
 URL: https://magnusdv.github.io/pedsuite/,

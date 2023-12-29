@@ -30,7 +30,7 @@ knitr::opts_chunk$set(echo = TRUE,
 ## Description
 The course introduces statistical methods used in relatedness and pedigree analysis, with applications in forensic genetics, medical genetics and pedigree reconstruction.
 
-The study of genetic relatedness and how genetic information flows in families, is central in a variety of important research fields, including medical genetics, forensics and animal breeding. The aim of this course is to introduce the students to the elegant concepts and results forming the theoretical foundation of genetic relatedness, and to present in some detail several modern applications. In the exercises we use R and the [ped suite](https://magnusdv.github.io/pedsuite/index.html) packages for pedigree analysis and visualisation.
+The study of genetic relatedness and how genetic information flows in families, is central in a variety of important research fields, including medical genetics, forensics and animal breeding. The aim of this course is to introduce the students to the elegant concepts and results forming the theoretical foundation of genetic relatedness, and to present in some detail several modern applications. In the exercises we use R and the [pedsuite](https://magnusdv.github.io/pedsuite/index.html) packages for pedigree analysis and visualisation.
 
 Much of the course material is based on the book [Pedigree Analysis in R](https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-824430-2) which may be of interest to some participants (but is not required to attend the course).
 
@@ -47,7 +47,7 @@ After completing the course the participants will have knowledge about:
  * Some previous experience with R is recommended, but not strictly required.
  * Please make sure that [R](www.r-project.org) (version > 4.1) is installed on your computer. We strongly recommend running R from [RStudio](https://www.rstudio.com/products/rstudio/download/).
 
-The following R command installs the **ped suite** packages, which will be used throughout the course:
+The following R command installs the **pedsuite** packages, which will be used throughout the course:
 
 ```{r, eval = F}
 install.packages("pedsuite")
@@ -61,7 +61,7 @@ The course runs from 9 to 16.30 (CEST) each day. A tentative schedule is given b
 * 09--11 Introduction I: Pedigrees, genetics and probabilities (MDV)
 * 11--12 Exercises I 
 * 12--13 Lunch
-* 13--15 Introduction II: R and the ped suite (MDV)
+* 13--15 Introduction II: R and the pedsuite (MDV)
 * 15--16:30 Exercises II
 
 #### Tuesday, June 14

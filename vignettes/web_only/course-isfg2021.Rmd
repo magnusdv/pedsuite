@@ -38,7 +38,7 @@ After completing the course the participants should have knowledge about:
  * Some previous experience with R is recommended.
  * Please make sure that [R](www.r-project.org) (version > 4.0) is installed on your computer. We recommend running R from [RStudio](https://www.rstudio.com/products/rstudio/download/).
 
-The following R command installs the **ped suite** packages, which will be used throughout the course:
+The following R command installs the **pedsuite** packages, which will be used throughout the course:
 
 ```{r, eval = F}
 install.packages("pedsuite")

@@ -3,7 +3,7 @@ url: https://magnusdv.github.io/pedsuite
 home:
   title: R packages for pedigree analysis
   description: >
-    The 'ped suite' is a unified collection of packages for pedigree analysis,
+    The 'pedsuite' is a unified collection of packages for pedigree analysis,
     covering applications in relatedness inference, forensic genetics, medical genetics and more.
 
 repo:
@@ -19,7 +19,7 @@ template:
 
 navbar:
   structure:
-    left:  [home, intro, publications, quickped, courses]
+    left:  [home, intro, publications, shiny, courses]
     right: [github, twitter]
   components:
     reference: ~
@@ -29,9 +29,19 @@ navbar:
     publications:
       text: Publications
       href: articles/web_only/publications.html
-    quickped:
-      text: QuickPed
-      href: articles/web_only/quickped.html
+    shiny:
+      text: Shiny apps
+      menu:
+      - text: QuickPed
+        href: articles/web_only/quickped.html
+      - text: KLINK
+        href: articles/web_only/klink.html
+      - text: LinkageLab
+        href: articles/web_only/linkagelab.html
+      - text: ibdsim2-shiny
+        href: articles/web_only/ibdsim2shiny.html
+      - text: ibdClassifier
+        href: articles/web_only/ibdClassifier.html
     courses:
       text: Courses
       href: articles/web_only/courses.html

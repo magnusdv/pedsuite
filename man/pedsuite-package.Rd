@@ -4,9 +4,9 @@
 \name{pedsuite-package}
 \alias{pedsuite}
 \alias{pedsuite-package}
-\title{pedsuite: Easy Installation of the 'ped suite' Packages for Pedigree Analysis}
+\title{pedsuite: Easy Installation of the 'pedsuite' Packages for Pedigree Analysis}
 \description{
-The 'ped suite' is a collection of packages for pedigree analysis, covering applications in forensic genetics, medical genetics and more. A detailed presentation of the 'ped suite' is given in the book 'Pedigree Analysis in R' (Vigeland, 2021, ISBN: 9780128244302).
+The 'pedsuite' is a collection of packages for pedigree analysis, covering applications in forensic genetics, medical genetics and more. A detailed presentation of the 'pedsuite' is given in the book 'Pedigree Analysis in R' (Vigeland, 2021, ISBN: 9780128244302).
 }
 \seealso{
 Useful links:
