@@ -7,12 +7,12 @@ articles:
   course-isfg2023: web_only/course-isfg2023.html
   course-norbis2022: web_only/course-norbis2022.html
   courses: web_only/courses.html
-  ibdsim2-shiny: web_only/ibdsim2-shiny.html
+  ibdsim2shiny: web_only/ibdsim2shiny.html
   klink: web_only/klink.html
   linkagelab: web_only/linkagelab.html
   publications: web_only/publications.html
   quickped: web_only/quickped.html
-last_built: 2023-12-29T15:25Z
+last_built: 2023-12-30T08:27Z
 urls:
   reference: https://magnusdv.github.io/pedsuite/reference
   article: https://magnusdv.github.io/pedsuite/articles
