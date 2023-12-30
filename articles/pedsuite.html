@@ -42,6 +42,15 @@
 <li class="nav-item">
   <a class="nav-link" href="../articles/web_only/publications.html">Publications</a>
 </li>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-shiny-apps">Shiny apps</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-shiny-apps">
+    <a class="dropdown-item" href="../articles/web_only/quickped.html">QuickPed</a>
+    <a class="dropdown-item" href="../articles/web_only/klink.html">KLINK</a>
+    <a class="dropdown-item" href="../articles/web_only/ibdsim2shiny.html">ibdsim2-shiny</a>
+    <a class="dropdown-item" href="../articles/web_only/linkagelab.html">LinkageLab</a>
+  </div>
+</li>
 <li class="nav-item">
   <a class="nav-link" href="../articles/web_only/courses.html">Courses</a>
 </li>
@@ -181,7 +190,7 @@ recombination process in the entire pedigree, 200 times:</p>
 <span><span class="co">#&gt; Recomb model : chi</span></span>
 <span><span class="co">#&gt; Target indivs: 1-9</span></span>
 <span><span class="co">#&gt; Skip recomb  : -</span></span>
-<span><span class="co">#&gt; Total time used: 2.25 secs</span></span></code></pre></div>
+<span><span class="co">#&gt; Total time used: 2.2 secs</span></span></code></pre></div>
 <p>Now extract the autozygous segments of each simulation.</p>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">fr</span> <span class="op">=</span> <span class="fu"><a href="https://magnusdv.github.io/pedsuite/reference/realised.html">realisedInbreeding</a></span><span class="op">(</span><span class="va">sims</span>, id <span class="op">=</span> <span class="fl">9</span><span class="op">)</span></span></code></pre></div>
