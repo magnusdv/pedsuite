@@ -1,3 +1,8 @@
+# pedsuite 1.3.0
+
+* New package: **pedFamilias**
+
+
 # pedsuite 1.2.0
 
 * Update Github Actions workflow
