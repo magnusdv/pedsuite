@@ -1,8 +1,7 @@
-pandoc: 2.19.2
-pkgdown: 2.0.7
+pandoc: 3.1.11
+pkgdown: 2.0.9
 pkgdown_sha: ~
 articles:
-  pedsuite: pedsuite.html
   course-isfg2021: web_only/course-isfg2021.html
   course-isfg2023: web_only/course-isfg2023.html
   course-norbis2022: web_only/course-norbis2022.html
@@ -11,9 +10,10 @@ articles:
   ibdsim2shiny: web_only/ibdsim2shiny.html
   klink: web_only/klink.html
   linkagelab: web_only/linkagelab.html
+  pedsuite: pedsuite.html
   publications: web_only/publications.html
   quickped: web_only/quickped.html
-last_built: 2024-02-07T12:48Z
+last_built: 2024-05-08T09:06Z
 urls:
   reference: https://magnusdv.github.io/pedsuite/reference
   article: https://magnusdv.github.io/pedsuite/articles
