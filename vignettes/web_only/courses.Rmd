@@ -16,6 +16,13 @@ knitr::opts_chunk$set(echo = FALSE,
 
 Courses and lectures based on the **pedsuite**.
 
+
+## 2024
+
+* Oct 14. **Genetic Relatedness**. Half-day workshop at the *Young Investigator Day* at the [NOFE Conference](https://nofe.no/nofe-conference-2024/). Lecturer: Magnus Dehli Vigeland.
+* Sept 30. **Kinship statistics and pedigree analysis**. Pre-congress workshop, ISFG Congress 2024, Santiago de Compostela. Teachers: Magnus Dehli Vigeland and Thore Egeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2024.html).
+
+
 ## 2023
 
 * Aug 30-31. **Pedigree Analysis**. ISFG Summer School 2023. Teachers: Magnus Dehli Vigeland and Thore Egeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2023.html).
