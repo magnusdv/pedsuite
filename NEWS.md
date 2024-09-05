@@ -1,6 +1,8 @@
 # pedsuite 1.3.0
 
 * New package: **pedFamilias**
+* Add several app homepages
+* Minor code updates
 
 
 # pedsuite 1.2.0
