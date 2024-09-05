@@ -12,6 +12,7 @@ knitr::opts_chunk$set(
   echo = TRUE,
   collapse = TRUE,
   comment = "#>",
+  dpi = 300,
   fig.align = "center")
 ```
 
@@ -45,22 +46,20 @@ library(pedsuite)
 
 ### 1. Create a pedigree (**pedtools**)
 We begin by creating and plotting a pedigree with a child of first cousins:
-```{r, fig.keep  ="none"}
+```{r fc-ped1, fig.height = 3.5, fig.width = 3.5, out.width = "40%"}
 x = cousinPed(1, child = TRUE)
 plot(x)
 ```
-```{r fc-ped1, echo = F, fig.height = 3.5, fig.width = 3.5, out.width = "40%"}
-plot(x, margin = rep(.8,4))
-```
 
-For symmetry let us change the sex of individual 3. We also highlight the child by hatching his symbol, and we only include his ID label in the plot.
-```{r, fig.keep  ="none"}
+For symmetry let us change the sex of individual 3. We also take the opportunity to showcase some of the plot options (many more are available - see the help page by typing `?plotmethods`): 
+```{r fc-ped2, fig.height = 3.5, fig.width = 3.5, out.width = "40%"}
 x = swapSex(x, ids = 3)
 
-plot(x, labs = 9, hatched = 9)
-```
-```{r fc-ped2, echo = F, fig.height = 3.5, fig.width = 3.5, out.width = "40%"}
-plot(x, labs = 9, hatched = 9, margin = rep(.8,4))
+plot(x, 
+     hatched = 9, 
+     carrier = 7:8,
+     fill = list(pink = 1), 
+     textAnnot = list(inside = c("1" = "?")))
 ```
 
 ### 2. Calculate the inbreeding coefficient (**ribd**)
@@ -137,6 +136,15 @@ The plot shows that all pairwise estimates are near their expected location in t
 
 
 ## Where to go from here
-If you enjoyed this quick tour and would like more details, you should check out the GitHub README files of the packages that interest you. 
+If you enjoyed this quick tour and would like more details, you should check out the GitHub README files of the packages that interest you, for instance:
 
-There is also the [pedtools vignette](https://cran.r-project.org/package=pedtools/vignettes/pedtools.html), with a lot more details on how to create and plot pedigrees in R.
+* [pedtools](https://github.com/magnusdv/pedtools): Creating and working with pedigrees and marker data
+* [forrel](https://github.com/magnusdv/forrel): Forensic pedigree analysis and relatedness analysis
+* [ribd](https://github.com/magnusdv/ribd): Computation of pedigree-based relatedness coefficients
+* [verbalisr](https://github.com/magnusdv/verbalisr): Verbal descriptions of pedigree relationships
+* [ibdsim2](https://github.com/magnusdv/ibdsim2): Simulation of identity-by-descent sharing by family members
+* [dvir](https://github.com/magnusdv/dvir): Disaster victim identification
+
+Try the interactive pedigree builder **QuickPed**: https://magnusdv.shinyapps.io/quickped. 
+
+The [pedtools vignette](https://cran.r-project.org/package=pedtools/vignettes/pedtools.html) contains details on pedigree objects in R and how to plot and manipulate them.
