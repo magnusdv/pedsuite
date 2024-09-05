@@ -49,7 +49,7 @@ The following packages are devoted to special applications:
 - [pedbuildr](https://github.com/magnusdv/pedbuildr): Pedigree
   reconstruction
 - [pedFamilias](https://github.com/magnusdv/pedFamilias): Import and
-  export .fam files used by the [Familias](https://familias.name/)
+  export `.fam` files used by the [Familias](https://familias.name/)
   software
 - [pedmut](https://github.com/magnusdv/pedmut): Mutation models for
   pedigree likelihood computations
@@ -84,12 +84,14 @@ Several Shiny apps based on the **pedsuite** have been developed. Read
 more about them here:
 
 - [QuickPed](https://magnusdv.github.io/pedsuite/articles/web_only/quickped.html):
-  An online pedigree creator
-- [KLINK](https://magnusdv.github.io/pedsuite/articles/web_only/klink.html):
-  Kinship analysis with linked markers
+  Interactive pedigree builder and relatedness analyser
+- [DIVIANA](https://magnusdv.github.io/pedsuite/articles/web_only/diviana.html):
+  Disaster victim identification
 - [ibdsim2-shiny](https://magnusdv.github.io/pedsuite/articles/web_only/ibdsim2-shiny.html):
   IBD distributions in pedigrees
+- [KLINK](https://magnusdv.github.io/pedsuite/articles/web_only/klink.html):
+  Kinship analysis with linked markers
 - [LinkageLab](https://magnusdv.github.io/pedsuite/articles/web_only/linkagelab.html):
   Playing with linked markers
 - [ibdClassifier](https://magnusdv.github.io/pedsuite/articles/web_only/ibdClassifier.html):
-  Classifying relationships based on their shared IBD segments
+  Classifying relationships based on IBD segments
