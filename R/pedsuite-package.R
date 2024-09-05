@@ -14,6 +14,7 @@
 #' @importFrom paramlink2 lod
 #' @importFrom pedbuildr reconstruct
 #' @importFrom pedmut mutationModel
+#' @importFrom pedFamilias writeFam
 #' @importFrom segregatr FLB
 #'
 ## usethis namespace: end
