@@ -1,5 +1,5 @@
 ---
-title: "<span style='font-size: 75%; color:gray;'><em>ISFG 2024 Workshop</em></span><br><span style='color:teal; font-weight:bold;'>Kinship Statistics and Pedigree Analysis</span>"
+title: "ISFG 2024 Workshop:<br>Kinship Statistics and Pedigree Analysis"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteEngine{knitr::rmarkdown}

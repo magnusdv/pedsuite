@@ -1,0 +1,36 @@
+---
+title: DIVIANA
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{DIVIANA}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, 
+                      fig.align = "center",
+                      dpi = 300,
+                      collapse = TRUE,
+                      comment = "#>")
+```
+
+<!-- avoid border around images -->
+<style>
+    img {border: 0;}
+</style>
+
+```{r square, out.width = "99%"}
+knitr::include_graphics("diviana-screenshot.png")
+```
+
+<br>
+
+::: { .greeting .message style="color: red; font-size: large;"}
+**_Source code here_**: https://github.com/magnusdv/diviana.
+:::
+
+<br>
+
+## What is DIVIANA?
+DIVIANA is a user-friendly app for *disaster victim identification* (DVI).
