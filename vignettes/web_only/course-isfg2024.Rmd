@@ -1,9 +1,9 @@
 ---
-title: "ISFG 2024 Workshop:<br>Kinship Statistics and Pedigree Analysis"
+title: ISFG Congress 2024 Workshop
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteIndexEntry{"ISFG Congress 2024 - Pre-congress workshop"}
+  %\VignetteIndexEntry{"Kinship Statistics and Pedigree Analysis"}
   %\VignetteEncoding{UTF-8}
 ---
 
@@ -14,10 +14,12 @@ knitr::opts_chunk$set(echo = TRUE,
                       comment = "#>")
 ```
 
+# Kinship Statistics and Pedigree Analysis
+
 * Date: Tuesday, 10th of September, 2024
 * Where: San Francisco Hotel Monumento, Santiago de Compostela, Spain
 * Teachers: Magnus Dehli Vigeland and Thore Egeland
-* Pre-congress workshops: https://isfg2024.com/pre-congress-workshops/
+* ISFG 2024 workshops: https://isfg2024.com/pre-congress-workshops/
 
 ## Description
 The study of pedigrees and genetic relatedness is central in forensic genetics. The
