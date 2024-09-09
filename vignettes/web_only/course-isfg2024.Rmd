@@ -61,7 +61,7 @@ The workshop is run as a full-day course on Tuesday 10th, from 9 to 18:30 (CEST)
 * 09:00--10:00 Lecture 1. [**Pedigrees and measures of relatedness**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/Lecture1_pedigrees.pdf) (MDV)
 * 10:00--11:00 [Exercise set 1](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/exercises1.pdf)
 * 11:00--11:15 _Break_
-* 11:15--12:00 Lecture 2. [**Kinship testing**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/Lecture2_kinship.pdf) (TE)
+* 11:15--12:00 Lecture 2. [**Kinship testing**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/Lecture2-Kinship.pdf) (TE)
 * 12:00--12:45 [Exercise set 2](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/exercises2.pdf)
 * 12:45--13:00 Summary and discussion  
 
@@ -69,11 +69,11 @@ The workshop is run as a full-day course on Tuesday 10th, from 9 to 18:30 (CEST)
 <p style="text-indent: 12px;">**Lunch break 13:00 - 14:30**</p>
 
 #### Afternoon session -- Pedigree analysis: Advanced
-* 14:30--15:30 Lecture 3. [**Relatedness inference and pedigree reconstruction**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/Lecture3_reconstruction.pdf) (MDV)
-* 15:30--16:15 [Exercise set 3](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/exercises3.pdf)
+* 14:30--15:30 Lecture 3. [**Relatedness inference and pedigree reconstruction**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/Lecture3-reconstruction.pdf) (MDV)
+* 15:30--16:15 [Exercise set 3](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/exercises3.pdf)
 * 16:15--16:30 _Break_
-* 16:30--17:30 Lecture 4. [**Disaster victim identification**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/Lecture4_DVI.pdf) (TE)
-* 17:30--18:15 [Exercise set 4](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/exercises4.pdf)
+* 16:30--17:30 Lecture 4. [**Disaster victim identification**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/Lecture4-DVI.pdf) (TE)
+* 17:30--18:15 [Exercise set 4](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/exercises4.pdf)
 * 18:15--18:30 Summary and discussion
 
 

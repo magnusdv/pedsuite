@@ -33,7 +33,7 @@ Courses and lectures based on the **pedsuite**.
 * June 13-17. **Statistical methods in relatedness and pedigree analysis**. NORBIS 1-week intensive course, Oslo, Norway. Teachers: Magnus Dehli Vigeland and Thore Egeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-norbis2022.html).
 * May 23-24. **Pedigrees and relatedness analysis in R**. Lecture and workshop at the Polish Forensic Genetics Conference, Zakopane. Lecturer: Magnus Dehli Vigeland.
     * Lecture: Pedigrees and relatedness analysis in R
-    * Lecture: Introduction to the ped suite
+    * Lecture: Introduction to the pedsuite
     * Exercises 1: Pedigree analysis in R
     * Exercises 2: Forensic case studies
 
