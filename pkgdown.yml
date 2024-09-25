@@ -1,5 +1,5 @@
 pandoc: 3.1.11
-pkgdown: 2.1.0
+pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
   web_only/course-isfg2021: web_only/course-isfg2021.html
@@ -15,7 +15,7 @@ articles:
   pedsuite: pedsuite.html
   web_only/publications: web_only/publications.html
   web_only/quickped: web_only/quickped.html
-last_built: 2024-09-10T15:03Z
+last_built: 2024-09-25T07:12Z
 urls:
   reference: https://magnusdv.github.io/pedsuite/reference
   article: https://magnusdv.github.io/pedsuite/articles
