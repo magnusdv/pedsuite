@@ -46,6 +46,7 @@ The following is a list of publications featuring **pedsuite** packages. If you 
 #### **`forrel`**
 * FL Marsico, I Caridi. [Incorporating non-genetic evidence in large scale missing person searches: A general approach beyond filtering](https://doi.org/10.1016/j.fsigen.2023.102891). *Forensic Sci Int: Genetics*, **2023**.
 * M Iungman, S Biagini, M Canteros et al. [Empirical validation of a family-member prioritization approach to maximize statistical power in missing person cases](https://doi.org/10.1016/j.fsigss.2022.10.059). *Forensic Sci Int: Genetics Suppl Series*, **2022**.
+* A Chernomoretz, F Marsico, et al. [Bayesian networks for DNA-based kinship analysis: Functionality and validation of the GENis missing person identification module](https://doi.org/10.1016/j.fsigss.2022.10.008). Forensic Sci Int: Genetics Suppl Series, **2022**.
 * HK Brustad, M Colucci, MA Jobling NA Sheehand, T Egeland. [Strategies for pairwise searches in forensic kinship analysis](https://doi.org/10.1016/j.fsigen.2021.102562). *Forensic Sci Int: Genetics*, **2021**.
 * FL Marsico, MD Vigeland, T Egeland, M Herrera Piñero. [Making decisions in missing person identification cases with low statistical power](https://doi.org/10.1016/j.fsigen.2021.102519). *Forensic Sci Int: Genetics*, **2021**.
 * HK Brustad, MD Vigeland, T Egeland. [Pairwise relatedness testing in the context of inbreeding: expectation and variance of the likelihood ratio](https://doi.org/10.1007/s00414-020-02426-6). *Int J Legal Med*, **2020**.
@@ -55,6 +56,9 @@ The following is a list of publications featuring **pedsuite** packages. If you 
 
 
 #### **`IBDsim`** / **`ibdsim2`**
+
+* C Cavagnino, G Runfeldt, et al. [Unearthing who and Y at Harewood Cemetery and inference of George Washington’s Y-chromosomal haplotype](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11074960/). *iScience*, **2024**.
+* H Vinje, HK Brustad, et al. [Classification of breed combinations for slaughter pigs based on genotypes—modeling DNA samples of crossbreeds as fuzzy sets from purebred founders](https://doi.org/10.3389/fgene.2023.1289130). *Front Genet*, **2023**.
 * VM Narasimhan, R Rahbari, A Scally, et al. [Estimating the human mutation rate from autozygous segments reveals population differences in human mutational processes](https://doi.org/10.1038/s41467-017-00323-y). *Nat Commun*, **2017**.
 * S Steinberg, S Gudmundsdottir, G Sveinbjornsson, et al. [Truncating mutations in RBM12 are associated with psychosis](https://doi.org/10.1038/ng.3894). *Nat Genet*, **2017**.
 
@@ -79,13 +83,27 @@ The following is a list of publications featuring **pedsuite** packages. If you 
 * T Egeland, G Dørum, MD Vigeland, NA Sheehan. [Mixtures with relatives: A pedigree perspective](https://doi.org/10.1016/j.fsigen.2014.01.007). *Forensic Sci Int: Genetics*, **2014**.
 * G Park, J Gim, AR Kim, et al. [Multiphasic analysis of whole exome sequencing data identifies a novel mutation of ACTG1 in a nonsyndromic hearing loss family](https://doi.org/10.1186/1471-2164-14-191). *BMC Genomics*, **2013**.
 
+#### **`pedbuildr`**
+
+* Y Wei, Q Zhu, H Wang, et al. [Pairwise kinship inference and pedigree reconstruction using 91 microhaplotypes](https://doi.org/10.1016/j.fsigen.2024.103090). *Forensic Sci Int: Genetics*, **2022**.
 
 #### **`pedprobr`**
 
 * S Bae, S Won, H Kim. [Selection and evaluation of bi-allelic autosomal SNP markers for paternity testing in Koreans](https://doi.org/10.1007/s00414-020-02495-7). *Int J Legal Med*, **2021**.
 
+#### **`pedtools`**
+
+* V Papin, G Gorjanc. [Unlocking genome-based prediction and selection in conifers: the key role of within-family prediction accuracy](https://doi.org/10.1101/2024.01.25.577259). Preprint, **2024**.
+
+#### **`QuickPed`**
+
+* I Koch, M Slovik, et al. [USP27X variants underlying X-linked intellectual disability disrupt protein function via distinct mechanisms](https://doi.org/10.26508/lsa.202302258). *Life Science Alliance*, **2024**.
+* R Simon, K Elísabetardóttir, and G Lühke. [Analysis of genetic variants for different horn phenotypes and their inheritance in Icelandic sheep](). *Arch Anim Breed*, **2024**.
+* Z Kolkova, P Durdik, et al. [Identification of a novel RPGR mutation associated with retinitis pigmentosa and primary ciliary dyskinesia in a Slovak family: a case report](https://doi.org/10.3389/fped.2024.1339664). *Front Pediatr*, **2024**.
+* TA Vaz, RM Hassunuma, et al. [QUICKPED: Um breve guia de como criar rapidamente um heredograma utilizando um recurso didático on-line gratuito](https://doi.org/10.51189/integrar/rema/4390). *Rev. Multi. Educação e Meio Amb*, **2024**.
 
 #### **`ribd`**
+* T Nomura. [Ballou’s Ancestral Inbreeding Coefficient: Formulation and New Estimate with Higher Reliability](https://doi.org/10.3390/ani14131844). *Animals*, **2024**.
 * MD Vigeland. [Two-locus identity coefficients in pedigrees](https://doi.org/10.1093/g3journal/jkac326). *G3 Genes|Genomes|Genetics*, **2023**.
 * M Kruijver, JM Curran. [The number of alleles in DNA mixtures with related contributors](https://doi.org/10.1016/j.fsigen.2022.102748). *Forensic Sci Int: Genetics*, **2022**.
 * A Sharma, S Szymczak, M Rühlemann, et al. [Linkage analysis identifies novel genetic modifiers of microbiome traits in families with inflammatory bowel disease](https://doi.org/10.1080/19490976.2021.2024415). *Gut Microbes*, **2022**.
@@ -94,14 +112,9 @@ The following is a list of publications featuring **pedsuite** packages. If you 
 
 
 #### **`segregatr`**
-* A Ratajska, MD Vigeland et al. [The use of segregation analysis in interpretation of sequence variants in SMAD3: A case report](https://doi.org/10.1002/mgg3.2107). *Molec. Genetics & Genomic Med*, **2023**.
-* G Gilfillan, P Bjørnstad et al. [A 39 kb structural variant causing Lynch Syndrome detected by optical genome mapping and nanopore sequencing](https://doi.org/10.21203/rs.3.rs-3136870/v1). Preprint, **2023**.
+* H-K Liu, H-L Hao, et al. [A Cysteinyl-tRNA Synthetase Mutation Causes Novel Autosomal-Dominant Inheritance of a Parkinsonism/Spinocerebellar-Ataxia Complex](https://doi.org/10.1007/s12264-024-01231-0). *Neurosci Bull*, **2024**.
+* SA Schubert, D Ruano, et al. [Germline variant affecting p53β isoforms predisposes to familial cancer](https://doi.org/10.1038/s41467-024-52551-8). *Nat Commun*, **2024**.
+* C Carrizosa, DE Undlien, MD Vigeland. [shinyseg: a web application for flexible cosegregation and sensitivity analysis](https://doi.org/10.1093/bioinformatics/btae201). *Bioinformatics*, **2024**.
+* A Ratajska, MD Vigeland, et al. [The use of segregation analysis in interpretation of sequence variants in SMAD3: A case report](https://doi.org/10.1002/mgg3.2107). *Molec. Genetics & Genomic Med*, **2023**.
+* PM Bjørnstad, R Aaløkken, et al. [A 39 kb structural variant causing Lynch Syndrome detected by optical genome mapping and nanopore sequencing](https://doi.org/10.1038/s41431-023-01494-7). *Eur J Med Gen*, **2023**.
 
----
-
-
-## Posters
-* MD Vigeland, T Egeland. *The ped suite: A collection of R packages for pedigree analysis*; (Abstract 1736). Annual meeting of the American Society of Human Genetics, Houston, 2019.
-* MD Vigeland, T Egeland. *Forensic computations in pedigrees with inbred founders*. Congress of the International Society for Forensic Genetics, Prague, 2019.
-* MD Vigeland, T Egeland. *Genotype probability distributions on complex pedigrees with applications to relationship testing*; (Abstract 1547W). Annual meeting of the American Society of Human Genetics, San Fransisco, 2012.
-* MD Vigeland. *IBDsim: An R package for simulation of chromosomal segments shared by family members*; (Abstract 676W). Annual meeting of the American Society of Human Genetics/International Congress of Human Genetics, Montreal, 2011.
