@@ -1,0 +1,102 @@
+---
+title: "GHEP Online School 2024: Workshop 1"
+subtitle: "Kinship and pedigree analysis: Methods and applications"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{GHEP Online School 2024: Workshop 1}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      fig.align = "center",
+                      collapse = TRUE,
+                      comment = "#>")
+```
+
+* __Dates__: October 7, 14, 21 and 28, 2024
+* __Where__: Online, as part of [ISFG-GHEP Online School 2024](https://ghep-isfg.org/en/workshops/ghep-os/autumn2024/WS1/)
+* __Teachers__: Magnus D. Vigeland and Thore Egeland
+* __Audience__: Students, researchers and case workers in forensic genetics
+
+## Learning outcomes
+* Classical concepts and methods of genetic relatedness 
+* Using QuickPed and other apps for pedigree analysis
+* Using Familias software to perform kinship testing
+* Methods for relationship inference and pedigree reconstruction
+* Practical methods for disaster victim identification
+
+## Software preparation: R
+Several exercises will use R. In order to do them, please install the following on your computer:
+
+* A recent version of [R](https://www.r-project.org)
+* [RStudio](https://www.rstudio.com/products/rstudio/download/)
+
+Run the following command in R to install the **pedsuite** packages:
+
+```{r, eval = F}
+install.packages("pedsuite")
+```
+
+## Software preparation: Familias
+Part of the course is based on kinship testing in the Familias software, which can be installed here: https://familias.no/download.
+
+```{r, echo = F}
+link = function(tit, file = NULL, live = T) {
+  bold = !grepl("exer", tit, ignore.case = T)
+  if(bold)
+    tit = sprintf("**%s**", tit)
+  
+  if(!live)
+    return(tit)
+
+  locpth = file.path("courses/ghep2024", file)
+  
+  if(!isTRUE(file.exists(locpth))) {
+    cat("File does not exist locally:", locpth, "\n")
+    return(tit)
+  }
+  
+  # Formatted link
+  webdir = "https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/ghep2024"
+  sprintf("[%s](%s)", tit, file.path(webdir, file))
+}
+```
+
+## Schedule
+The course runs each Monday of October 2024, from 16 to 20 (CEST). The following schedule is tentative:
+
+#### Oct 7: Theory of relatedness
+* 16:00--17:00 `r link("Introduction to pedigrees, QuickPed and R", "ghep2024_lecture1_pedigrees.pdf")` (MDV)
+* 17:00--17:45 `r link("Exercises", "exercises1.pdf", T)`
+* 17:45--18:00 _Break_
+* 18:00--19:00 `r link("Measures of relatedness", "ghep2024_lecture2_coefficients.pdf")` (MDV)
+* 19:00--19:45 `r link("Exercises", "exercises2.pdf")`
+* 19:45--20:00 Wrap-up
+
+#### Oct 14: Kinship testing
+* 16:00--17:00 `r link("Introduction to forensic kinship testing", "Lecture3_kinship.pdf", F)` (TE)
+* 17:00--17:45 `r link("Exercises", "exercises3.pdf", F)`
+* 17:45--18:00 _Break_
+* 18:00--19:00 `r link("Kinship testing with Familias", "Lecture4_familias.pdf", F)` (TE)
+* 19:00--19:45 `r link("Exercises", "exercises4.pdf", F)`
+* 19:45--20:00 Wrap-up
+
+#### Oct 21: Relatedness inference
+* 16:00--17:00 `r link("Realised relatedness: Why are some siblings more alike than others?", "Lecture5_realised.pdf", F)` (MDV)
+* 17:00--17:45 `r link("Exercises", "exercises5.pdf", F)`
+* 17:45--18:00 _Break_
+* 18:00--19:00 `r link("Pedigree reconstruction", "Lecture6_reconstruction.pdf", F)` (MDV)
+* 19:00--19:45 `r link("Exercises", "exercises6.pdf", F)`
+* 19:45--20:00 Wrap-up
+
+#### Oct 28: Disaster victim identification
+* 16:00--17:00 `r link("DNA-based disaster victim identification", "Lecture7_dvi.pdf", F)` (TE)
+* 17:00--17:45 `r link("Exercises", "exercises7.pdf", F)`
+* 17:45--18:00 _Break_
+* 18:00--19:00 `r link("Practical DVI with Diviana", "Lecture8_diviana.pdf", F)` (MDV)
+* 19:00--19:45 `r link("Exercises", "exercises8.pdf", F)`
+* 19:45--20:00 Wrap-up
+
+Comments and questions may be sent to *magnusdv at gmail dot com*.
