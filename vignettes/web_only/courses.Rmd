@@ -16,7 +16,8 @@ knitr::opts_chunk$set(echo = FALSE,
 
 ## Upcoming stuff
 
-* Oct 14, 2024 **Genetic Relatedness**. Half-day workshop at the *Young Investigator Day* at the [NOFE Conference](https://nofe.no/nofe-conference-2024/). Lecturer: Magnus D. Vigeland.
+* Oct 14, 2024 **Genetic Relatedness**. Half-day workshop at the *Young Investigator Day* at the [NOFE Conference](https://nofe.no/nofe-conference-2024/). Lecturer: Magnus D. Vigeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-yid2024.html).
+
 * Oct 10, 2024. **DIVIANA: A free, user-friendly app for complex DVI cases**. Invited online talk at the _2nd International Symposium on DNA Supported Missing Persons and Disaster Victim Identification_, Tbilisi, Georgia. Speaker: Magnus D. Vigeland.
 * Oct 7,14,21 and 28, 2024 **Kinship and pedigree analysis: Methods and applications**. Four-part lecture series, part of the [ISFG-GHEP Online School 2024](https://ghep-isfg.org/en/workshops/ghep-os/autumn2024/WS1/). Teachers: Magnus D. Vigeland and Thore Egeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-ghep2024.html).
 
