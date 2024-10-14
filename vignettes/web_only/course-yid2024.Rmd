@@ -14,30 +14,6 @@ knitr::opts_chunk$set(echo = TRUE,
                       comment = "#>")
 ```
 
-```{r, echo = F}
-courseFolder = "courses/yid2024"
-
-# Function for creating links to files
-link = function(tit, file = NULL, bold = F, live = T) {
-  if(bold)
-    tit = sprintf("**%s**", tit)
-  
-  if(!live)
-    return(tit)
-
-  locpth = file.path(courseFolder, file)
-  
-  if(!isTRUE(file.exists(locpth))) {
-    cat("File does not exist locally:", locpth, "\n")
-    return(tit)
-  }
-  
-  # Formatted link
-  url = "https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only"
-  sprintf('[%s](%s/%s){target="_blank"}', tit, url, locpth)
-}
-```
-
 # Workshop: Genetic relatedness
 
 * Date: Monday 14th of October, 2024
@@ -74,11 +50,16 @@ After completing the course the participants will have knowledge about:
 ## Schedule
 The workshop is run as a half-day course, from 12 to 16, with the following (tentative) schedule:
 
-* 12:00--13:00 Lecture 1. `r link("Introduction to pedigrees and relationships", "yid2024_lecture1_pedigrees.pdf", bold = T)`
-* 13:00--13:45 `r link("Exercises", "exercises1.pdf")` <!--. (`r link("Solutions", "solutions1.pdf")`) -->
+```{r, echo = F}
+link = pedsuite:::linkFUN(folder = "courses/yid2024")
+```
+
+* 12:00--13:00 `r link("Introduction to pedigrees and relationships", "yid2024_lecture1_pedigrees.pdf")`
+* 13:00--13:45 `r link("Exercises I", "exercises1.pdf")`
 * 13:45--14:00 _Break_
-* 14:00--15:00 Lecture 2. `r link("Measures of relatedness", "yid2024_lecture2_coefficients.pdf", bold = T)`
-* 15:00--15:45 `r link("Exercises", "exercises2.pdf")` <!--.. (`r link("Solutions", "solutions2.pdf")`) -->
+* 14:00--15:00 `r link("Measures of relatedness", "yid2024_lecture2_coefficients.pdf")`
+* 15:00--15:45 `r link("Exercises II", "exercises2.pdf")`
 * 15:45--16:00 Summary and discussion  
 
-Comments and questions may be sent to *magnusdv at gmail dot com*.
+Solutions to the exercises can be requested by email to *magnusdv at gmail dot com*.
+

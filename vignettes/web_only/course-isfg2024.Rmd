@@ -3,7 +3,7 @@ title: ISFG Congress 2024 Workshop
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteIndexEntry{"Kinship Statistics and Pedigree Analysis"}
+  %\VignetteIndexEntry{ISFG Congress 2024 Workshop}
   %\VignetteEncoding{UTF-8}
 ---
 
@@ -57,25 +57,26 @@ After completing the course the participants will have knowledge about:
 ## Schedule
 The workshop is run as a full-day course on Tuesday 10th, from 9 to 18:30 (CEST). The following schedule is tentative:
 
-#### Morning session -- Pedigree analysis: Basic
-* 09:00--10:00 Lecture 1. [**Pedigrees and measures of relatedness**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/Lecture1_pedigrees.pdf) (MDV)
-* 10:00--11:00 [Exercise set 1](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/exercises1.pdf)
-* 11:00--11:15 _Break_
-* 11:15--12:00 Lecture 2. [**Kinship testing**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/Lecture2-Kinship.pdf) (TE)
-* 12:00--12:45 [Exercise set 2](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/exercises2.pdf)
-* 12:45--13:00 Summary and discussion  
+```{r, echo = F}
+link = pedsuite:::linkFUN(folder = "courses/isfg2024")
+```
 
+#### Morning session -- Pedigree analysis: Basic
+* 09:00--10:00 `r link("Pedigrees and measures of relatedness", "Lecture1_pedigrees.pdf")` (MDV)
+* 10:00--11:00 `r link("Exercises I", "exercises1.pdf")`
+* 11:00--11:15 _Break_
+* 11:15--12:00 `r link("Kinship testing", "Lecture2-Kinship.pdf")` (TE)
+* 12:00--12:45 `r link("Exercises II", "exercises2.pdf")`
+* 12:45--13:00 Summary and discussion  
 
 <p style="text-indent: 12px;">**Lunch break 13:00 - 14:30**</p>
 
 #### Afternoon session -- Pedigree analysis: Advanced
-* 14:30--15:30 Lecture 3. [**Relatedness inference and pedigree reconstruction**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/Lecture3-reconstruction.pdf) (MDV)
-* 15:30--16:15 [Exercise set 3](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/exercises3.pdf)
+* 14:30--15:30 `r link("Relatedness inference and pedigree reconstruction", "Lecture3-reconstruction.pdf")` (MDV)
+* 15:30--16:15 `r link("Exercises III", "exercises3.pdf")`
 * 16:15--16:30 _Break_
-* 16:30--17:30 Lecture 4. [**Disaster victim identification**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/Lecture4-DVI.pdf) (TE)
-* 17:30--18:15 [Exercise set 4](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2024/exercises4.pdf)
+* 16:30--17:30 `r link("Disaster victim identification", "Lecture4-DVI.pdf")` (TE)
+* 17:30--18:15 `r link("Exercises IV", "exercises4.pdf")`
 * 18:15--18:30 Summary and discussion
 
-
-
-Comments and questions may be sent to *magnusdv at gmail dot com*.
+Solutions to the exercises can be requested by email to *magnusdv at gmail dot com*.

@@ -46,23 +46,25 @@ install.packages("pedsuite")
 ## Schedule
 The course runs from 18 to 22 (CEST) each day, with a 15 minute break in the middle. The following schedule is tentative:
 
+```{r, echo = F}
+link = pedsuite:::linkFUN(folder = "courses/isfg2023")
+```
+
 #### Aug 30 (Wednesday) -- Pedigree analysis: Basic
-* 18:00--19:00 Lecture 1. [**Pedigrees and measures of relatedness**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/Lecture1_pedigrees.pdf) (MDV)
+* 18:00--19:00 `r link("Pedigrees and measures of relatedness", "Lecture1_pedigrees.pdf")` (MDV)
 * 19:00--19:15 Crash course in R (MDV)
-* 19:15--20:00 [Exercise set 1](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/exercises1.pdf)
+* 19:15--20:00 `r link("Exercises I", "exercises1.pdf")`
 * 20:00--20:15 _Break_
-* 20:15--21:00 Lecture 2. [**Kinship testing**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/Lecture2_kinship.pdf) (TE)
-* 21:00--21:45 [Exercise set 2](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/exercises2.pdf)
+* 20:15--21:00 `r link("Kinship testing", "Lecture2_kinship.pdf")` (TE)
+* 21:00--21:45 `r link("Exercises II", "exercises2.pdf")`
 * 21:45--22:00 Summary and discussion
 
 #### Aug 31 (Thursday) -- Pedigree analysis: Advanced
-* 18:00--19:00 Lecture 3. [**Relatedness inference and pedigree reconstruction**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/Lecture3_reconstruction.pdf) (MDV)
-* 19:00--19:45 [Exercise set 3](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/exercises3.pdf)
+* 18:00--19:00 `r link("Relatedness inference and pedigree reconstruction", "Lecture3_reconstruction.pdf")` (MDV)
+* 19:00--19:45 `r link("Exercises III", "exercises3.pdf")`
 * 19:45--20:00 _Break_
-* 20:00--21:00 Lecture 4. [**Disaster victim identification**](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/Lecture4_DVI.pdf) (TE)
-* 21:00--21:45 [Exercise set 4](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/courses/isfg2023/exercises4.pdf)
+* 20:00--21:00 `r link("Disaster victim identification", "Lecture4_DVI.pdf")` (TE)
+* 21:00--21:45 `r link("Exercises IV", "exercises4.pdf")`
 * 21:45--22:00 Summary and discussion
 
-
-
-Comments and questions may be sent to *magnusdv at gmail dot com*.
+Solutions to the exercises can be requested by email to *magnusdv at gmail dot com*.

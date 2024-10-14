@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE,
 ```
 
 * __Dates__: October 7, 14, 21 and 28, 2024
-* __Where__: Online, as part of [ISFG-GHEP Online School 2024](https://ghep-isfg.org/en/workshops/ghep-os/autumn2024/WS1/)
+* __Where__: Online, as part of [GHEP-ISFG Online School 2024](https://ghep-isfg.org/en/workshops/ghep-os/autumn2024/WS1/)
 * __Teachers__: Magnus D. Vigeland and Thore Egeland
 * __Audience__: Students, researchers and case workers in forensic genetics
 
@@ -42,64 +42,44 @@ install.packages("pedsuite")
 ## Software preparation: Familias
 Part of the course is based on kinship testing in the Familias software, which can be installed here: https://familias.no/download.
 
-```{r, echo = F}
-courseFolder = "courses/ghep2024"
-
-# Function for creating links to files
-link = function(tit, file = NULL, bold = F, live = T) {
-  if(bold)
-    tit = sprintf("**%s**", tit)
-  
-  if(!live)
-    return(tit)
-
-  locpth = file.path(courseFolder, file)
-  
-  if(!isTRUE(file.exists(locpth))) {
-    cat("File does not exist locally:", locpth, "\n")
-    return(tit)
-  }
-  
-  # Formatted link
-  url = "https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only"
-  sprintf('[%s](%s/%s)', tit, url, locpth)
-}
-```
-```
 
 ## Schedule
 The course runs each Monday of October 2024, from 16 to 20 (CEST). The following schedule is tentative:
 
+```{r, echo = F}
+link = pedsuite:::linkFUN(folder = "courses/ghep2024")
+```
+
 #### Oct 7: Theory of relatedness
-* 16:00--17:00 `r link("Introduction to pedigrees, QuickPed and R", "ghep2024_lecture1_pedigrees.pdf", bold = T)` (MDV)
-* 17:00--17:45 `r link("Exercises", "exercises1.pdf")`. (`r link("Solutions", "solutions1.pdf")`)
+* 16:00--17:00 `r link("Introduction to pedigrees, QuickPed and R", "ghep2024_lecture1_pedigrees.pdf")` (MDV)
+* 17:00--17:45 `r link("Exercises I", "exercises1.pdf")`
 * 17:45--18:00 _Break_
-* 18:00--19:00 `r link("Measures of relatedness", "ghep2024_lecture2_coefficients.pdf", bold = T)` (MDV)
-* 19:00--19:45 `r link("Exercises", "exercises2.pdf")`. (`r link("Solutions", "solutions2.pdf")`)
+* 18:00--19:00 `r link("Measures of relatedness", "ghep2024_lecture2_coefficients.pdf")` (MDV)
+* 19:00--19:45 `r link("Exercises II", "exercises2.pdf")`
 * 19:45--20:00 Wrap-up
 
 #### Oct 14: Kinship testing
-* 16:00--17:00 `r link("Introduction to forensic kinship testing", "ghep2024_lecture3_testing.pdf", bold = T)` (TE)
-* 17:00--17:45 `r link("Exercises", "exercises3.pdf")`
+* 16:00--17:00 `r link("Introduction to forensic kinship testing", "ghep2024_lecture3_testing.pdf")` (TE)
+* 17:00--17:45 `r link("Exercises III", "exercises3.pdf")`
 * 17:45--18:00 _Break_
-* 18:00--19:00 `r link("Kinship testing with Familias", "ghep2024_lecture4_Familias.pdf", bold = T)` (TE)
-* 19:00--19:45 `r link("Exercises", "exercises4.pdf")`. File needed: `r link("kinship-riddle.fam", "kinship-riddle.fam")`
+* 18:00--19:00 `r link("Kinship testing with Familias", "ghep2024_lecture4_Familias.pdf")` (TE)
+* 19:00--19:45 `r link("Exercises IV", "exercises4.pdf")`. File needed: `r link("kinship-riddle.fam")`
 * 19:45--20:00 Wrap-up
 
 #### Oct 21: Relatedness inference
-* 16:00--17:00 `r link("Realised relatedness: Why are some siblings more alike than others?", "ghep2024_lecture5_realised.pdf", bold = T, live = F)` (MDV)
-* 17:00--17:45 `r link("Exercises", "exercises5.pdf", live = F)`
+* 16:00--17:00 `r link("Realised relatedness: Why are some siblings more alike than others?", "ghep2024_lecture5_realised.pdf")` (MDV)
+* 17:00--17:45 `r link("Exercises V", "exercises5.pdf")`
 * 17:45--18:00 _Break_
-* 18:00--19:00 `r link("Pedigree reconstruction", "ghep2024_lecture6_reconstruction.pdf", bold = T, live = F)` (MDV)
-* 19:00--19:45 `r link("Exercises", "exercises6.pdf", live = F)`
+* 18:00--19:00 `r link("Pedigree reconstruction", "ghep2024_lecture6_reconstruction.pdf")` (MDV)
+* 19:00--19:45 `r link("Exercises VI", "exercises6.pdf")`
 * 19:45--20:00 Wrap-up
 
 #### Oct 28: Disaster victim identification
-* 16:00--17:00 `r link("DNA-based disaster victim identification", "ghep2024_lecture7_dvi.pdf", bold = T, live = F)` (TE)
-* 17:00--17:45 `r link("Exercises", "exercises7.pdf", live = F)`
+* 16:00--17:00 `r link("DNA-based disaster victim identification", "ghep2024_lecture7_DVI_Familias.pdf")` (TE)
+* 17:00--17:45 `r link("Exercises VII", "exercises7.pdf")`. Familias file: `r link("planecrash.fam")`
 * 17:45--18:00 _Break_
-* 18:00--19:00 `r link("Practical DVI with Diviana", "ghep2024_lecture8_diviana.pdf", bold = T, live = F)` (MDV)
-* 19:00--19:45 `r link("Exercises", "exercises8.pdf", live = F)`
+* 18:00--19:00 `r link("Practical DVI with Diviana", "ghep2024_lecture8_diviana.pdf")` (MDV)
+* 19:00--19:45 `r link("Exercises VIII", "exercises8.pdf")`
 * 19:45--20:00 Wrap-up
 
-Comments and questions may be sent to *magnusdv at gmail dot com*.
+Solutions to the exercises can be requested by email to *magnusdv at gmail dot com*.

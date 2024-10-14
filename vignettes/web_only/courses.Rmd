@@ -1,9 +1,9 @@
 ---
-title: Talks and courses based on the pedsuite
+title: Talks and courses related to the pedsuite
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteIndexEntry{Talks and courses based on the pedsuite}
+  %\VignetteIndexEntry{Talks and courses related to the pedsuite}
   %\VignetteEncoding{UTF-8}
 ---
 
@@ -12,21 +12,24 @@ knitr::opts_chunk$set(echo = FALSE,
                       fig.align = "center",
                       collapse = TRUE,
                       comment = "#>")
+
+formatLink = pedsuite:::formatLink
 ```
 
-## Upcoming stuff
+## Upcoming events
 
-* Oct 14, 2024 **Genetic Relatedness**. Half-day workshop at the *Young Investigator Day* at the [NOFE Conference](https://nofe.no/nofe-conference-2024/). Lecturer: Magnus D. Vigeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-yid2024.html).
+TBA
 
-* Oct 10, 2024. **DIVIANA: A free, user-friendly app for complex DVI cases**. Invited online talk at the _2nd International Symposium on DNA Supported Missing Persons and Disaster Victim Identification_, Tbilisi, Georgia. Speaker: Magnus D. Vigeland.
-* Oct 7,14,21 and 28, 2024 **Kinship and pedigree analysis: Methods and applications**. Four-part lecture series, part of the [ISFG-GHEP Online School 2024](https://ghep-isfg.org/en/workshops/ghep-os/autumn2024/WS1/). Teachers: Magnus D. Vigeland and Thore Egeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-ghep2024.html).
-
-## Past stuff
+## Past events
 
 ### 2024
 
-* Sept 24. **Advanced Theoretical Challenges: Kinship**. Presentation of solutions and results for the theoretical proficiency test prepared for ISFG-GHEP 2024. [Exercises](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/GHEP/ghep_kinship24_final_EN.pdf). [Presentation](https://github.com/magnusdv/pedsuite/blob/master/vignettes/web_only/GHEP/ghep-kinship24-presentation.pdf)
-* Sept 11. **DIVIANA: A free, user-friendly app for complex DVI cases**. Oral presentation at the ISFG Congress 2024, Santiago de Compostela. Speaker: Magnus D. Vigeland.
+* Oct 7, 14, 21 and 28, 2024. **Kinship and pedigree analysis: Methods and applications**. Four-part lecture series, part of the [GHEP-ISFG Online School 2024](https://ghep-isfg.org/en/workshops/ghep-os/autumn2024/WS1/). Teachers: Magnus D. Vigeland and Thore Egeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-ghep2024.html).
+* Oct 15. **DIVIANA: A free, user-friendly app for complex DVI cases**. Research seminar RMF, Storo, Oslo. Speaker: Magnus D. Vigeland.
+* Oct 14. **Genetic Relatedness**. Half-day workshop at the *Young Investigator Day* at the [NOFE Conference](https://nofe.no/nofe-conference-2024/). Lecturer: Magnus D. Vigeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-yid2024.html).
+* Oct 10. **DIVIANA: A free, user-friendly app for complex DVI cases**. Invited online talk at the _2nd Intl Symposium on DNA Supported Missing Persons and Disaster Victim Identification_, Tbilisi, Georgia. Speaker: Magnus D. Vigeland. `r formatLink("Slides", "talks/2024-10-10-Tbilisi-DIVIANA.pdf")` (extended version of the ISFG talk).
+* Sept 24. **Advanced Theoretical Challenges: Kinship**. Presentation of solutions and results for the theoretical proficiency test prepared for GHEP-ISFG 2024. `r formatLink("Exercises", "GHEP/ghep_kinship24_final_EN.pdf")`. `r formatLink("Presentation", "GHEP/ghep-kinship24-presentation.pdf")`.
+* Sept 11. **DIVIANA: A free, user-friendly app for complex DVI cases**. Oral presentation at the ISFG Congress 2024, Santiago de Compostela. Speaker: Magnus D. Vigeland. `r formatLink("Slides", "talks/2024-09-11-ISFG-Santiago.pdf")`.
 * Sept 10. **Kinship statistics and pedigree analysis**. Pre-congress workshop, ISFG Congress 2024, Santiago de Compostela. Teachers: Magnus D. Vigeland and Thore Egeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2024.html).
 
 
