@@ -1,3 +1,8 @@
+# pedsuite 1.4.0
+
+* New package: **norSTR**
+* Update info on talks and courses
+
 # pedsuite 1.3.1
 
 * New package: **pedFamilias**
