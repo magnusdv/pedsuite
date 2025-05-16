@@ -18,13 +18,21 @@ formatLink = pedsuite:::formatLink
 
 ## Upcoming events
 
-TBA
+* Oct 17. **Recent advances in the analysis of complex DVI cases**. Invited talk at the [ISFG-GeFI](https://www.gefi-isfg.org/) meeting, Rome, Italy. Speaker: Magnus D. Vigeland.
+* Sept 18. **Advanced Theoretical Challenges: Kinship**. Presentation of solutions and results at the [ISFG-GHEP meeting](https://ghep-isfg.org/en/meetings/jornadas2025/), Barcelona, Spain. Speaker: Magnus D. Vigeland.
+* June 21. **Using the X-FORCE: Solving an old identification case with the FORCE panel**. Invited talk at the [Forensic Analysis of Human DNA](https://www.grc.org/forensic-analysis-of-human-dna-conference/2025/) Gordon Research Conference, Newry, Maine, United States. Speaker: Magnus D. Vigeland.
+
 
 ## Past events
 
+### 2025
+
+* May 19. **KLINK – a user-friendly app for kinship testing with linked markers**. Oral presentation at the 2025 [ISFG-ESWG meeting](https://axacoair.se/go?tjSbP6Yi), Oslo. Speaker: Magnus D. Vigeland.
+* May 15. **Estimating relatedness and pedigree relationships from genomic data**. Invited talk at the [8th Annual CeFH Symposium](https://www.fhi.no/en/ch/Centre-for-fertility-and-health/events-en/the-8th-annual-cefh-symposium/), Oslo. Speaker: Magnus D. Vigeland.
+
 ### 2024
 
-* Oct 7, 14, 21 and 28, 2024. **Kinship and pedigree analysis: Methods and applications**. Four-part lecture series, part of the [GHEP-ISFG Online School 2024](https://ghep-isfg.org/en/workshops/ghep-os/autumn2024/WS1/). Teachers: Magnus D. Vigeland and Thore Egeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-ghep2024.html).
+* Oct 7, 14, 21 and 28. **Kinship and pedigree analysis: Methods and applications**. Four-part lecture series, part of the [GHEP-ISFG Online School 2024](https://ghep-isfg.org/en/workshops/ghep-os/autumn2024/WS1/). Teachers: Magnus D. Vigeland and Thore Egeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-ghep2024.html).
 * Oct 15. **DIVIANA: A free, user-friendly app for complex DVI cases**. Research seminar RMF, Storo, Oslo. Speaker: Magnus D. Vigeland.
 * Oct 14. **Genetic Relatedness**. Half-day workshop at the *Young Investigator Day* at the [NOFE Conference](https://nofe.no/nofe-conference-2024/). Lecturer: Magnus D. Vigeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-yid2024.html).
 * Oct 10. **DIVIANA: A free, user-friendly app for complex DVI cases**. Invited online talk at the _2nd Intl Symposium on DNA Supported Missing Persons and Disaster Victim Identification_, Tbilisi, Georgia. Speaker: Magnus D. Vigeland. `r formatLink("Slides", "talks/2024-10-10-Tbilisi-DIVIANA.pdf")` (extended version of the ISFG talk).
