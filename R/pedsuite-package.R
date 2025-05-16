@@ -8,6 +8,7 @@
 #' @import pedprobr
 #' @import forrel
 #' @import verbalisr
+#' @import norSTR
 #'
 #' @importFrom dvir jointDVI
 #' @importFrom ibdsim2 ibdsim

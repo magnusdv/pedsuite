@@ -44,6 +44,8 @@ The following packages are devoted to special applications:
   identity-by-descent sharing by family members
 - [dvir](https://github.com/magnusdv/dvir): Disaster victim
   identification
+- [norSTR](https://github.com/magnusdv/norSTR): Data package with STR
+  allele frequencies
 - [paramlink2](https://github.com/magnusdv/paramlink2): Parametric
   linkage analysis
 - [pedbuildr](https://github.com/magnusdv/pedbuildr): Pedigree
@@ -59,8 +61,7 @@ The following packages are devoted to special applications:
 ### Retired packages
 
 These packages have been superseded by other packages and are no longer
-compatible with the rest of the **pedsuite**. They are maintained only
-for legacy purposes and should not be used in new projects.
+compatible with the rest of the **pedsuite**.
 
 - [paramlink](https://CRAN.R-project.org/package=paramlink): This
   package marked the birth of the **pedsuite**. Originally intended for

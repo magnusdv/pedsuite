@@ -42,6 +42,7 @@ The following packages are devoted to special applications:
 
 * [ibdsim2](https://github.com/magnusdv/ibdsim2): Simulation of identity-by-descent sharing by family members
 * [dvir](https://github.com/magnusdv/dvir): Disaster victim identification
+* [norSTR](https://github.com/magnusdv/norSTR): Data package with STR allele frequencies
 * [paramlink2](https://github.com/magnusdv/paramlink2): Parametric linkage analysis
 * [pedbuildr](https://github.com/magnusdv/pedbuildr): Pedigree reconstruction
 * [pedFamilias](https://github.com/magnusdv/pedFamilias): Import and export `.fam` files used by the [Familias](https://familias.name/) software
@@ -49,7 +50,7 @@ The following packages are devoted to special applications:
 * [segregatr](https://github.com/magnusdv/segregatr): Segregation analysis for clinical variant interpretation
 
 ### Retired packages
-These packages have been superseded by other packages and are no longer compatible with the rest of the **pedsuite**. They are maintained only for legacy purposes and should not be used in new projects.
+These packages have been superseded by other packages and are no longer compatible with the rest of the **pedsuite**.
 
 * [paramlink](https://CRAN.R-project.org/package=paramlink): This package marked the birth of the **pedsuite**. Originally intended for parametric linkage analysis, it also contained the seeds of the current packages **pedtools**, **pedprobr**, **ribd** and **forrel**. 
 * [IBDsim](https://CRAN.R-project.org/package=IBDsim): This is replaced by **ibdsim2**. (Regrettably, the name 'IBDsim' is very similar to that of the unrelated (non-R) software 'IBDSim' ([Leblois, Estoup & Rousset](https://www1.montpellier.inrae.fr/CBGP/software/ibdsim/index.html)).)

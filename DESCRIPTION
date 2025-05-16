@@ -25,6 +25,7 @@ Imports:
     pedmut,
     dvir,
     ibdsim2,
+    norSTR,
     paramlink2,
     pedbuildr,
     pedFamilias,
