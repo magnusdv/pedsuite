@@ -1,0 +1,72 @@
+---
+title: ISFG Summer School 2025
+subtitle: "Workshops 10.1 and 10.2: Pedigree analysis"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{ISFG Summer School 2023}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, 
+                      fig.align = "center",
+                      collapse = TRUE,
+                      comment = "#>")
+```
+
+* Dates: September 4 & 5, 2025
+* Where: Online, as part of [ISFG Summer School 2025](https://isfgsummerschool.idloom.events/isfg-summer-school-virtual-edition-2025/)
+* Teachers: Magnus Dehli Vigeland and Thore Egeland
+
+## Description
+The study of pedigrees and genetic relatedness is central in forensic genetics. The aim of this course is to introduce the elegant statistical foundations of relatedness, as well as several forensic applications. In the basic course we focus on pedigree coefficients and likelihood ratios for kinship analysis. We introduce the QuickPed app for drawing and analysing pedigrees, and will also be using R for calculations and visualisations. 
+Lectures and exercises are based on the book [Pedigree Analysis in R](https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-824430-2).
+
+The advanced session builds on the basic part, delving deeper into applications and implementations of pedigree analysis in forensic genetics. Main topics for this workshop include pedigree reconstruction and disaster victim identification.
+
+## Learning outcome
+After completing the course the participants will have knowledge about:
+
+* Classical concepts of statistical genetics and relatedness analysis
+* How to produce informative and beautiful pedigree plots
+* How to compute coefficients of relatedness
+* How to perform kinship testing and pedigree reconstruction in R
+* How to perform disaster victim identification with R and Diviana.
+
+## Prerequisites
+* Basic knowledge of genetics and probability
+* Some previous experience with R is recommended, but not strictly required
+* A recent version of [R](https://www.r-project.org) (at least 4.2) must be installed on your computer
+* We recommend running R from [RStudio](https://www.rstudio.com/products/rstudio/download/)
+
+The following R command installs the **pedsuite** packages, which will be used throughout the course:
+
+```{r, eval = F}
+install.packages("pedsuite")
+```
+
+## Schedule
+The course runs from 08 to 12 (CEST) each day, with a 15 minute break in the middle. The following schedule is tentative:
+
+```{r, echo = F}
+link = pedsuite:::linkFUN(folder = "courses/isfg2025")
+```
+
+#### Sept 4 (Thu). Pedigree analysis: Basic
+* 08:00--09:00 `r link("Pedigrees and measures of relatedness", "Lecture1_pedigrees.pdf")` (MDV)
+* 09:00--10:00 `r link("Exercises I", "exercises1.pdf")`
+* 10:00--10:15 _Break_
+* 10:15--11:00 `r link("Kinship testing", "Lecture2_kinship.pdf")` (TE)
+* 11:00--11:45 `r link("Exercises II", "exercises2.pdf")`
+* 11:45--12:00 Summary and discussion
+
+#### Sept 5 (Fri). Pedigree analysis: Advanced
+* 08:00--09:00 `r link("Relatedness inference and pedigree reconstruction", "Lecture3_reconstruction.pdf")` (MDV)
+* 09:00--10:00 `r link("Exercises III", "exercises3.pdf")`
+* 10:00--10:15 _Break_
+* 10:15--11:00 `r link("Disaster victim identification", "Lecture4_DVI.pdf")` (TE)
+* 11:00--11:45 `r link("Exercises IV", "exercises4.pdf")`
+* 11:45--12:00 Summary and discussion
+
+Solutions to the exercises can be requested by email to *magnusdv at gmail dot com*.

@@ -19,7 +19,7 @@ template:
 
 navbar:
   structure:
-    left:  [home, intro, publications, shiny, courses]
+    left:  [home, intro, publications, shiny, events]
     right: [github, twitter]
   components:
     reference: ~
@@ -42,15 +42,9 @@ navbar:
         href: articles/web_only/ibdsim2shiny.html
       - text: ibdClassifier
         href: articles/web_only/ibdClassifier.html
-    courses:
-      text: Courses
-      href: articles/web_only/courses.html
-      #menu:
-      #- text: All courses
-      #  href: articles/web_only/courses.html
-      #- text: -------
-      #- text: "Upcoming: ISFG Summer School 2023"
-      #  href: articles/web_only/course-isfg2023.html
+    events:
+      text: Events
+      href: articles/web_only/events.html
     twitter:
       icon: "fab fa-twitter fa-lg"
       href: https://twitter.com/mdvigeland
