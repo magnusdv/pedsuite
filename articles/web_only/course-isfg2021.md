@@ -1,0 +1,83 @@
+# ISFG Summer School - Virtual Edition 2021
+
+- Title: Pedigree analysis in R
+- Dates: July 28-30, 2021
+- Where: Online, as part of [ISFG Summer School
+  2021](https://isfgsummerschool.events.idloom.com/virtual-edition-2021)
+- Teachers: Magnus Dehli Vigeland and Thore Egeland
+
+## Description
+
+The study of genetic relatedness and how genetic information flows in
+families, is central in a variety of research fields, including medical
+and forensic genetics. The aim of this course is to introduce the
+elegant statistical foundations of relatedness, as well as several
+forensic applications, with a particular focus on using R for
+calculations and visualisations. Most lectures and exercises are based
+on the book [Pedigree Analysis in
+R](https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-824430-2).
+A 30% discount will be available for participants (but you do not have
+to buy the book in order to attend the course).
+
+## Learning outcome
+
+After completing the course the participants should have knowledge
+about:
+
+- Classical concepts and methods of statistical genetics and relatedness
+  analysis
+- How to create, manipulate and plot pedigrees in R
+- How to compute pedigree likelihoods and likelihood ratios in R
+- How to perform kinship testing and pedigree reconstruction in R
+- How to perform disaster victim identification in R
+
+## Prerequisites
+
+- Basic knowledge of genetics and probability.
+- Some previous experience with R is recommended.
+- Please make sure that
+  [R](https://magnusdv.github.io/pedsuite/articles/web_only/www.r-project.org)
+  (version \> 4.0) is installed on your computer. We recommend running R
+  from [RStudio](https://www.rstudio.com/products/rstudio/download/).
+
+The following R command installs the **pedsuite** packages, which will
+be used throughout the course:
+
+``` r
+install.packages("pedsuite")
+```
+
+## Schedule
+
+The course runs from 14 to 18 (CEST) each day, with a 15 minute break in
+the middle. The lectures are aimed at 55 minutes, allowing for a short
+interval before exercises.
+
+#### Day 1 — July 28 (Wednesday)
+
+- 14:00–15:00 Lecture 1. Introductions (MDV)
+- 15:00–15:45 Exercise set 1
+- 15:45–16:00 Break
+- 16:00–17:00 Lecture 2. Working with pedigrees in R (MDV)
+- 17:00–18:00 Exercise set 2
+
+#### Day 2 — July 29 (Thursday)
+
+- 14:00–15:00 Lecture 3. Kinship testing: paternity cases and complex
+  cases (TE)
+- 15:00–15:45 Exercise set 3
+- 15:45–16:00 Break
+- 16:00–17:00 Lecture 4. Relatedness coefficients (MDV)
+- 17:00–18:00 Exercise set 4
+
+#### Day 3 — July 30 (Friday)
+
+- 14:00–15:00 Lecture 5. Relatedness inference and pedigree
+  reconstruction (MDV)
+- 15:00–15:45 Exercise set 5
+- 15:45–16:00 Break
+- 16:00–17:00 Lecture 6. Disaster victim identification and other
+  forensic applications (TE)
+- 17:00–18:00 Exercise set 6
+
+Comments and questions may be sent to *magnusdv at gmail dot com*.

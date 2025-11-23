@@ -1,0 +1,140 @@
+# Talks and courses related to the pedsuite
+
+## Upcoming events
+
+- Aug 18, 2026. **Pedigree analysis and relatedness inference**.
+  Full-day pre-congress workshop at the [2026 ISFG
+  Congress](https://isfg2026.ca/), Montreal. Teachers: Magnus D.
+  Vigeland and Thore Egeland. [Course
+  homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2026.html)
+
+- May 19-22 2026. **Disaster victim identification**. Workshop at the
+  [ISFG-GHEP meeting](https://ghep-isfg.org/en/meetings/jornadas2026/),
+  Mexico City. Details to come.
+
+## Past events
+
+### 2025
+
+- Oct 17. **Recent advances in the analysis of complex DVI cases**.
+  Invited talk at the [ISFG-GeFI](https://www.gefi-isfg.org/) meeting,
+  Rome, Italy. Speaker: Magnus D. Vigeland.
+
+- Sept 18. **Advanced Theoretical Challenges: Kinship**. Presentation of
+  solutions and results at the [ISFG-GHEP
+  meeting](https://ghep-isfg.org/en/meetings/jornadas2025/), Barcelona,
+  Spain. Speaker: Magnus D. Vigeland.
+
+- Sept 4-5. **Pedigree Analysis**. ISFG Summer School 2025, Barcelona,
+  Spain. Teachers: Magnus D. Vigeland and Thore Egeland. [Course
+  homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2025.html).
+
+- June 21. **Using the X-FORCE: Solving an old identification case with
+  the FORCE panel**. Invited talk at the [Forensic Analysis of Human
+  DNA](https://www.grc.org/forensic-analysis-of-human-dna-conference/2025/)
+  Gordon Research Conference, Newry, Maine, United States. Speaker:
+  Magnus D. Vigeland.
+
+- May 19. **KLINK – a user-friendly app for kinship testing with linked
+  markers**. Oral presentation at the 2025 [ISFG-ESWG
+  meeting](https://axacoair.se/go?tjSbP6Yi), Oslo. Speaker: Magnus D.
+  Vigeland.
+
+- May 15. **Estimating relatedness and pedigree relationships from
+  genomic data**. Invited talk at the [8th Annual CeFH
+  Symposium](https://www.fhi.no/en/ch/Centre-for-fertility-and-health/events-en/the-8th-annual-cefh-symposium/),
+  Oslo. Speaker: Magnus D. Vigeland.
+
+### 2024
+
+- Oct 7, 14, 21 and 28. **Kinship and pedigree analysis: Methods and
+  applications**. Four-part lecture series, part of the [GHEP-ISFG
+  Online School
+  2024](https://ghep-isfg.org/en/workshops/ghep-os/autumn2024/WS1/).
+  Teachers: Magnus D. Vigeland and Thore Egeland. [Course
+  homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-ghep2024.html).
+
+- Oct 15. **DIVIANA: A free, user-friendly app for complex DVI cases**.
+  Research seminar RMF, Storo, Oslo. Speaker: Magnus D. Vigeland.
+
+- Oct 14. **Genetic Relatedness**. Half-day workshop at the *Young
+  Investigator Day* at the [NOFE
+  Conference](https://nofe.no/nofe-conference-2024/). Lecturer:
+  Magnus D. Vigeland. [Course
+  homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-yid2024.html).
+
+- Oct 10. **DIVIANA: A free, user-friendly app for complex DVI cases**.
+  Invited online talk at the *2nd Intl Symposium on DNA Supported
+  Missing Persons and Disaster Victim Identification*, Tbilisi, Georgia.
+  Speaker: Magnus D. Vigeland.
+  [Slides](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/talks/2024-10-10-Tbilisi-DIVIANA.pdf)
+  (extended version of the ISFG talk).
+
+- Sept 24. **Advanced Theoretical Challenges: Kinship**. Presentation of
+  solutions and results for the theoretical proficiency test prepared
+  for GHEP-ISFG 2024.
+  [Exercises](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/GHEP/ghep_kinship24_final_EN.pdf).
+  [Presentation](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/GHEP/ghep-kinship24-presentation.pdf).
+
+- Sept 11. **DIVIANA: A free, user-friendly app for complex DVI cases**.
+  Oral presentation at the ISFG Congress 2024, Santiago de Compostela.
+  Speaker: Magnus D. Vigeland.
+  [Slides](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/talks/2024-09-11-ISFG-Santiago.pdf).
+
+- Sept 10. **Kinship statistics and pedigree analysis**. Pre-congress
+  workshop, ISFG Congress 2024, Santiago de Compostela. Teachers:
+  Magnus D. Vigeland and Thore Egeland. [Course
+  homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2024.html).
+
+### 2023
+
+- Aug 30-31. **Pedigree Analysis**. ISFG Summer School 2023. Teachers:
+  Magnus D. Vigeland and Thore Egeland. [Course
+  homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2023.html).
+
+### 2022
+
+- June 13-17. **Statistical methods in relatedness and pedigree
+  analysis**. NORBIS 1-week intensive course, Oslo, Norway. Teachers:
+  Magnus D. Vigeland and Thore Egeland. [Course
+  homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-norbis2022.html).
+
+- May 23-24. **Pedigrees and relatedness analysis in R**. Lecture and
+  workshop at the Polish Forensic Genetics Conference, Zakopane.
+  Lecturer: Magnus D. Vigeland.
+
+  - Lecture: Pedigrees and relatedness analysis in R
+  - Lecture: Introduction to the pedsuite
+  - Exercises 1: Pedigree analysis in R
+  - Exercises 2: Forensic case studies
+
+### 2021
+
+- Aug 18 and 25. **Statistical power in missing person cases**. Online
+  lecture series for the *Proyecto de Cooperación Triangular
+  Argentina-Colombia-Unión Europea*. Lecturer: Magnus D. Vigeland.
+  - Lecture 1: Do we have enough data?
+  - Lecture 2: Who should be exhumed?
+- Jul 28-30. **Pedigree Analysis in R**. ISFG Summer School - Virtual
+  Edition 2021. Teachers: Thore Egeland and Magnus D. Vigeland. [Course
+  homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2021.html).
+
+### 2020
+
+- Jan 06-10. **Statistical methods in relatedness and pedigree
+  analysis**. NORBIS 1-week intensive course, Oslo, Norway. Teachers:
+  Thore Egeland and Magnus D. Vigeland. [Course
+  homepage](https://familias.name/norbisRelatedness/).
+
+### 2018
+
+- Jan 08-12. **Statistical methods in relatedness and pedigree
+  analysis**. NORBIS 1-week intensive course, Oslo, Norway. Teachers:
+  Thore Egeland and Magnus D. Vigeland. [Details and
+  program](https://norbis.w.uib.no/activities/courses/statistical-methods-in-relatedness-and-pedigree-analysis/).
+
+### 2016
+
+- Nov 16-19. **Statistical methods in genetics using R**. 4-day
+  intensive course, Rio de Janeiro, Brazil. Teachers: Thore Egeland and
+  Magnus D. Vigeland. [Course homepage](https://familias.name/RioR/).

@@ -1,5 +1,5 @@
 pandoc: 3.1.11
-pkgdown: 2.1.3
+pkgdown: 2.2.0
 pkgdown_sha: ~
 articles:
   web_only/course-ghep2024: web_only/course-ghep2024.html
@@ -7,6 +7,7 @@ articles:
   web_only/course-isfg2023: web_only/course-isfg2023.html
   web_only/course-isfg2024: web_only/course-isfg2024.html
   web_only/course-isfg2025: web_only/course-isfg2025.html
+  web_only/course-isfg2026: web_only/course-isfg2026.html
   web_only/course-norbis2022: web_only/course-norbis2022.html
   web_only/course-yid2024: web_only/course-yid2024.html
   web_only/diviana: web_only/diviana.html
@@ -18,7 +19,7 @@ articles:
   pedsuite: pedsuite.html
   web_only/publications: web_only/publications.html
   web_only/quickped: web_only/quickped.html
-last_built: 2025-11-03T15:11Z
+last_built: 2025-11-23T14:09Z
 urls:
   reference: https://magnusdv.github.io/pedsuite/reference
   article: https://magnusdv.github.io/pedsuite/articles

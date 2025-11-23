@@ -1,0 +1,85 @@
+# ISFG Summer School 2023
+
+- Dates: August 30 & 31, 2023
+- Where: Online, as part of [ISFG Summer School
+  2023](https://isfgsummerschool.idloom.events/isfg-summer-school-virtual-edition-2023)
+- Teachers: Magnus Dehli Vigeland and Thore Egeland
+
+## Description
+
+The study of genetic relatedness and the flow of genetic information
+within families, is central in forensic genetics. The aim of this course
+is to introduce the elegant statistical foundations of relatedness, and
+to explore important forensic applications. We use the software R for
+calculations and visualisations, in particular the
+[pedsuite](https://magnusdv.github.io/pedsuite/) packages for pedigree
+analysis. Most lectures and exercises are based on the book [Pedigree
+Analysis in
+R](https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-824430-2)
+(but you do not need the book in order to attend the course).
+
+## Learning outcome
+
+After completing the course the participants will have knowledge about:
+
+- Classical concepts of statistical genetics and relatedness analysis
+- How to produce informative and beautiful pedigree plots
+- How to compute coefficients of relatedness
+- How to perform kinship testing and pedigree reconstruction in R
+- How to perform disaster victim identification in R
+
+## Prerequisites
+
+- Basic knowledge of genetics and probability
+- Some previous experience with R is recommended, but not strictly
+  required
+- A recent version of [R](https://www.r-project.org) (at least 4.1) must
+  be installed on your computer
+- We recommend running R from
+  [RStudio](https://www.rstudio.com/products/rstudio/download/)
+
+The following R command installs the **pedsuite** packages, which will
+be used throughout the course:
+
+``` r
+install.packages("pedsuite")
+```
+
+## Schedule
+
+The course runs from 18 to 22 (CEST) each day, with a 15 minute break in
+the middle. The following schedule is tentative:
+
+#### Aug 30 (Wednesday) – Pedigree analysis: Basic
+
+- 18:00–19:00 [**Pedigrees and measures of
+  relatedness**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2023/Lecture1_pedigrees.pdf)
+  (MDV)
+- 19:00–19:15 Crash course in R (MDV)
+- 19:15–20:00 [Exercises
+  I](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2023/exercises1.pdf)
+- 20:00–20:15 *Break*
+- 20:15–21:00 [**Kinship
+  testing**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2023/Lecture2_kinship.pdf)
+  (TE)
+- 21:00–21:45 [Exercises
+  II](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2023/exercises2.pdf)
+- 21:45–22:00 Summary and discussion
+
+#### Aug 31 (Thursday) – Pedigree analysis: Advanced
+
+- 18:00–19:00 [**Relatedness inference and pedigree
+  reconstruction**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2023/Lecture3_reconstruction.pdf)
+  (MDV)
+- 19:00–19:45 [Exercises
+  III](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2023/exercises3.pdf)
+- 19:45–20:00 *Break*
+- 20:00–21:00 [**Disaster victim
+  identification**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2023/Lecture4_DVI.pdf)
+  (TE)
+- 21:00–21:45 [Exercises
+  IV](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2023/exercises4.pdf)
+- 21:45–22:00 Summary and discussion
+
+Solutions to the exercises can be requested by email to *magnusdv at
+gmail dot com*.

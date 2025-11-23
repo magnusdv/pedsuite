@@ -1,0 +1,113 @@
+# Statistical methods in relatedness and pedigree analysis - 2022
+
+------------------------------------------------------------------------
+
+## Summary
+
+- Title: Statistical methods in relatedness and pedigree analysis
+- Dates: 13–17 June 2022
+- Teachers: Magnus Dehli Vigeland and Thore Egeland
+- Where: Room 2203a (“Helix”), Kristine Bonnevies hus, University of
+  Oslo
+- Address: [Blindernveien 31, entrance from Moltke Moes
+  vei](https://www.uio.no/english/about/getting-around/areas/blindern/bl18/).
+- Credits: 4 ECTS
+- Exam: Home project (passed/not passed)
+
+## Description
+
+The course introduces statistical methods used in relatedness and
+pedigree analysis, with applications in forensic genetics, medical
+genetics and pedigree reconstruction.
+
+The study of genetic relatedness and how genetic information flows in
+families, is central in a variety of important research fields,
+including medical genetics, forensics and animal breeding. The aim of
+this course is to introduce the students to the elegant concepts and
+results forming the theoretical foundation of genetic relatedness, and
+to present in some detail several modern applications. In the exercises
+we use R and the
+[pedsuite](https://magnusdv.github.io/pedsuite/index.html) packages for
+pedigree analysis and visualisation.
+
+Much of the course material is based on the book [Pedigree Analysis in
+R](https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-824430-2)
+which may be of interest to some participants (but is not required to
+attend the course).
+
+## Learning outcome
+
+After completing the course the participants will have knowledge about:
+
+- Classical concepts and methods of statistical genetics and relatedness
+  analysis
+- Important applications of pedigree analysis, including forensic
+  kinship analysis, medical segregation analysis and pedigree
+  reconstruction
+- How to work with pedigrees in R
+
+## Prerequisites
+
+- Basic knowledge of genetics and probability.
+- Some previous experience with R is recommended, but not strictly
+  required.
+- Please make sure that
+  [R](https://magnusdv.github.io/pedsuite/articles/web_only/www.r-project.org)
+  (version \> 4.1) is installed on your computer. We strongly recommend
+  running R from
+  [RStudio](https://www.rstudio.com/products/rstudio/download/).
+
+The following R command installs the **pedsuite** packages, which will
+be used throughout the course:
+
+``` r
+install.packages("pedsuite")
+```
+
+## Schedule
+
+The course runs from 9 to 16.30 (CEST) each day. A tentative schedule is
+given below. Minor changes may occur.
+
+#### Monday, June 13
+
+- 09–11 Introduction I: Pedigrees, genetics and probabilities (MDV)
+- 11–12 Exercises I
+- 12–13 Lunch
+- 13–15 Introduction II: R and the pedsuite (MDV)
+- 15–16:30 Exercises II
+
+#### Tuesday, June 14
+
+- 09–11 Relatedness I: IBD and coefficients of relatedness (MDV)
+- 11–12 Exercises III
+- 12–13 Lunch
+- 13–15 Relatedness II: Realised relatedness (MDV)
+- 15–16:30 Exercises IV
+
+#### Wednesday, June 15
+
+- 09–11 Forensic applications I (TE)
+- 11–12 Exercises V
+- 12–13 Lunch
+- 13–15 Inference of relatedness and pedigree reconstruction (MDV)
+- 15–16:30 Exercises VI
+
+#### Thursday, June 16
+
+- 09–11 Forensic applications II (TE)
+- 11–12 Exercises VII
+- 12–13 Lunch
+- 13–15 Linkage and segregation analysis in medical genetics (MDV)
+- 15–16:30 Exercises VIII
+
+#### Friday, June 17
+
+- 09–11 Genealogical triangulation (TE/MDV)
+- 11–12 Exercises
+- 12–13 Lunch
+- 13–16:30 Case study and wrap up (MDV)
+
+  
+
+Comments and questions may be sent to *magnusdv at medisin uio no*.

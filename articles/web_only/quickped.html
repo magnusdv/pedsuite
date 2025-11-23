@@ -46,7 +46,6 @@
       </ul>
 <ul class="navbar-nav">
 <li class="nav-item"><a class="external-link nav-link" href="https://github.com/magnusdv/pedsuite/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
-<li class="nav-item"><a class="external-link nav-link" href="https://twitter.com/mdvigeland" aria-label="twitter account"><span class="fa fab fa-twitter fa-lg"></span></a></li>
       </ul>
 </div>
 
@@ -119,7 +118,7 @@ members you must decide whether you want to remove <em>downwards</em> or
 up with the trio 1-2-3, select 4 and/or 5 and delete downwards with
 <code>↓</code>. Conversely, if you want the trio 3-4-5, then select 1
 and/or 2, and click <code>↑</code>.
-<img src="quickped_files/figure-html/unnamed-chunk-1-1.png" width="32%" style="display: block; margin: auto;"><em>Note: In both cases, leftover founder-spouses are automatically
+<img src="quickped_files/figure-html/unnamed-chunk-1-1.png" class="r-plt" width="32%" style="display: block; margin: auto;"><em>Note: In both cases, leftover founder-spouses are automatically
 removed.</em></p></li>
 <li><p><strong>Automatic labelling</strong>. Automatic labelling of the
 pedigree members are available in two different formats. The button
@@ -187,7 +186,7 @@ King Tutankhamun’s Family</a>.</p></li>
 pedigrees in so-called <em>ped format</em>. Such files are often
 required by software for pedigree analysis.</p>
 <p>For a simple illustration, consider this pedigree:</p>
-<p><img src="quickped_files/figure-html/trio-ped-1.png" width="30%" style="display: block; margin: auto;"></p>
+<p><img src="quickped_files/figure-html/trio-ped-1.png" class="r-plt" width="30%" style="display: block; margin: auto;"></p>
 <p>A text file describing this pedigree may contain the following.</p>
 <pre><code> id fid mid sex aff
   1   0   0   1   1
@@ -327,7 +326,7 @@ carried by individuals
 and
 <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>B</mi><annotation encoding="application/x-tex">B</annotation></semantics></math>
 at an autosomal locus, can be drawn as dots in a square diagram:</p>
-<p><img src="jacquardSquare.png" width="40%" style="display: block; margin: auto;"></p>
+<p><img src="jacquardSquare.png" class="r-plt" width="40%" style="display: block; margin: auto;"></p>
 <p>An <em>identity state</em> is a pattern of IBD between the alleles,
 represented by line segments connecting the alleles.</p>
 <div class="section level4">
@@ -336,7 +335,7 @@ represented by line segments connecting the alleles.</p>
 <p>In total there are 15 possible patterns of IBD between 4 alleles.
 These are called the <em>detailed identity states</em>, and are shown
 below in the order used by QuickPed.</p>
-<p><img src="identity-states-detailed.png" width="100%" style="display: block; margin: auto;"></p>
+<p><img src="identity-states-detailed.png" class="r-plt" width="100%" style="display: block; margin: auto;"></p>
 </div>
 <div class="section level4">
 <h4 id="condensed-states">Condensed states<a class="anchor" aria-label="anchor" href="#condensed-states"></a>
@@ -344,7 +343,7 @@ below in the order used by QuickPed.</p>
 <p>In most applications the paternal/maternal origin of alleles does not
 matter. The 15 detailed states are then reduced to 9, known as the
 <em>condensed identity states</em>:</p>
-<p><img src="identity-states-condensed.png" width="100%" style="display: block; margin: auto;"></p>
+<p><img src="identity-states-condensed.png" class="r-plt" width="100%" style="display: block; margin: auto;"></p>
 </div>
 </div>
 <div class="section level3">
@@ -371,10 +370,10 @@ autozygous alleles</strong>. This rule guides the following table, which
 shows how to interpret the condensed X-chromosomal coefficients returned
 by QuickPed. The first row, corresponding to two females, is identical
 to the autosomal case.</p>
-<p><img src="identity-states-condensed-X.png" width="100%" style="display: block; margin: auto;"></p>
+<p><img src="identity-states-condensed-X.png" class="r-plt" width="100%" style="display: block; margin: auto;"></p>
 <p>In a similar fashion, the states corresponding to the
 <em>detailed</em> X-chromosomal coefficients, are as follows:</p>
-<p><img src="identity-states-detailed-X.png" width="100%" style="display: block; margin: auto;"></p>
+<p><img src="identity-states-detailed-X.png" class="r-plt" width="100%" style="display: block; margin: auto;"></p>
 <p>Note that for hemizygous males, the single allele is drawn on the
 right side, since it is maternally inherited. It should also be noted
 that QuickPed always outputs the same number of coefficients (9
@@ -393,7 +392,7 @@ positions corresponding to undefined states.</p>
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.3.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.2.0.</p>
 </div>
 
     </footer>
