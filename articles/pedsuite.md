@@ -121,7 +121,7 @@ sims = ibdsim(x, N = 200, seed = 123)
 #> Recomb model : chi
 #> Target indivs: 1-9
 #> Skip recomb  : -
-#> Total time used: 1.94 secs
+#> Total time used: 2.03 secs
 ```
 
 Now extract the autozygous segments of each simulation.

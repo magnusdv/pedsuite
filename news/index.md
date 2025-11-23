@@ -2,6 +2,8 @@
 
 ## pedsuite 1.4.0
 
+CRAN release: 2025-11-23
+
 - New packages: **norSTR** and **ibdfindr**
 - Update info on talks and courses
 
