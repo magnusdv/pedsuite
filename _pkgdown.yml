@@ -45,10 +45,6 @@ navbar:
     events:
       text: Events
       href: articles/web_only/events.html
-    twitter:
-      icon: "fab fa-twitter fa-lg"
-      href: https://twitter.com/mdvigeland
-      aria-label: "twitter account"
 
 
 authors:
