@@ -2,7 +2,7 @@
 
 ## pedsuite 1.4.0
 
-- New package: **norSTR**
+- New packages: **norSTR** and **ibdfindr**
 - Update info on talks and courses
 
 ## pedsuite 1.3.1
