@@ -44,6 +44,8 @@ The following packages are devoted to special applications:
   identity-by-descent sharing by family members
 - [dvir](https://github.com/magnusdv/dvir): Disaster victim
   identification
+- [ibdfindr](https://github.com/magnusdv/ibdfindr): Inferring
+  identical-by-descent genomic segments from SNP Genotypes
 - [norSTR](https://github.com/magnusdv/norSTR): Data package with STR
   allele frequencies
 - [paramlink2](https://github.com/magnusdv/paramlink2): Parametric
