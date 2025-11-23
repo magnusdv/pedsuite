@@ -18,9 +18,10 @@ formatLink = pedsuite:::formatLink
 
 ## Upcoming events
 
-* Aug 17-21 2026. **Kinship and pedigree analysis**. Workshop at the [2026 ISFG Congress](https://isfg2026.ca/), Montreal. Teachers: Magnus D. Vigeland and Thore Egeland. Details to come.
+* Aug 18, 2026. **Pedigree analysis and relatedness inference**. Full-day pre-congress workshop at the [2026 ISFG Congress](https://isfg2026.ca/), Montreal. Teachers: Magnus D. Vigeland and Thore Egeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2026.html)
 
 * May 19-22 2026. **Disaster victim identification**. Workshop at the [ISFG-GHEP meeting](https://ghep-isfg.org/en/meetings/jornadas2026/), Mexico City. Details to come.
+
 
 ## Past events
 
