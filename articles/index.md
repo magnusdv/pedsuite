@@ -2,6 +2,8 @@
 
 ### All vignettes
 
+- [Workshop: Pedigrees and kinship analysis in forensic
+  genetics](https://magnusdv.github.io/pedsuite/articles/web_only/course-alcala2026.md):
 - [GHEP Online School 2024: Workshop
   1](https://magnusdv.github.io/pedsuite/articles/web_only/course-ghep2024.md):
 - [ISFG Summer School - Virtual Edition

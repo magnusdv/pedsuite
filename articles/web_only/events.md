@@ -8,9 +8,15 @@
   Vigeland and Thore Egeland. [Course
   homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2026.html)
 
-- May 19-22 2026. **Disaster victim identification**. Workshop at the
+- May 19, 2026. **Disaster victim identification**. Workshop at the
   [ISFG-GHEP meeting](https://ghep-isfg.org/en/meetings/jornadas2026/),
   Mexico City. Details to come.
+
+- April 28-29 2026. **Pedigrees and kinship analysis in forensic
+  genetics**. Two-day workshop at the Alcalá University, Alcala de
+  Henares, Spain. Teachers: Magnus D. Vigeland and Thore Egeland.
+  [Course
+  homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-alcala2026.html).
 
 ## Past events
 
