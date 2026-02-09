@@ -49,28 +49,37 @@ each day from 09:00 to 16:00. The following is a tentative schedule:
 ### Day 1 – Relatedness and kinship analysis
 
 - 09:00–10:00 **Pedigrees and measures of relatedness** (MDV)
-- 10:00–11:00 Exercises I. (*Software: QuickPed*)
-- 11:00–11.15 *Coffee break*
-- 11:15–12:15 **Forensic kinship testing** (TE)
-- 12:15–13:00 Exercises II. (*Software: Familias + pedsuite*)
 
-**Lunch break 13:00 - 14:00**
+- 10:00–11:00 Exercises I. (*Software: QuickPed*)
+
+- 11:00–11.15 *Coffee break*
+
+- 11:15–12:15 **Forensic kinship testing** (TE)
+
+- 12:15–13:00 Exercises II. (*Software: Familias + R*)
+
+  13:00–14:00 Lunch
 
 - 14:00–15:00 **Kinship testing with linked markers** (MDV)
-- 15:00–16:00 Exercises III. (*Software: KLINK)*
 
-### Day 2 – Disaster victim identification (DVI)
+- 15:00–16:00 Exercises III. (*Software: KLINK*)
+
+### Day 2 – Identification cases
 
 - 09:00–10:30 **Disaster victim identification** (TE+MDV)
+
 - 10:30–10.45 *Coffee break*
+
 - 10:45–12:00 Exercises IV. (*Software: DIVIANA*)
+
 - 12:00–13:00 **Realised relatedness and IBD segments** (MDV)
 
-**Lunch break 13:00 - 14:00**
+  13:00–14:00 Lunch
 
 - 14:00–15:00 Exercises III. (*Software: ibdsim2*)
-- 15:00–16:00 **Worked example: Solving a cold case from the 1956
-  Marcinelle mining disaster**
+
+- 15:00–16:00 **Case study: Identifying a victim of the Marcinelle
+  mining disaster**
 
 Solutions to the exercises can be requested by email to *magnusdv at
 gmail dot com*.
