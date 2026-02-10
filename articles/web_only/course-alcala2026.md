@@ -66,7 +66,7 @@ from 09:00 to 16:00. The following is a tentative schedule:
 
 ### Day 2 (Wednesday, April 29) – Identification cases
 
-- 09:00–10:30 **Disaster victim identification** (TE+MDV)
+- 09:00–10:30 **Disaster victim identification** (TE)
 
 - 10:30–10.45 *Coffee break*
 
