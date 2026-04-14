@@ -18,6 +18,10 @@ R](https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-82443
 (Vigeland ’21), which presents the `pedsuite` R packages underlying the
 mentioned apps.
 
+We also demonstrate the [Familias](https://familias.no) software, which
+is widely used for forensic kinship testing and disaster victim
+identification (DVI).
+
 Each day will alternate between lectures and hands-on exercises.
 Detailed solutions for all exercises are provided at the end of each
 day, and discussed as needed.
@@ -33,52 +37,56 @@ After completing the course the participants will know:
 
 ## Prerequisites
 
-- Basic knowledge of genetics and probability
 - All participants should bring a laptop on which they have
   administrative rights
-- A recent version of [R](https://www.r-project.org) should be installed
-  on your computer
-- We strongly recommend running R from
-  [RStudio](https://www.rstudio.com/products/rstudio/download/)
+- Recent versions of [R](https://www.r-project.org) and
+  [RStudio](https://www.rstudio.com/products/rstudio/download/) should
+  be installed.
+- A recent version of [Familias](https://familias.no/download) should be
+  installed.
 
 ## Schedule
 
-The workshop is run over two days, 28th and 29th of April 2026, each day
-from 09:00 to 16:00. The following is a tentative schedule:
+The workshop is run over two days, April 28–29, 2026. The following is a
+tentative schedule:
 
 ### Day 1 (Tuesday, April 28) – Relatedness and kinship analysis
+
+- 08:30–08:45 Registration
+
+- 08:45–09:00 Introductions
 
 - 09:00–10:00 **Pedigrees and measures of relatedness** (MDV)
 
 - 10:00–11:00 Exercises I. (*Software: QuickPed*)
 
-- 11:00–11.15 *Coffee break*
+  *11:00–11:30 COFFEE BREAK*
 
-- 11:15–12:15 **Forensic kinship testing** (TE)
+- 11:30–12:30 **Forensic kinship testing** (TE)
 
-- 12:15–13:00 Exercises II. (*Software: Familias + R*)
+- 12:30–13:30 Exercises II. (*Software: Familias + R*)
 
-  13:00–14:00 Lunch
+  ***13:30–15:00 LUNCH***
 
-- 14:00–15:00 **Kinship testing with linked markers** (MDV)
+- 15:00–16:00 **Kinship testing with linked markers** (MDV)
 
-- 15:00–16:00 Exercises III. (*Software: KLINK*)
+- 16:00–17:00 Exercises III. (*Software: KLINK*)
 
 ### Day 2 (Wednesday, April 29) – Identification cases
 
 - 09:00–10:30 **Disaster victim identification** (TE)
 
-- 10:30–10.45 *Coffee break*
+  *10:30–11:00 COFFEE BREAK*
 
-- 10:45–12:00 Exercises IV. (*Software: DIVIANA*)
+- 11:00–12:00 Exercises IV. (*Software: DIVIANA*)
 
-- 12:00–13:00 **Realised relatedness and IBD segments** (MDV)
+- 12:00–13:30 **Realised relatedness and IBD segments** (MDV)
 
-  13:00–14:00 Lunch
+  ***13:30–15:00 LUNCH***
 
-- 14:00–15:00 Exercises III. (*Software: ibdsim2*)
+- 15:00–16:00 Exercises V. (*Software: ibdsim2*)
 
-- 15:00–16:00 **Case study: Identifying a victim of the Marcinelle
+- 16:00–17:00 **Case study: Identifying a victim of the Marcinelle
   mining disaster**
 
 Solutions to the exercises can be requested by email to *magnusdv at
