@@ -42,8 +42,11 @@ After completing the course the participants will know:
 - Recent versions of [R](https://www.r-project.org) and
   [RStudio](https://www.rstudio.com/products/rstudio/download/) should
   be installed.
-- A recent version of [Familias](https://familias.no/download) should be
-  installed.
+- In addition, you should install a recent version of
+  [Familias](https://familias.no/download).
+
+If you run into installation problems, we will help during the workshop,
+but to save time for everybody, please try to install these in advance.
 
 ## Schedule
 
@@ -53,39 +56,24 @@ tentative schedule:
 ### Day 1 (Tuesday, April 28) – Relatedness and kinship analysis
 
 - 08:30–08:45 Registration
-
 - 08:45–09:00 Introductions
-
 - 09:00–10:00 **Pedigrees and measures of relatedness** (MDV)
-
 - 10:00–11:00 Exercises I. (*Software: QuickPed*)
-
-  *11:00–11:30 COFFEE BREAK*
-
+- 11:00–11:30 COFFEE BREAK
 - 11:30–12:30 **Forensic kinship testing** (TE)
-
 - 12:30–13:30 Exercises II. (*Software: Familias + R*)
-
-  ***13:30–15:00 LUNCH***
-
+- **13:30–15:00 LUNCH**
 - 15:00–16:00 **Kinship testing with linked markers** (MDV)
-
 - 16:00–17:00 Exercises III. (*Software: KLINK*)
 
 ### Day 2 (Wednesday, April 29) – Identification cases
 
 - 09:00–10:30 **Disaster victim identification** (TE)
-
-  *10:30–11:00 COFFEE BREAK*
-
+- 10:30–11:00 COFFEE BREAK
 - 11:00–12:00 Exercises IV. (*Software: DIVIANA*)
-
 - 12:00–13:30 **Realised relatedness and IBD segments** (MDV)
-
-  ***13:30–15:00 LUNCH***
-
+- **13:30–15:00 LUNCH**
 - 15:00–16:00 Exercises V. (*Software: ibdsim2*)
-
 - 16:00–17:00 **Case study: Identifying a victim of the Marcinelle
   mining disaster**
 
