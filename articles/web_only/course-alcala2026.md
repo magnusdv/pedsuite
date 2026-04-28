@@ -73,7 +73,9 @@ tentative schedule:
   (*Software: Familias + R*)
   [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/solutions2.pdf).
 - **13:30–15:00 LUNCH**
-- 15:00–16:00 **Kinship testing with linked markers** (MDV)
+- 15:00–16:00 [**Kinship testing with linked
+  markers**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/Lecture3_linked.pdf)
+  (MDV)
 - 16:00–17:00 [Exercises
   III](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/exercises3.pdf).
   (*Software: KLINK*)
