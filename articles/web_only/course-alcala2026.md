@@ -64,8 +64,12 @@ tentative schedule:
   I](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/exercises1.pdf).
   (*Software: QuickPed*)
 - 11:00–11:30 COFFEE BREAK
-- 11:30–12:30 **Forensic kinship testing** (TE)
-- 12:30–13:30 Exercises II. (*Software: Familias + R*)
+- 11:30–12:30 [**Forensic kinship
+  testing**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/Lecture2_kinship.pdf)
+  (TE)
+- 12:30–13:30 [Exercises
+  II](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/exercises2.pdf).
+  (*Software: Familias + R*)
 - **13:30–15:00 LUNCH**
 - 15:00–16:00 **Kinship testing with linked markers** (MDV)
 - 16:00–17:00 Exercises III. (*Software: KLINK*)
