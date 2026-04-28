@@ -79,6 +79,7 @@ tentative schedule:
 - 16:00–17:00 [Exercises
   III](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/exercises3.pdf).
   (*Software: KLINK*)
+  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/solutions3.pdf).
 
 ### Day 2 (Wednesday, April 29) – Identification cases
 
