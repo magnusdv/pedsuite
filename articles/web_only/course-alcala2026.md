@@ -57,8 +57,12 @@ tentative schedule:
 
 - 08:30–08:45 Registration
 - 08:45–09:00 Introductions
-- 09:00–10:00 **Pedigrees and measures of relatedness** (MDV)
-- 10:00–11:00 Exercises I. (*Software: QuickPed*)
+- 09:00–10:00 [**Pedigrees and measures of
+  relatedness**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/Lecture1_pedigrees.pdf)
+  (MDV)
+- 10:00–11:00 [Exercises
+  I](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/exercises1.pdf).
+  (*Software: QuickPed*)
 - 11:00–11:30 COFFEE BREAK
 - 11:30–12:30 **Forensic kinship testing** (TE)
 - 12:30–13:30 Exercises II. (*Software: Familias + R*)
