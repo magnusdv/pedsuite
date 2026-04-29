@@ -87,7 +87,9 @@ tentative schedule:
   identification**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/Lecture4_dvi.pdf)
   (TE)
 - 10:30–11:00 COFFEE BREAK
-- 11:00–12:00 Exercises IV. (*Software: DIVIANA*)
+- 11:00–12:00 [Exercises
+  IV](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/exercises4.pdf).
+  (*Software: DIVIANA*)
 - 12:00–13:30 **Realised relatedness and IBD segments** (MDV)
 - **13:30–15:00 LUNCH**
 - 15:00–16:00 Exercises V. (*Software: ibdsim2*)
