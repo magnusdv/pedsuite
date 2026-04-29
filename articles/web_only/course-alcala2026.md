@@ -98,9 +98,10 @@ tentative schedule:
 - 15:00–16:00 [Exercises
   V](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/exercises5.pdf).
   (*Software: ibdsim2*)
-  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/solutions4.pdf).
-- 16:00–17:00 **Case study: Identifying a victim of the Marcinelle
-  mining disaster**
+  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/solutions5.pdf).
+- 16:00–17:00 [**Case study: Identifying a victim of the Marcinelle
+  mining
+  disaster**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/Lecture6_marcinelle.pdf)
 
 Solutions to the exercises can be requested by email to *magnusdv at
 gmail dot com*.
