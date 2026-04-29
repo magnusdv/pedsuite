@@ -83,7 +83,9 @@ tentative schedule:
 
 ### Day 2 (Wednesday, April 29) – Identification cases
 
-- 09:00–10:30 **Disaster victim identification** (TE)
+- 09:00–10:30 [**Disaster victim
+  identification**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/Lecture4_dvi.pdf)
+  (TE)
 - 10:30–11:00 COFFEE BREAK
 - 11:00–12:00 Exercises IV. (*Software: DIVIANA*)
 - 12:00–13:30 **Realised relatedness and IBD segments** (MDV)
