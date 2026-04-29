@@ -90,9 +90,14 @@ tentative schedule:
 - 11:00–12:00 [Exercises
   IV](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/exercises4.pdf).
   (*Software: DIVIANA*)
-- 12:00–13:30 **Realised relatedness and IBD segments** (MDV)
+  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/solutions4.pdf).
+- 12:00–13:30 [**Realised relatedness and IBD
+  segments**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/Lecture5_realised.pdf)
+  (MDV)
 - **13:30–15:00 LUNCH**
-- 15:00–16:00 Exercises V. (*Software: ibdsim2*)
+- 15:00–16:00 [Exercises
+  V](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/exercises5.pdf).
+  (*Software: ibdsim2*)
 - 16:00–17:00 **Case study: Identifying a victim of the Marcinelle
   mining disaster**
 
