@@ -6,12 +6,14 @@ The following command installs the latest official versions of the
 **pedsuite** packages:
 
 ``` r
+
 install.packages("pedsuite")
 ```
 
 Alternatively, you can install the development versions from GitHub:
 
 ``` r
+
 # install.packages("devtools")
 devtools::install_github("magnusdv/pedsuite")
 ```
@@ -35,6 +37,7 @@ packages](https://magnusdv.github.io/pedsuite/#core-packages), making
 their methods available in the current R session.
 
 ``` r
+
 library(pedsuite)
 #> Loading required package: forrel
 #> Loading required package: pedtools
@@ -49,6 +52,7 @@ We begin by creating and plotting a pedigree with a child of first
 cousins:
 
 ``` r
+
 x = cousinPed(1, child = TRUE)
 plot(x)
 ```
@@ -61,6 +65,7 @@ available - see the help page by typing
 [`?plotmethods`](https://magnusdv.github.io/pedsuite/reference/plotmethods.html)):
 
 ``` r
+
 x = swapSex(x, ids = 3)
 #> Changing sex of spouses as well: 4
 
@@ -75,34 +80,36 @@ plot(x,
 
 ### 2. Calculate the inbreeding coefficient (**ribd**)
 
-The inbreeding coefficient $f$ of a pedigree member is defined as the
+The inbreeding coefficient $`f`$ of a pedigree member is defined as the
 probability of *autozygosity* at a random autosomal locus. That is, the
 probability that the two homologous alleles have the same origin within
 the pedigree.
 
 For a child of first cousins one can work out by pen and paper that
-$f = 1/16$. Alternatively, we can calculate it with the **ribd**
+$`f = 1/16`$. Alternatively, we can calculate it with the **ribd**
 function
 [`inbreeding()`](https://magnusdv.github.io/pedsuite/reference/inbreeding.html).
 
 ``` r
+
 inbreeding(x, ids = 9)
 #> [1] 0.0625
 ```
 
-The output agrees with $f = 1/16$.
+The output agrees with $`f = 1/16`$.
 
 ### 3. Realised inbreeding (**ibdsim2**)
 
 For any particular child of first cousins, the actual autozygous
 fraction of the genome (except X & Y) is called the coefficient of
-*realised inbreeding*, denoted $f_{R}$. This may deviate substantially
-from the pedigree-based expectation $f = 1/16$.
+*realised inbreeding*, denoted $`f_R`$. This may deviate substantially
+from the pedigree-based expectation $`f = 1/16`$.
 
-We can simulate the distribution of $f_{R}$ with the **ibdsim2**
+We can simulate the distribution of $`f_R`$ with the **ibdsim2**
 package. Since this is not a core package we must load it separately.
 
 ``` r
+
 library(ibdsim2)
 ```
 
@@ -111,6 +118,7 @@ First, we use the function
 to simulate the recombination process in the entire pedigree, 200 times:
 
 ``` r
+
 sims = ibdsim(x, N = 200, seed = 123)
 #> Simulation parameters:
 #> Simulations  : 200
@@ -121,12 +129,13 @@ sims = ibdsim(x, N = 200, seed = 123)
 #> Recomb model : chi
 #> Target indivs: 1-9
 #> Skip recomb  : -
-#> Total time used: 2.03 secs
+#> Total time used: 1.94 secs
 ```
 
 Now extract the autozygous segments of each simulation.
 
 ``` r
+
 fr = realisedInbreeding(sims, id = 9)
 ```
 
@@ -134,6 +143,7 @@ Here is a summary of the first 6 simulations, including the number of
 segments and various length statistics:
 
 ``` r
+
 head(fr$perSimulation)
 #>   nSeg  meanLen   totLen   maxLen    minLen      fReal
 #> 1   11 19.04942 209.5437 37.56569 0.8072431 0.06178760
@@ -148,6 +158,7 @@ And here is a histogram of the realised inbreeding coefficients (given
 in the right-most column above):
 
 ``` r
+
 hist(fr$perSimulation$fReal, xlim = c(0, 0.15), breaks = 16, xlab = "f_R", main = NULL)
 
 # Expected value
@@ -157,9 +168,9 @@ abline(v = 1/16, col = 2)
 ![](pedsuite_files/figure-html/fr-hist-1.png)
 
 As we see, the distribution centres around the expectation
-$f = 1/16 = 0.0625$ (red vertical line) but has substantial spread. The
-sample standard deviation can be found in `fr$stDev`, which in our case
-is 0.02.
+$`f = 1/16 = 0.0625`$ (red vertical line) but has substantial spread.
+The sample standard deviation can be found in `fr$stDev`, which in our
+case is 0.02.
 
 ### 4. Marker simulation (**forrel**)
 
@@ -174,6 +185,7 @@ members for a specific type of markers. For instance, here we produce
 500 SNPs with alleles `A` and `B` (equally frequent, by default):
 
 ``` r
+
 y = markerSim(x, N = 500, alleles = c("A", "B"))
 #> Unconditional simulation of 500 autosomal markers.
 #> Individuals: 1, 2, 3, 4, 5, 6, 7, 8, 9
@@ -191,6 +203,7 @@ We can see the genotypes of the first few markers by printing `y` to the
 console.
 
 ``` r
+
 y
 #>  id fid mid sex <1> <2> <3> <4> <5>
 #>   1   *   *   1 A/B B/B A/A B/B A/A
@@ -215,6 +228,7 @@ pedigree. The function
 does all of this, and presents the result in a relationship triangle.
 
 ``` r
+
 checkPairwise(y)
 #> Excluding inbred individuals: 9
 ```

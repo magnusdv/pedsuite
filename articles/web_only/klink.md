@@ -33,11 +33,13 @@ is important if you have sensitive data and want to run everything
 locally. To set this up, simply install from CRAN with
 
 ``` r
+
 install.packages("KLINK")
 ```
 
 You can then open KLINK with the command
 
 ``` r
+
 KLINK::launchApp()
 ```

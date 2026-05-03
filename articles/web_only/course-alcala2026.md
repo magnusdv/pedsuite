@@ -63,7 +63,6 @@ tentative schedule:
 - 10:00–11:00 [Exercises
   I](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/exercises1.pdf).
   (*Software: QuickPed*)
-  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/solutions1.pdf).
 - 11:00–11:30 COFFEE BREAK
 - 11:30–12:30 [**Forensic kinship
   testing**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/Lecture2_kinship.pdf)
@@ -71,7 +70,6 @@ tentative schedule:
 - 12:30–13:30 [Exercises
   II](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/exercises2.pdf).
   (*Software: Familias + R*)
-  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/solutions2.pdf).
 - **13:30–15:00 LUNCH**
 - 15:00–16:00 [**Kinship testing with linked
   markers**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/Lecture3_linked.pdf)
@@ -79,7 +77,6 @@ tentative schedule:
 - 16:00–17:00 [Exercises
   III](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/exercises3.pdf).
   (*Software: KLINK*)
-  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/solutions3.pdf).
 
 ### Day 2 (Wednesday, April 29) – Identification cases
 
@@ -90,7 +87,6 @@ tentative schedule:
 - 11:00–12:00 [Exercises
   IV](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/exercises4.pdf).
   (*Software: DIVIANA*)
-  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/solutions4.pdf).
 - 12:00–13:30 [**Realised relatedness and IBD
   segments**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/Lecture5_realised.pdf)
   (MDV)
@@ -98,7 +94,6 @@ tentative schedule:
 - 15:00–16:00 [Exercises
   V](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/exercises5.pdf).
   (*Software: ibdsim2*)
-  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/solutions5.pdf).
 - 16:00–17:00 [**Case study: Identifying a victim of the Marcinelle
   mining
   disaster**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/alcala2026/Lecture6_marcinelle.pdf)

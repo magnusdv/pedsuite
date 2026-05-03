@@ -26,6 +26,7 @@ following on your computer:
 Run the following command in R to install the **pedsuite** packages:
 
 ``` r
+
 install.packages("pedsuite")
 ```
 

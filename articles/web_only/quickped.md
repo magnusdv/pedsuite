@@ -163,18 +163,17 @@ of relationships within the loaded pedigree. The buttons are, in order:
   coefficients between two selected individuals:
 
   - The inbreeding coefficient of each individual.
-  - The kinship coefficient $\varphi$.
+  - The kinship coefficient $`\varphi`$.
   - The degree of relationship.
-  - The IBD coefficients
-    $\kappa = \left( \kappa_{0},\kappa_{1},\kappa_{2} \right)$, if both
-    individuals are non-inbred.
+  - The IBD coefficients $`\kappa = (\kappa_0, \kappa_1, \kappa_2)`$, if
+    both individuals are non-inbred.
   - The condensed identity coefficients
-    $\Delta = \left( \Delta_{1},...,\Delta_{9} \right)$, if either
-    individual is inbred.
+    $`\Delta = (\Delta_1, ..., \Delta_9)`$, if either individual is
+    inbred.
 
 - **Relatedness triangle**. Produces a plot representing the IBD
-  coefficients $\kappa$ as a point in a *relatedness triangle*. Requires
-  two noninbred individuals to be selected.
+  coefficients $`\kappa`$ as a point in a *relatedness triangle*.
+  Requires two noninbred individuals to be selected.
 
 - **Table of coefficients**. Activates a popup window where the user can
   choose among a variety of coefficients, including detailed identity
@@ -189,34 +188,33 @@ recommend e.g. Thompson’s book *Statistical Inference from Genetic Data
 on Pedigrees* or Lange’s book *Mathematical and Statistical Methods for
 Genetic Analysis*.
 
-For a given pedigree with members $A$ and $B$ we define the following:
+For a given pedigree with members $`A`$ and $`B`$ we define the
+following:
 
-- The inbreeding coefficient $f$ of individual $A$ is the kinship
-  coefficient (see below) of the parents of $A$, or 0 if $A$ is a
+- The inbreeding coefficient $`f`$ of individual $`A`$ is the kinship
+  coefficient (see below) of the parents of $`A`$, or 0 if $`A`$ is a
   founder of the pedigree.
-- The kinship coefficient $\varphi$ between $A$ and $B$ is the
-  probability that a random allele from $A$ and a random allele from $B$
-  at the same locus, are *identical by descent* (IBD), i.e., that they
-  have the same ancestral origin within the pedigree.
-- The IBD coefficients
-  $\kappa = \left( \kappa_{0},\kappa_{1},\kappa_{2} \right)$ between $A$
-  and $B$, are the probabilities of sharing respectively 0, 1, or 2
-  alleles IBD at a random locus. Defined for noninbred individuals only.
+- The kinship coefficient $`\varphi`$ between $`A`$ and $`B`$ is the
+  probability that a random allele from $`A`$ and a random allele from
+  $`B`$ at the same locus, are *identical by descent* (IBD), i.e., that
+  they have the same ancestral origin within the pedigree.
+- The IBD coefficients $`\kappa = (\kappa_0, \kappa_1, \kappa_2)`$
+  between $`A`$ and $`B`$, are the probabilities of sharing respectively
+  0, 1, or 2 alleles IBD at a random locus. Defined for noninbred
+  individuals only.
 - The *condensed identity coefficients*
-  $\Delta = \left( \Delta_{1},\ldots,\Delta_{9} \right)$ between $A$ and
-  $B$, are the expected relative frequencies of the 9 condensed IBD
-  states (see below) of the four homologue alleles at an autosomal
-  locus.
+  $`\Delta = (\Delta_1, \dots, \Delta_9)`$ between $`A`$ and $`B`$, are
+  the expected relative frequencies of the 9 condensed IBD states (see
+  below) of the four homologue alleles at an autosomal locus.
 - The *detailed identity coefficients*
-  $\delta = \left( \delta_{1},\ldots,\delta_{15} \right)$ are the
-  expected relative frequencies of the 15 detailed IBD states (see
-  below).
+  $`\delta = (\delta_1, \dots, \delta_{15})`$ are the expected relative
+  frequencies of the 15 detailed IBD states (see below).
 
 ### A brief recap of identity states
 
 Following Jacquard (1974) and subsequent authors, the 4 alleles carried
-by individuals $A$ and $B$ at an autosomal locus, can be drawn as dots
-in a square diagram:
+by individuals $`A`$ and $`B`$ at an autosomal locus, can be drawn as
+dots in a square diagram:
 
 ![](jacquardSquare.png)
 

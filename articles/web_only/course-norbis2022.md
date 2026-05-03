@@ -61,6 +61,7 @@ The following R command installs the **pedsuite** packages, which will
 be used throughout the course:
 
 ``` r
+
 install.packages("pedsuite")
 ```
 
