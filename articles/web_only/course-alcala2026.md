@@ -3,6 +3,10 @@
 - Date: April 28–29, 2026
 - Where: Alcalá de Henares, Spain
 - Teachers: Magnus Dehli Vigeland & Thore Egeland
+- Organiser: Instituto Universitario de Investigación en Ciencias
+  Policiales (IUICP)
+- Official [home
+  page](https://iuicp.uah.es/es/actividades/congresos/Pedigrees-and-kinship-analysis-in-forensic-genetics/)
 
 ## Description
 
@@ -22,9 +26,9 @@ We also demonstrate the [Familias](https://familias.no) software, which
 is widely used for forensic kinship testing and disaster victim
 identification (DVI).
 
-Each day will alternate between lectures and hands-on exercises.
-Detailed solutions for all exercises are provided at the end of each
-day, and discussed as needed.
+Each day alternates between lectures and hands-on exercises. Detailed
+solutions for all exercises are provided at the end of each day, and
+discussed as needed.
 
 ## Learning outcome
 
@@ -50,8 +54,7 @@ but to save time for everybody, please try to install these in advance.
 
 ## Schedule
 
-The workshop is run over two days, April 28–29, 2026. The following is a
-tentative schedule:
+The workshop is run over two days, April 28–29, 2026.
 
 ### Day 1 (Tuesday, April 28) – Relatedness and kinship analysis
 
