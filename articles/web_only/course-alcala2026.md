@@ -19,7 +19,7 @@ and Diviana, which are all available as online tools.
 
 Parts of the course is based on the book [Pedigree Analysis in
 R](https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-824430-2)
-(Vigeland ’21), which presents the `pedsuite` R packages underlying the
+(Vigeland ’21), which presents the pedsuite R packages underlying the
 mentioned apps.
 
 We also demonstrate the [Familias](https://familias.no) software, which
