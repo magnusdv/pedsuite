@@ -108,6 +108,8 @@ more about them here:
   2025](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2025.md):
 - [ISFG 2026: Pre-congress
   workshop](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2026.md):
+- [GHEP Congress 2026 Workshop: Disaster Victim Identification
+  (DVI)](https://magnusdv.github.io/pedsuite/articles/web_only/course-mexico2026.md):
 - [Statistical methods in relatedness and pedigree analysis -
   2022](https://magnusdv.github.io/pedsuite/articles/web_only/course-norbis2022.md):
 - [Young Investigator Day

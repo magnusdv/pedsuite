@@ -2,23 +2,30 @@
 
 ## Upcoming events
 
+- May 20, 2026. **Disaster victim identification**. Full-day workshop at
+  the [ISFG-GHEP
+  meeting](https://ghep-isfg.org/en/meetings/jornadas2026/), Mexico
+  City. Teachers: Magnus D. Vigeland and Lourdes Prieto. [Course
+  homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-mexico2026.html)
+
+- May 21, 2026. **New approaches in DVI**. Invited talk at the
+  [ISFG-GHEP meeting](https://ghep-isfg.org/en/meetings/jornadas2026/),
+  Mexico City. Speaker: Magnus D. Vigeland.
+
 - Aug 18, 2026. **Pedigree analysis and relatedness inference**.
-  Full-day pre-congress workshop at the [2026 ISFG
-  Congress](https://isfg2026.ca/), Montreal. Teachers: Magnus D.
-  Vigeland and Thore Egeland. [Course
+  Full-day workshop at the [2026 ISFG Congress](https://isfg2026.ca/),
+  Montreal. Teachers: Magnus D. Vigeland and Thore Egeland. [Course
   homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2026.html)
 
-- May 19, 2026. **Disaster victim identification**. Workshop at the
-  [ISFG-GHEP meeting](https://ghep-isfg.org/en/meetings/jornadas2026/),
-  Mexico City. Details to come.
+## Past events
+
+### 2026
 
 - April 28-29 2026. **Pedigrees and kinship analysis in forensic
   genetics**. Two-day workshop at the Alcalá University, Alcala de
   Henares, Spain. Teachers: Magnus D. Vigeland and Thore Egeland.
   [Course
   homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-alcala2026.html).
-
-## Past events
 
 ### 2025
 
