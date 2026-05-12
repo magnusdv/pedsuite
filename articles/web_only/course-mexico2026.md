@@ -1,4 +1,6 @@
-# GHEP Congress 2026 Workshop: Disaster Victim Identification (DVI)
+# \<span style='font-size:0.8em;font-weight:400;color:#666'\>GHEP-ISFG Congress 2026 Workshop:\</span\>\<br\> Disaster Victim Identification (DVI)
+
+## Information
 
 - **Date**: 20th of May, 2026
 - **Where**: Mexico City, as part of the [GHEP-ISFG Meeting
@@ -52,17 +54,17 @@ disadvantages of each approach and how to use appropriate software.
 ## Prerequisites
 
 All participants should bring a laptop on which they have administrative
-rights
+rights.
 
-In the course we will use [Familias](https://familias.no/download) and
-[R](https://www.r-project.org). Please make sure these are installed on
-your computer. We recommend
-[RStudio](https://www.rstudio.com/products/rstudio/download/) for
-running R.
+During the course, we will use [Familias](https://familias.no/download)
+and [R](https://www.r-project.org). Please install both before the
+workshop. We recommend Familias version 3.4.
 
-If you run into installation problems, we will help during the workshop.
-To save time, we encourage you to update both R and any installed
-packages before the workshop.
+For R, we strongly recommend using
+[RStudio](https://www.rstudio.com/products/rstudio/download/).
+
+If you have installation problems, we can help during the workshop. To
+save time, please update R and any installed R packages beforehand.
 
 ## Schedule
 
