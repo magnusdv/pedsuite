@@ -1,6 +1,8 @@
-# \<span style='font-size:0.8em;font-weight:400;color:#666'\>GHEP-ISFG Congress 2026 Workshop:\</span\>\<br\> Disaster Victim Identification (DVI)
+# Disaster Victim Identification (DVI)
 
-## Information
+# GHEP-ISFG Congress 2026 Workshop: Disaster Victim Identification (DVI)
+
+### Information
 
 - **Date**: 20th of May, 2026
 - **Where**: Mexico City, as part of the [GHEP-ISFG Meeting
@@ -10,7 +12,7 @@
 - **Audience**: Experts with knowledge of the statistical interpretation
   of DNA evidence.
 
-## Description
+### Description
 
 DNA-based identification of victims of disasters or conflicts is a
 complex process, with many challenges. When many victims are involved,
@@ -34,7 +36,7 @@ well-established [Familias](https://familias.no/download) and the newer
 program DIVIANA based on the
 [pedsuite](https://magnusdv.github.io/pedsuite/) R packages.
 
-## References
+### References
 
 1.  D Kling, T Egeland, A Tillmar & L Prieto. Mass Identifications.
     Statistical Methods in Forensic Genetics. Elsevier, 2021
@@ -45,13 +47,13 @@ program DIVIANA based on the
 3.  T Egeland, MD Vigeland. Kinship cases with partially specified
     hypotheses. FSI Genetics, 2025
 
-## Learning outcome
+### Learning outcome
 
 After the workshop, participants will understand possible approaches to
 mass identification of victims. They will learn the advantages and
 disadvantages of each approach and how to use appropriate software.
 
-## Prerequisites
+### Prerequisites
 
 All participants should bring a laptop on which they have administrative
 rights.
@@ -61,12 +63,13 @@ and [R](https://www.r-project.org). Please install both before the
 workshop. We recommend Familias version 3.4.
 
 For R, we strongly recommend using
-[RStudio](https://www.rstudio.com/products/rstudio/download/).
+[RStudio](https://www.rstudio.com/products/rstudio/download/) in
+addition.
 
 If you have installation problems, we can help during the workshop. To
 save time, please update R and any installed R packages beforehand.
 
-## Schedule
+### Schedule
 
 The following schedule is tentative.
 
