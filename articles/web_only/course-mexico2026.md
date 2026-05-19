@@ -77,7 +77,9 @@ save time, please update R and any installed R packages beforehand.
 
 The following schedule is tentative.
 
-- 09:00–10:00 **Introduction to DVI** (LP)
+- 09:00–10:00 [Introduction to
+  DVI](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/01-PrietoL-DVI-intro.pdf)
+  (LP)
 - 10:00–10:30 Exercises I. (*Software: Familias*)
 - 10:30–11:00 COFFEE BREAK
 - 11:00–11:45 **Statistical tools for kinship and DVI** (MDV)
