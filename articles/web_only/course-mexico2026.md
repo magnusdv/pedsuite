@@ -80,7 +80,9 @@ The following schedule is tentative.
 - 09:00–10:00 [Introduction to
   DVI](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/01-PrietoL-DVI-intro.pdf)
   (LP)
-- 10:00–10:30 Exercises I. (*Software: Familias*) Input files:
+- 10:00–10:30 [Exercises
+  I](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/Ejercicios-Bloque-I.docx).
+  (*Software: Familias*) Input files:
   [ExerciseData.zip](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/ExerciseData.zip)
 - 10:30–11:00 COFFEE BREAK
 - 11:00–11:45 **Statistical tools for kinship and DVI** (MDV)
