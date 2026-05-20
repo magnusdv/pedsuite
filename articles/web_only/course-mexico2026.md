@@ -96,7 +96,8 @@ The following schedule is tentative.
   (MDV)
 - 13:15–14:00 [Exercises
   III](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/exercises_diviana.pdf).
-  (*Software: DIVIANA*)
+  (*Software: DIVIANA*) Input file:
+  [Exercise-Helicopter-solved.fam](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/Exercise-Helicopter-solved.fam)
 - **14:00–16:00 LUNCH**
 - 16:00–17:00 [Priors and posteriors in DVI
   cases](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/04-PrietoL-AM-PM-Comparisons.pdf)
