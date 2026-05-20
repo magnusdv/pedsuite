@@ -83,21 +83,24 @@ The following schedule is tentative.
 - 10:00–10:30 [Exercises
   I](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/Ejercicios-Bloque-I.docx).
   (*Software: Familias*) Input files:
-  [ExerciseData.zip](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/ExerciseData.zip)
+  [ExerciseData.zip](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/ExerciseData.zip).
+  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/Ejercicios-Bloque-I-solutions.docx).
 - 10:30–11:00 COFFEE BREAK
 - 11:00–11:45 [Statistical tools for kinship and
   DVI](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/02-Vigeland-relatedness-tools.pdf)
   (MDV)
 - 11:45–12:30 [Exercises
   II](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/exercises_relatedness.pdf).
-  (*Software: QuickPed*)
+  (*Software: QuickPed*).
+  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/solutions_relatedness.pdf).
 - 12:30–13:15 [DVI cases with related missing
   persons](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/03-Vigeland-complexDVI.pdf)
   (MDV)
 - 13:15–14:00 [Exercises
   III](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/exercises_diviana.pdf).
   (*Software: DIVIANA*) Input file:
-  [Exercise-Helicopter-solved.fam](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/Exercise-Helicopter-solved.fam)
+  [Exercise-Helicopter-solved.fam](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/Exercise-Helicopter-solved.fam).
+  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/solutions_diviana.pdf).
 - **14:00–16:00 LUNCH**
 - 16:00–17:00 [Priors and posteriors in DVI
   cases](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/mexico2026/04-PrietoL-AM-PM-Comparisons.pdf)
