@@ -27,10 +27,10 @@
   pedsuite](https://magnusdv.github.io/pedsuite/articles/web_only/events.md):
 - [ibdClassifier](https://magnusdv.github.io/pedsuite/articles/web_only/ibdClassifier.md):
 - [ibdsim2-shiny](https://magnusdv.github.io/pedsuite/articles/web_only/ibdsim2shiny.md):
-- [KLINK - kinship with linked
+- [KLINK: Kinship testing with pairwise linked
   markers](https://magnusdv.github.io/pedsuite/articles/web_only/klink.md):
-- [LinkageLab - playing with linked
-  markers](https://magnusdv.github.io/pedsuite/articles/web_only/linkagelab.md):
+- [Linkage Lab: Exporing linkage in kinship
+  testing](https://magnusdv.github.io/pedsuite/articles/web_only/linkagelab.md):
 - [Getting started with the
   pedsuite](https://magnusdv.github.io/pedsuite/articles/pedsuite.md):
 - [Publications featuring the
