@@ -82,7 +82,8 @@ from 8:30 to 18:00.
 - 14:00–15:00 [**Relatedness inference and pedigree
   reconstruction**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Lecture3_reconstruction.pdf)
   (MDV)
-- 15:00–15:45 Exercises III
+- 15:00–15:45 [Exercises
+  III](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Exercises3.pdf)
 - 15:45–16:00 *Coffee break*
 - 16:00–17:00 [**Disaster victim
   identification**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Lecture4_dvi.pdf)
