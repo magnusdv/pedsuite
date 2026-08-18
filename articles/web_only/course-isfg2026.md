@@ -67,7 +67,8 @@ from 8:30 to 18:00.
   I](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Exercises1.pdf)
 - 10:30–10:45 *Coffee break*
 - 10:45–11:30 **Kinship testing** (TE)
-- 11:30–12:15 Exercises II
+- 11:30–12:15 [Exercises
+  II](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Exercises2.pdf)
 - 12:15–12:30 Summary and discussion
 
 **Lunch break 12:30 - 14:00**
