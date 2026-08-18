@@ -12,23 +12,24 @@
 The study of pedigrees and genetic relatedness is central in forensic
 genetics. The aim of this course is to introduce the elegant statistical
 foundations of relatedness, as well as several forensic applications. In
-certain parts we use R for calculations and visualisations. In the basic
-session we will focus on pedigree coefficients and likelihood ratios for
-kinship analysis. In addition, we will demonstrate QuickPed, an online
-tool for creating pedigrees and computing relatedness:
+certain parts we use R for calculations and visualisations.
+
+In the basic session we focus on pedigrees, relatedness coefficients and
+LRs for kinship testing. In particular we demonstrate the QuickPed app
+for creating pedigrees and computing relatedness coefficients:
 <https://magnusdv.shinyapps.io/quickped>
 
-In the advanced part we will explore recently developed tools for
-Disaster Victim Identification (DVI) and pedigree reconstruction.
+In the advanced part we explore recently developed tools for pedigree
+reconstruction and disaster victim identification (DVI).
 
 The course material is based on the book [Pedigree Analysis in
 R](https://www.elsevier.com/books/pedigree-analysis-in-r/vigeland/978-0-12-824430-2)
-(Vigeland ’21) and selected papers. Each session will alternate between
+(Vigeland, ’21) and selected papers. Each session will alternate between
 lectures and hands-on exercises. Detailed solutions for all exercises
-will be provided and discussed as needed.
+are provided and discussed as needed.
 
 Attendance in the ‘Basic session’ is not required for the ‘Advanced
-session’ for participants who are familiar with R.
+session’ for experienced participants.
 
 ### Learning outcome
 
@@ -38,7 +39,7 @@ After completing the course the participants will have knowledge about:
 - How to produce informative and beautiful pedigree plots
 - How to compute coefficients of relatedness
 - How to perform kinship testing and pedigree reconstruction in R
-- How to perform disaster victim identification in R
+- How to perform disaster victim identification with DIVIANA
 
 ### Prerequisites
 
@@ -52,12 +53,15 @@ After completing the course the participants will have knowledge about:
 ### Schedule
 
 The workshop is run as a full-day course on Tuesday, August 18th 2026,
-from 8:30 to 18:00. The following schedule is tentative:
+from 8:30 to 18:00.
 
 ##### Morning session – Pedigree analysis: Basic
 
-- 08:30–09:30 **Pedigrees and measures of relatedness** (MDV)
-- 09:30–10:30 Exercises I
+- 08:30–09:30 [**Pedigrees and measures of
+  relatedness**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Lecture1_pedigrees.pdf)
+  (MDV)
+- 09:30–10:30 [Exercises
+  I](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Exercises1.pdf)
 - 10:30–10:45 *Coffee break*
 - 10:45–11:30 **Kinship testing** (TE)
 - 11:30–12:15 Exercises II
@@ -74,6 +78,9 @@ from 8:30 to 18:00. The following schedule is tentative:
 - 16:00–17:00 **Disaster victim identification** (TE)
 - 17:00–17:45 Exercises IV
 - 17:45–18:00 Summary and discussion
+
+Files needed for exercises:
+[data-isfg26.zip](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/data-isfg26.zip)
 
 Solutions to the exercises can be requested by email to *magnusdv at
 gmail dot com*.
