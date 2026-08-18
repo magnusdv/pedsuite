@@ -64,25 +64,29 @@ from 8:30 to 18:00.
   relatedness**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Lecture1_pedigrees.pdf)
   (MDV)
 - 09:30–10:30 [Exercises
-  I](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Exercises1.pdf)
+  I](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Exercises1.pdf).
   [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Solutions1.pdf)
 - 10:30–10:45 *Coffee break*
 - 10:45–11:30 [**Kinship
   testing**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Lecture2_kinship_testing.pdf)
   (TE)
 - 11:30–12:15 [Exercises
-  II](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Exercises2.pdf)
+  II](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Exercises2.pdf).
+  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Solutions2.pdf)
 - 12:15–12:30 Summary and discussion
 
 **Lunch break 12:30 - 14:00**
 
 ##### Afternoon session – Pedigree analysis: Advanced
 
-- 14:00–15:00 **Relatedness inference and pedigree reconstruction**
+- 14:00–15:00 [**Relatedness inference and pedigree
+  reconstruction**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Lecture3_reconstruction.pdf)
   (MDV)
 - 15:00–15:45 Exercises III
 - 15:45–16:00 *Coffee break*
-- 16:00–17:00 **Disaster victim identification** (TE)
+- 16:00–17:00 [**Disaster victim
+  identification**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Lecture4_dvi.pdf)
+  (TE)
 - 17:00–17:45 Exercises IV
 - 17:45–18:00 Summary and discussion
 
