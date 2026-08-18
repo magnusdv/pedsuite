@@ -65,6 +65,7 @@ from 8:30 to 18:00.
   (MDV)
 - 09:30–10:30 [Exercises
   I](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Exercises1.pdf)
+  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Solutions1.pdf)
 - 10:30–10:45 *Coffee break*
 - 10:45–11:30 [**Kinship
   testing**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Lecture2_kinship_testing.pdf)

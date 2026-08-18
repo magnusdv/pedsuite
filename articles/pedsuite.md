@@ -129,7 +129,7 @@ sims = ibdsim(x, N = 200, seed = 123)
 #> Recomb model : chi
 #> Target indivs: 1-9
 #> Skip recomb  : -
-#> Total time used: 2.12 secs
+#> Total time used: 2.34 secs
 ```
 
 Now extract the autozygous segments of each simulation.
@@ -196,7 +196,7 @@ y = markerSim(x, N = 500, alleles = c("A", "B"))
 #> 
 #> Simulation finished.
 #> Calls to `likelihood()`: 0.
-#> Total time used: 0.01 seconds.
+#> Total time used: 0 seconds.
 ```
 
 We can see the genotypes of the first few markers by printing `y` to the
