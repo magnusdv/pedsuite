@@ -50,6 +50,9 @@ After completing the course the participants will have knowledge about:
 - We strongly recommend running R from
   [RStudio](https://www.rstudio.com/products/rstudio/download/)
 
+If you are new to R, here is a short crash course:
+[R-crash-course.pdf](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/R-crash-course.pdf).
+
 ### Schedule
 
 The workshop is run as a full-day course on Tuesday, August 18th 2026,
