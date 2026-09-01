@@ -18,14 +18,16 @@ formatLink = pedsuite:::formatLink
 
 ## Upcoming events
 
-* Aug 18, 2026. **Pedigree analysis and relatedness inference**. Full-day workshop at the [2026 ISFG Congress](https://isfg2026.ca/), Montreal. Teachers: Magnus D. Vigeland and Thore Egeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2026.html)
-
-* Sept 22, 2026. **Advanced Theoretical Challenges: Kinship**. Presentation of solutions and results for the kinship ATC prepared for GHEP-ISFG 2026. (Online.)
+* Sept 22, 2026. **Advanced Theoretical Challenges: Kinship**. Online presentation of solutions and results for the kinship ATC prepared for GHEP-ISFG 2026. Speaker: Magnus D. Vigeland.
 
 
 ## Past events
 
 ### 2026
+
+* Aug 20, 2026. **Detailed relationship predictions for FIGG with ibdrel**. Oral presentation at the [2026 ISFG Congress](https://isfg2026.ca/), Montreal. Speaker: Henrik Nordtorp. [Abstract](https://sites.grenadine.co/sites/isfg2026/en/isfg-2026/schedule/152/O-27).
+
+* Aug 18, 2026. **Pedigree analysis and relatedness inference**. Full-day workshop at the [2026 ISFG Congress](https://isfg2026.ca/), Montreal. Teachers: Magnus D. Vigeland and Thore Egeland. [Course homepage](https://magnusdv.github.io/pedsuite/articles/web_only/course-isfg2026.html)
 
 * May 21. **New approaches in DVI**. Invited talk at the [ISFG-GHEP meeting](https://ghep-isfg.org/en/meetings/jornadas2026/), Mexico City. Speaker: Magnus D. Vigeland.
 
