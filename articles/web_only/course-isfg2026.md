@@ -65,14 +65,14 @@ from 8:30 to 18:00.
   (MDV)
 - 09:30–10:30 [Exercises
   I](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Exercises1.pdf).
-  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Solutions1.pdf)
+  Solutions
 - 10:30–10:45 *Coffee break*
 - 10:45–11:30 [**Kinship
   testing**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Lecture2_kinship_testing.pdf)
   (TE)
 - 11:30–12:15 [Exercises
   II](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Exercises2.pdf).
-  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Solutions2.pdf)
+  Solutions
 - 12:15–12:30 Summary and discussion
 
 **Lunch break 12:30 - 14:00**
@@ -84,14 +84,14 @@ from 8:30 to 18:00.
   (MDV)
 - 15:00–15:45 [Exercises
   III](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Exercises3.pdf).
-  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Solutions3.pdf)
+  Solutions
 - 15:45–16:00 *Coffee break*
 - 16:00–17:00 [**Disaster victim
   identification**](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Lecture4_dvi.pdf)
   (TE)
 - 17:00–17:45 [Exercises
   IV](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Exercises4.pdf).
-  [Solutions](https://raw.githubusercontent.com/magnusdv/pedsuite/master/vignettes/web_only/courses/isfg2026/Solutions4.pdf)
+  Solutions
 - 17:45–18:00 Summary and discussion
 
 Files needed for exercises:
