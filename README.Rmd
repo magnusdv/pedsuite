@@ -69,5 +69,5 @@ Several Shiny apps based on the **pedsuite** have been developed. Read more abou
 * [ibdsim2-shiny](https://magnusdv.github.io/pedsuite/articles/web_only/ibdsim2-shiny.html): IBD distributions in pedigrees
 * [KLINK](https://magnusdv.github.io/pedsuite/articles/web_only/klink.html): Kinship analysis with linked markers
 * [LinkageLab](https://magnusdv.github.io/pedsuite/articles/web_only/linkagelab.html): Playing with linked markers
-* [ibdClassifier](https://magnusdv.github.io/pedsuite/articles/web_only/ibdClassifier.html): Classifying relationships based on IBD segments
+* [Famnesia](https://magnusdv.github.io/pedsuite/articles/web_only/famnesia.html): Anonymising files exported from the Familias software
 

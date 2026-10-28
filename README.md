@@ -16,7 +16,7 @@ covering a variety of applications across several fields. The packages
 are designed to work harmoniously together, often allowing complex tasks
 to be solved in a few lines of code.
 
-<img src="man/figures/logos-pedsuite-wheel_1.png" width="100%" style="display: block; margin: auto;" />
+<img src="man/figures/logos-pedsuite-wheel_1.png" alt="" width="100%" style="display: block; margin: auto;" />
 
 ### Core packages
 
@@ -96,5 +96,5 @@ more about them here:
   Kinship analysis with linked markers
 - [LinkageLab](https://magnusdv.github.io/pedsuite/articles/web_only/linkagelab.html):
   Playing with linked markers
-- [ibdClassifier](https://magnusdv.github.io/pedsuite/articles/web_only/ibdClassifier.html):
-  Classifying relationships based on IBD segments
+- [Famnesia](https://magnusdv.github.io/pedsuite/articles/web_only/famnesia.html):
+  Anonymising files exported from the Familias software
