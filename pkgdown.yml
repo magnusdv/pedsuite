@@ -14,6 +14,7 @@ articles:
   web_only/course-yid2024: web_only/course-yid2024.html
   web_only/diviana: web_only/diviana.html
   web_only/events: web_only/events.html
+  web_only/famnesia: web_only/famnesia.html
   web_only/ibdClassifier: web_only/ibdClassifier.html
   web_only/ibdsim2shiny: web_only/ibdsim2shiny.html
   web_only/klink: web_only/klink.html
@@ -21,7 +22,7 @@ articles:
   pedsuite: pedsuite.html
   web_only/publications: web_only/publications.html
   web_only/quickped: web_only/quickped.html
-last_built: 2026-09-01T07:09Z
+last_built: 2026-10-28T12:05Z
 urls:
   reference: https://magnusdv.github.io/pedsuite/reference
   article: https://magnusdv.github.io/pedsuite/articles

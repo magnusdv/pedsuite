@@ -10,5 +10,5 @@
 
 ## What is DIVIANA?
 
-DIVIANA is a user-friendly app for *disaster victim identification*
+DIVIANA is a comprehensive app for *disaster victim identification*
 (DVI).

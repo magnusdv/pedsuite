@@ -85,8 +85,8 @@ more about them here:
   Kinship analysis with linked markers
 - [LinkageLab](https://magnusdv.github.io/pedsuite/articles/web_only/linkagelab.html):
   Playing with linked markers
-- [ibdClassifier](https://magnusdv.github.io/pedsuite/articles/web_only/ibdClassifier.html):
-  Classifying relationships based on IBD segments
+- [Famnesia](https://magnusdv.github.io/pedsuite/articles/web_only/famnesia.html):
+  Anonymising files exported from the Familias software
 
 # 
 
@@ -117,6 +117,7 @@ more about them here:
 - [DIVIANA](https://magnusdv.github.io/pedsuite/articles/web_only/diviana.md):
 - [Talks and courses related to the
   pedsuite](https://magnusdv.github.io/pedsuite/articles/web_only/events.md):
+- [Famnesia](https://magnusdv.github.io/pedsuite/articles/web_only/famnesia.md):
 - [ibdClassifier](https://magnusdv.github.io/pedsuite/articles/web_only/ibdClassifier.md):
 - [ibdsim2-shiny](https://magnusdv.github.io/pedsuite/articles/web_only/ibdsim2shiny.md):
 - [KLINK: Kinship testing with pairwise linked

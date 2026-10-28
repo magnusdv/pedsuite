@@ -85,5 +85,5 @@ more about them here:
   Kinship analysis with linked markers
 - [LinkageLab](https://magnusdv.github.io/pedsuite/articles/web_only/linkagelab.html):
   Playing with linked markers
-- [ibdClassifier](https://magnusdv.github.io/pedsuite/articles/web_only/ibdClassifier.html):
-  Classifying relationships based on IBD segments
+- [Famnesia](https://magnusdv.github.io/pedsuite/articles/web_only/famnesia.html):
+  Anonymising files exported from the Familias software

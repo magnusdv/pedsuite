@@ -1,14 +1,12 @@
 # Talks and courses related to the pedsuite
 
-## Upcoming events
+## Past events
+
+### 2026
 
 - Sept 22, 2026. **Advanced Theoretical Challenges: Kinship**. Online
   presentation of solutions and results for the kinship ATC prepared for
   GHEP-ISFG 2026. Speaker: Magnus D. Vigeland.
-
-## Past events
-
-### 2026
 
 - Aug 20, 2026. **Detailed relationship predictions for FIGG with
   ibdrel**. Oral presentation at the [2026 ISFG

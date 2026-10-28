@@ -25,6 +25,7 @@
 - [DIVIANA](https://magnusdv.github.io/pedsuite/articles/web_only/diviana.md):
 - [Talks and courses related to the
   pedsuite](https://magnusdv.github.io/pedsuite/articles/web_only/events.md):
+- [Famnesia](https://magnusdv.github.io/pedsuite/articles/web_only/famnesia.md):
 - [ibdClassifier](https://magnusdv.github.io/pedsuite/articles/web_only/ibdClassifier.md):
 - [ibdsim2-shiny](https://magnusdv.github.io/pedsuite/articles/web_only/ibdsim2shiny.md):
 - [KLINK: Kinship testing with pairwise linked
