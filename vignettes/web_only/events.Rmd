@@ -16,14 +16,12 @@ knitr::opts_chunk$set(echo = FALSE,
 formatLink = pedsuite:::formatLink
 ```
 
-## Upcoming events
-
-* Sept 22, 2026. **Advanced Theoretical Challenges: Kinship**. Online presentation of solutions and results for the kinship ATC prepared for GHEP-ISFG 2026. Speaker: Magnus D. Vigeland.
-
 
 ## Past events
 
 ### 2026
+
+* Sept 22, 2026. **Advanced Theoretical Challenges: Kinship**. Online presentation of solutions and results for the kinship ATC prepared for GHEP-ISFG 2026. Speaker: Magnus D. Vigeland.
 
 * Aug 20, 2026. **Detailed relationship predictions for FIGG with ibdrel**. Oral presentation at the [2026 ISFG Congress](https://isfg2026.ca/), Montreal. Speaker: Henrik Nordtorp. [Abstract](https://sites.grenadine.co/sites/isfg2026/en/isfg-2026/schedule/152/O-27).
 
